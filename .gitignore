@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# ChromaDB vector store (large, regenerate with embed_and_index.py)
+BNS DATASET/output/chroma_db/
+
+# Large ILTUR JSON dataset files (too large for GitHub)
+BNS DATASET/output/ILTUR_*.json
+
+# Large PDF source files
+BNS DATASET/*.pdf
+
+# Temporary debug files
+BNS DATASET/output/_debug_*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

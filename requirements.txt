@@ -1,0 +1,20 @@
+# LegalCompass AI — Python Dependencies
+# ========================================================
+# Install all at once:
+#   pip install -r requirements.txt
+
+# Core ML / NLP
+sentence-transformers>=2.7.0
+torch>=2.0.0
+scikit-learn>=1.4.0
+
+# Vector Database
+chromadb>=0.5.0
+
+# API Server
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.0.0
+
+# Utilities
+numpy>=1.26.0

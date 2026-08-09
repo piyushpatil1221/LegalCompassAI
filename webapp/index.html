@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>LegalCompass AI — Indian Criminal Law</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0d14;--surface:#111620;--card:#161c2c;--hover:#1e2540;
+  --gold:#d4a843;--gold-lt:#f0c96a;--blue:#4a8fe8;--teal:#2ec4b6;
+  --red:#e84a6a;--green:#2ecc71;
+  --border:rgba(255,255,255,0.06);--border-act:rgba(212,168,67,0.35);
+  --t1:#e8eaf2;--t2:#8890aa;--t3:#525970;
+  --r:12px;--tr:.18s ease;
+}
+html{font-size:14px;scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--t1);height:100vh;display:flex;flex-direction:column;overflow:hidden}
+a{color:var(--blue)}
+button{cursor:pointer;border:none;outline:none;font-family:inherit;background:none}
+input,textarea,select{font-family:inherit;outline:none;border:none}
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:99px}
+
+/* ── TOPBAR ── */
+#topbar{
+  height:56px;background:rgba(17,22,32,.92);backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;padding:0 16px;gap:12px;flex-shrink:0;z-index:50;
+}
+.brand{display:flex;align-items:center;gap:8px;margin-right:4px}
+.brand-ico{width:30px;height:30px;background:linear-gradient(135deg,var(--gold),var(--blue));border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:15px}
+.brand-name{font-size:15px;font-weight:700;background:linear-gradient(90deg,var(--gold-lt),var(--blue));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.tabs{display:flex;gap:2px;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:99px;padding:3px}
+.tab{padding:4px 14px;border-radius:99px;font-size:12px;font-weight:500;color:var(--t2);transition:all var(--tr)}
+.tab:hover{color:var(--t1);background:rgba(255,255,255,.05)}
+.tab.active{background:linear-gradient(135deg,rgba(212,168,67,.2),rgba(74,143,232,.15));color:var(--gold-lt);border:1px solid rgba(212,168,67,.25)}
+.status-pill{display:flex;align-items:center;gap:5px;padding:3px 10px;border-radius:99px;font-size:11px;font-weight:500;margin-left:auto;border:1px solid}
+.s-ok{border-color:rgba(46,204,113,.3);color:var(--green);background:rgba(46,204,113,.08)}
+.s-err{border-color:rgba(232,74,106,.3);color:var(--red);background:rgba(232,74,106,.08)}
+.s-loading{border-color:rgba(212,168,67,.3);color:var(--gold);background:rgba(212,168,67,.08)}
+.sdot{width:6px;height:6px;border-radius:50%;background:currentColor;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+
+/* ── LAYOUT ── */
+#layout{display:flex;flex:1;overflow:hidden}
+#sidebar{width:240px;background:var(--surface);border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;flex-shrink:0}
+#main{flex:1;overflow:hidden;display:flex;flex-direction:column}
+
+/* ── SIDEBAR ── */
+.sb-section{padding:12px 10px 4px}
+.sb-title{font-size:10px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--t3);padding:0 6px;margin-bottom:4px}
+.nav-btn{display:flex;align-items:center;gap:8px;padding:7px 10px;border-radius:8px;font-size:12.5px;font-weight:500;color:var(--t2);width:100%;text-align:left;transition:all var(--tr)}
+.nav-btn:hover{color:var(--t1);background:var(--hover)}
+.nav-btn.active{color:var(--gold-lt);background:linear-gradient(90deg,rgba(212,168,67,.1),transparent)}
+.sb-acts{flex:1;overflow-y:auto;padding:0 10px 12px}
+.act-hdr{font-size:10px;font-weight:700;color:var(--gold);letter-spacing:.8px;text-transform:uppercase;padding:8px 8px 4px;margin-top:6px}
+.sec-btn{display:flex;align-items:center;gap:7px;padding:5px 8px;border-radius:6px;font-size:11.5px;color:var(--t2);width:100%;text-align:left;transition:all var(--tr);cursor:pointer}
+.sec-btn:hover{color:var(--t1);background:var(--hover)}
+.sec-num{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--t3)}
+.dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+
+/* ── PAGES ── */
+.page{display:none;flex:1;flex-direction:column;overflow:hidden;height:100%}
+.page.active{display:flex}
+
+/* ── CHAT ── */
+#msgs{flex:1;overflow-y:auto;padding:20px 24px;display:flex;flex-direction:column;gap:16px}
+.welcome{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;gap:14px;text-align:center}
+.welcome-ico{width:64px;height:64px;background:linear-gradient(135deg,rgba(212,168,67,.2),rgba(74,143,232,.15));border:1px solid rgba(212,168,67,.2);border-radius:18px;display:flex;align-items:center;justify-content:center;font-size:28px}
+.welcome h2{font-size:20px;font-weight:700}
+.welcome p{font-size:12.5px;color:var(--t2);max-width:380px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:6px}
+.chip{padding:5px 12px;border-radius:99px;font-size:11.5px;background:rgba(255,255,255,.04);border:1px solid var(--border);color:var(--t2);cursor:pointer;transition:all var(--tr)}
+.chip:hover{background:rgba(212,168,67,.1);border-color:rgba(212,168,67,.3);color:var(--gold-lt)}
+.mrow{display:flex;gap:10px;animation:fadeIn .3s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.mrow.user{flex-direction:row-reverse}
+.ava{width:32px;height:32px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+.ava.ai{background:linear-gradient(135deg,rgba(212,168,67,.25),rgba(74,143,232,.2));border:1px solid rgba(212,168,67,.2)}
+.ava.u{background:linear-gradient(135deg,rgba(74,143,232,.25),rgba(46,196,182,.2));border:1px solid rgba(74,143,232,.2)}
+.mbody{flex:1;max-width:78%;display:flex;flex-direction:column;gap:6px}
+.mrow.user .mbody{align-items:flex-end}
+.bubble{padding:10px 14px;border-radius:var(--r);font-size:13px;line-height:1.65;white-space:pre-wrap}
+.ai-b{background:var(--card);border:1px solid var(--border);border-top-left-radius:4px}
+.user-b{background:linear-gradient(135deg,rgba(74,143,232,.2),rgba(46,196,182,.15));border:1px solid rgba(74,143,232,.2);border-top-right-radius:4px}
+.mmeta{display:flex;gap:6px;font-size:10.5px;color:var(--t3)}
+.mbadge{padding:1px 7px;border-radius:99px;border:1px solid var(--border);background:rgba(255,255,255,.03)}
+.sources{background:rgba(10,13,20,.5);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;margin-top:4px}
+.src-hdr{padding:7px 12px;font-size:10px;font-weight:600;color:var(--t3);letter-spacing:.8px;text-transform:uppercase;border-bottom:1px solid var(--border)}
+.src-item{padding:9px 12px;border-bottom:1px solid var(--border);cursor:pointer;transition:background var(--tr)}
+.src-item:last-child{border-bottom:none}
+.src-item:hover{background:var(--hover)}
+.src-head{display:flex;align-items:center;gap:6px;margin-bottom:3px}
+.score-badge{font-size:10px;font-weight:700;padding:1px 6px;border-radius:99px}
+.sc-h{background:rgba(46,204,113,.15);color:var(--green)}
+.sc-m{background:rgba(212,168,67,.15);color:var(--gold)}
+.sc-l{background:rgba(255,255,255,.05);color:var(--t3)}
+.cat-badge{font-size:9px;padding:1px 6px;border-radius:4px;font-weight:600;text-transform:uppercase}
+.c-ba{background:rgba(212,168,67,.15);color:var(--gold)}
+.c-cd{background:rgba(74,143,232,.15);color:var(--blue)}
+.c-cs{background:rgba(232,74,106,.15);color:var(--red)}
+.c-il{background:rgba(46,196,182,.15);color:var(--teal)}
+.src-title{font-size:11.5px;font-weight:600;color:var(--t1)}
+.src-prev{font-size:11px;color:var(--t2);overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.typing{display:flex;gap:4px;padding:12px 14px;align-items:center}
+.td{width:6px;height:6px;border-radius:50%;background:var(--gold);animation:td 1.4s infinite}
+.td:nth-child(2){animation-delay:.2s}.td:nth-child(3){animation-delay:.4s}
+@keyframes td{0%,60%,100%{transform:translateY(0);opacity:.4}30%{transform:translateY(-6px);opacity:1}}
+#input-area{padding:12px 24px 16px;border-top:1px solid var(--border)}
+.input-wrap{display:flex;align-items:flex-end;gap:8px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:10px 12px;transition:border-color var(--tr),box-shadow var(--tr)}
+.input-wrap:focus-within{border-color:var(--border-act);box-shadow:0 0 0 3px rgba(212,168,67,.07)}
+#chat-input{flex:1;background:transparent;color:var(--t1);font-size:13px;resize:none;min-height:20px;max-height:110px;overflow-y:auto;line-height:1.6}
+#chat-input::placeholder{color:var(--t3)}
+.ctrls{display:flex;align-items:center;gap:6px}
+.mini-sel{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:6px;color:var(--t2);font-size:11px;padding:3px 7px;cursor:pointer}
+.send{width:34px;height:34px;border-radius:8px;background:linear-gradient(135deg,var(--gold),#c89a20);color:#1a1200;display:flex;align-items:center;justify-content:center;font-size:15px;transition:all var(--tr)}
+.send:hover{transform:scale(1.05);box-shadow:0 4px 16px rgba(212,168,67,.35)}
+.send:disabled{opacity:.4;transform:none}
+.hint{font-size:10.5px;color:var(--t3);text-align:center;margin-top:6px}
+
+/* ── SEARCH ── */
+#page-search{overflow:hidden}
+.ph{padding:24px 28px 12px}
+.ph h1{font-size:18px;font-weight:700;margin-bottom:3px}
+.ph p{font-size:12px;color:var(--t2)}
+.search-row{padding:0 28px 12px;display:flex;gap:8px}
+.s-wrap{flex:1;display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:9px 12px;transition:border-color var(--tr)}
+.s-wrap:focus-within{border-color:var(--border-act)}
+.s-wrap input{flex:1;background:transparent;color:var(--t1);font-size:13.5px}
+.s-wrap input::placeholder{color:var(--t3)}
+.filters{padding:0 28px 12px;display:flex;gap:6px;flex-wrap:wrap}
+.fchip{padding:4px 12px;border-radius:99px;font-size:11.5px;font-weight:500;background:var(--card);border:1px solid var(--border);color:var(--t2);cursor:pointer;transition:all var(--tr)}
+.fchip:hover,.fchip.active{background:rgba(212,168,67,.1);border-color:rgba(212,168,67,.35);color:var(--gold-lt)}
+#search-results{flex:1;overflow-y:auto;padding:0 28px 20px;display:flex;flex-direction:column;gap:10px}
+.rcard{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:14px 18px;cursor:pointer;transition:all var(--tr)}
+.rcard:hover{border-color:rgba(212,168,67,.25);transform:translateY(-1px)}
+.rhead{display:flex;align-items:flex-start;gap:8px;margin-bottom:6px}
+.rtitle{font-size:13px;font-weight:600;flex:1}
+.rscore{font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;background:rgba(212,168,67,.12);color:var(--gold);flex-shrink:0}
+.rtext{font-size:12px;color:var(--t2);line-height:1.6;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+.rfoot{display:flex;gap:6px;margin-top:8px;font-size:11px;color:var(--t3)}
+
+/* ── ANALYTICS ── */
+#page-analytics{overflow-y:auto}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:0 28px 12px}
+.scard{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:16px 18px;position:relative;overflow:hidden;transition:all var(--tr)}
+.scard:hover{transform:translateY(-2px)}
+.scard::before{content:'';position:absolute;top:0;left:0;right:0;height:2px}
+.scard.g::before{background:linear-gradient(90deg,var(--gold),transparent)}
+.scard.b::before{background:linear-gradient(90deg,var(--blue),transparent)}
+.scard.t::before{background:linear-gradient(90deg,var(--teal),transparent)}
+.scard.r::before{background:linear-gradient(90deg,var(--red),transparent)}
+.sico{font-size:20px;margin-bottom:8px}
+.sval{font-size:24px;font-weight:700;letter-spacing:-1px}
+.sval.g{color:var(--gold)}.sval.b{color:var(--blue)}.sval.t{color:var(--teal)}.sval.r{color:var(--red)}
+.slbl{font-size:11.5px;color:var(--t2);margin-top:3px}
+.charts-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 28px 12px}
+.ccrd{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:18px}
+.ctitle{font-size:12.5px;font-weight:600;margin-bottom:14px}
+.cbox{height:190px;position:relative}
+.eval-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:0 28px 24px}
+.ecrd{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:16px 18px}
+.etitle{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+.emrow{display:flex;align-items:center;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border);font-size:12px}
+.emrow:last-child{border-bottom:none}
+.emn{color:var(--t2)}
+.emv{font-weight:700;font-family:'JetBrains Mono',monospace;font-size:12px}
+.emv.gd{color:var(--green)}.emv.md{color:var(--gold)}.emv.lo{color:var(--red)}
+
+/* ── CORPUS ── */
+#page-corpus{overflow:hidden}
+.exp-ctrl{padding:0 28px 12px;display:flex;gap:8px}
+.exp-sel{background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--t1);font-size:13px;padding:7px 12px;cursor:pointer}
+#corpus-grid{flex:1;overflow-y:auto;padding:0 28px 20px;display:grid;grid-template-columns:1fr 1fr;gap:10px;align-content:start}
+.ecard{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:14px 16px;cursor:pointer;transition:all var(--tr)}
+.ecard:hover{border-color:rgba(74,143,232,.25);transform:translateY(-1px)}
+.ec-title{font-size:12.5px;font-weight:600;margin-bottom:4px}
+.ec-meta{font-size:10.5px;color:var(--t3);margin-bottom:6px;font-family:'JetBrains Mono',monospace}
+.ec-text{font-size:11.5px;color:var(--t2);line-height:1.55;overflow:hidden;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical}
+
+/* ── MODAL ── */
+#modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.65);backdrop-filter:blur(8px);padding:16px}
+#modal.open{display:flex}
+.mbox{background:var(--card);border:1px solid var(--border);border-radius:18px;width:100%;max-width:660px;max-height:80vh;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 24px 60px rgba(0,0,0,.5);animation:mi .22s ease}
+@keyframes mi{from{opacity:0;transform:scale(.96) translateY(6px)}to{opacity:1;transform:none}}
+.mhdr{padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px}
+.m-title{font-size:13.5px;font-weight:700;flex:1}
+.m-close{width:26px;height:26px;border-radius:6px;background:rgba(255,255,255,.05);color:var(--t2);font-size:16px;display:flex;align-items:center;justify-content:center;transition:all var(--tr)}
+.m-close:hover{background:rgba(255,255,255,.1);color:var(--t1)}
+.mbdy{flex:1;overflow-y:auto;padding:18px 20px}
+.mbdy pre{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--t2);white-space:pre-wrap;word-break:break-word;line-height:1.7}
+
+/* ── TOAST ── */
+#toasts{position:fixed;bottom:20px;right:20px;display:flex;flex-direction:column;gap:6px;z-index:300}
+.toast{padding:9px 14px;border-radius:8px;font-size:12px;font-weight:500;background:var(--card);border:1px solid var(--border);box-shadow:0 20px 50px rgba(0,0,0,.5);animation:ti .3s ease;display:flex;align-items:center;gap:6px}
+@keyframes ti{from{opacity:0;transform:translateX(16px)}to{opacity:1;transform:none}}
+.toast.err{border-color:rgba(232,74,106,.3)}
+
+/* ── SKEL ── */
+.skel{background:linear-gradient(90deg,var(--card) 25%,var(--hover) 50%,var(--card) 75%);background-size:200% 100%;animation:sh 1.5s infinite;border-radius:4px;height:12px}
+@keyframes sh{0%{background-position:-200% 0}100%{background-position:200% 0}}
+
+@media(max-width:860px){#sidebar{display:none}.grid4{grid-template-columns:repeat(2,1fr)}.charts-row,.eval-row,#corpus-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<header id="topbar">
+  <div class="brand">
+    <div class="brand-ico">⚖</div>
+    <div class="brand-name">LegalCompass AI</div>
+  </div>
+  <nav class="tabs">
+    <button class="tab active" id="t-chat"    onclick="go('chat')">💬 Chat</button>
+    <button class="tab"        id="t-search"  onclick="go('search')">🔍 Search</button>
+    <button class="tab"        id="t-analytics" onclick="go('analytics')">📊 Analytics</button>
+    <button class="tab"        id="t-corpus"  onclick="go('corpus')">📂 Corpus</button>
+  </nav>
+  <div class="status-pill s-loading" id="status">
+    <span class="sdot"></span><span id="status-txt">Connecting…</span>
+  </div>
+</header>
+
+<!-- LAYOUT -->
+<div id="layout">
+  <!-- SIDEBAR -->
+  <aside id="sidebar">
+    <div class="sb-section">
+      <div class="sb-title">Pages</div>
+      <button class="nav-btn active" id="n-chat"    onclick="go('chat')">💬 Chat Assistant</button>
+      <button class="nav-btn"        id="n-search"  onclick="go('search')">🔍 Semantic Search</button>
+      <button class="nav-btn"        id="n-analytics" onclick="go('analytics')">📊 Analytics</button>
+      <button class="nav-btn"        id="n-corpus"  onclick="go('corpus')">📂 Corpus Explorer</button>
+    </div>
+    <div class="sb-section"><div class="sb-title">Bare Acts (2023)</div></div>
+    <div class="sb-acts" id="sb-acts"></div>
+  </aside>
+
+  <!-- MAIN -->
+  <main id="main">
+
+    <!-- CHAT -->
+    <div class="page active" id="page-chat">
+      <div id="msgs">
+        <div class="welcome" id="welcome">
+          <div class="welcome-ico">⚖</div>
+          <h2>LegalCompass AI</h2>
+          <p>Ask anything about Indian criminal law — BNS, BNSS, BSA sections, case law, bail decisions, and NCRB crime statistics.</p>
+          <div class="chips">
+            <button class="chip" onclick="suggest(this)">BNS Section 103 — punishment for murder</button>
+            <button class="chip" onclick="suggest(this)">BNSS Section 167 bail provisions</button>
+            <button class="chip" onclick="suggest(this)">Culpable homicide vs murder difference</button>
+            <button class="chip" onclick="suggest(this)">Rape victim statistics by state</button>
+            <button class="chip" onclick="suggest(this)">Bail granted in murder cases</button>
+            <button class="chip" onclick="suggest(this)">BSA Section 57 judicial notice</button>
+          </div>
+        </div>
+      </div>
+      <div id="input-area">
+        <div class="input-wrap">
+          <textarea id="chat-input" rows="1" placeholder="Ask about Indian criminal law, sections, case outcomes…"
+            onkeydown="onKey(event)" oninput="resize(this)"></textarea>
+          <div class="ctrls">
+            <select class="mini-sel" id="mode-sel" title="Search mode">
+              <option value="hybrid">Hybrid</option>
+              <option value="semantic">Semantic</option>
+              <option value="multi">Multi-collection</option>
+            </select>
+            <select class="mini-sel" id="cat-sel" title="Category filter">
+              <option value="">All</option>
+              <option value="bare_acts">Bare Acts</option>
+              <option value="case_docs">Case Law</option>
+              <option value="crime_stats">Crime Stats</option>
+              <option value="iltur">IL-TUR</option>
+            </select>
+            <button class="send" id="send-btn" onclick="send()" title="Send (Enter)">➤</button>
+          </div>
+        </div>
+        <div class="hint">Enter to send · Shift+Enter for new line</div>
+      </div>
+    </div>
+
+    <!-- SEARCH -->
+    <div class="page" id="page-search">
+      <div class="ph"><h1>⚡ Semantic Search</h1><p>Search across 85,690+ indexed legal chunks using dense vector retrieval.</p></div>
+      <div class="search-row">
+        <div class="s-wrap">
+          <span style="color:var(--t3)">🔍</span>
+          <input type="text" id="sq" placeholder="Search legal sections, case law, crime statistics…"
+            onkeydown="if(event.key==='Enter')doSearch()"/>
+        </div>
+        <button class="send" style="height:42px;width:42px;border-radius:10px" onclick="doSearch()">➤</button>
+      </div>
+      <div class="filters" id="filters">
+        <button class="fchip active" data-c="" onclick="setF(this,'')">All</button>
+        <button class="fchip" data-c="bare_acts"   onclick="setF(this,'bare_acts')">📜 Bare Acts</button>
+        <button class="fchip" data-c="case_docs"   onclick="setF(this,'case_docs')">📋 Case Law</button>
+        <button class="fchip" data-c="crime_stats" onclick="setF(this,'crime_stats')">📊 Crime Stats</button>
+        <button class="fchip" data-c="iltur"       onclick="setF(this,'iltur')">🔬 IL-TUR</button>
+      </div>
+      <div id="search-results"><div style="color:var(--t3);text-align:center;padding:40px">Enter a query above to search.</div></div>
+    </div>
+
+    <!-- ANALYTICS -->
+    <div class="page" id="page-analytics">
+      <div class="ph"><h1>📊 Analytics Dashboard</h1><p>Corpus statistics and IL-TUR evaluation results.</p></div>
+      <div class="grid4">
+        <div class="scard g"><div class="sico">📜</div><div class="sval g" id="v-ba">1,057</div><div class="slbl">Bare Act Sections</div></div>
+        <div class="scard b"><div class="sico">📋</div><div class="sval b" id="v-cd">19,834</div><div class="slbl">Case Doc Chunks</div></div>
+        <div class="scard t"><div class="sico">📊</div><div class="sval t" id="v-cs">14,799</div><div class="slbl">Crime Stat Chunks</div></div>
+        <div class="scard r"><div class="sico">🔬</div><div class="sval r" id="v-il">50,000</div><div class="slbl">IL-TUR Sampled</div></div>
+      </div>
+      <div class="charts-row">
+        <div class="ccrd"><div class="ctitle">📊 Corpus Distribution</div><div class="cbox"><canvas id="ch-corpus"></canvas></div></div>
+        <div class="ccrd"><div class="ctitle">🔍 IL-TUR Task Distribution</div><div class="cbox"><canvas id="ch-iltur"></canvas></div></div>
+      </div>
+      <div style="padding:0 28px 8px;font-size:12.5px;font-weight:700;color:var(--gold-lt)">🏆 IL-TUR Evaluation Results</div>
+      <div class="eval-row">
+        <div class="ecrd"><div class="etitle">📑 LSI — Statute ID</div><div id="ev-lsi"><div style="color:var(--t3);font-size:11px">Run evaluate_iltur.py</div></div></div>
+        <div class="ecrd"><div class="etitle">⚖ CJPE — Judgment</div><div id="ev-cjpe"><div style="color:var(--t3);font-size:11px">Loading…</div></div></div>
+        <div class="ecrd"><div class="etitle">🔒 Bail Prediction</div><div id="ev-bail"><div style="color:var(--t3);font-size:11px">Run evaluate_iltur.py</div></div></div>
+      </div>
+    </div>
+
+    <!-- CORPUS -->
+    <div class="page" id="page-corpus">
+      <div class="ph"><h1>📂 Corpus Explorer</h1><p>Browse indexed legal chunks by category.</p></div>
+      <div class="exp-ctrl">
+        <select class="exp-sel" id="exp-cat" onchange="loadCorpus()">
+          <option value="bare_acts">📜 Bare Acts (BNS / BNSS / BSA)</option>
+          <option value="case_docs">📋 Case Law (IPC 302)</option>
+          <option value="crime_stats">📊 Crime Statistics (NCRB)</option>
+          <option value="iltur">🔬 IL-TUR Benchmark</option>
+        </select>
+        <button class="send" style="height:36px;width:36px;border-radius:8px" onclick="loadCorpus()" title="Refresh">↻</button>
+      </div>
+      <div id="corpus-grid"></div>
+    </div>
+
+  </main>
+</div>
+
+<!-- MODAL -->
+<div id="modal" onclick="closeModal(event)">
+  <div class="mbox" onclick="event.stopPropagation()">
+    <div class="mhdr">
+      <div class="m-title" id="m-title">Detail</div>
+      <button class="m-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="mbdy"><pre id="m-body"></pre></div>
+  </div>
+</div>
+
+<!-- TOASTS -->
+<div id="toasts"></div>
+
+<script>
+'use strict';
+const API = window.location.origin;
+let activeCat = '', loading = false, charts = {};
+
+// ── UTILS ──────────────────────────────────────────────
+function esc(s){
+  if(typeof s !== 'string') return String(s??'');
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function fmt(n){return n==null?'—':Number(n).toLocaleString()}
+function el(id){return document.getElementById(id)}
+async function api(url,opts={}){
+  const r = await fetch(API+url,{headers:{'Content-Type':'application/json'},...opts});
+  if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(e.detail||`HTTP ${r.status}`)}
+  return r.json();
+}
+function toast(msg,type=''){
+  const d=document.createElement('div');
+  d.className='toast'+(type?' '+type:'');
+  d.textContent=msg;
+  el('toasts').appendChild(d);
+  setTimeout(()=>{d.style.opacity='0';d.style.transition='opacity .3s';setTimeout(()=>d.remove(),300)},4000);
+}
+
+// ── NAVIGATION ─────────────────────────────────────────
+function go(tab){
+  ['chat','search','analytics','corpus'].forEach(t=>{
+    el('t-'+t)?.classList.toggle('active',t===tab);
+    el('n-'+t)?.classList.toggle('active',t===tab);
+    el('page-'+t)?.classList.toggle('active',t===tab);
+  });
+  // Auto-set category filter to match tab context for smarter queries
+  const tabCat = {corpus:'',analytics:'crime_stats',search:'',chat:''}[tab]??'';
+  if(el('cat-sel')) el('cat-sel').value = tabCat;
+  if(tab==='analytics') loadAnalytics();
+  if(tab==='corpus') loadCorpus();
+}
+
+// ── STATUS ─────────────────────────────────────────────
+async function checkHealth(){
+  try{
+    const h=await api('/api/health');
+    const pill=el('status');
+    pill.className='status-pill '+(h.pipeline_ready?'s-ok':'s-loading');
+    el('status-txt').textContent=h.pipeline_ready?'🟢 Pipeline Ready':'⚠ RAG Not Indexed';
+  }catch{
+    const pill=el('status');
+    pill.className='status-pill s-err';
+    el('status-txt').textContent='🔴 API Offline';
+  }
+}
+
+// ── SIDEBAR ────────────────────────────────────────────
+const ACTS = {
+  BNS:[{n:'1',t:'Short Title & Extent'},{n:'2',t:'Definitions'},{n:'100',t:'Private Defence'},{n:'103',t:'Punishment for Murder'},{n:'104',t:'Culpable Homicide'},{n:'105',t:'Death by Negligence'},{n:'109',t:'Abetment'},{n:'111',t:'Organised Crime'},{n:'112',t:'Petty Organised Crime'}],
+  BNSS:[{n:'2',t:'Definitions'},{n:'35',t:'Arrest Without Warrant'},{n:'167',t:'Remand & Custody'},{n:'436',t:'Bail — Bailable Offences'},{n:'480',t:'Special Bail Provisions'}],
+  BSA:[{n:'2',t:'Definitions'},{n:'57',t:'Judicial Notice'},{n:'61',t:'Proof of Documents'}]
+};
+const ACT_CLR={BNS:'#d4a843',BNSS:'#4a8fe8',BSA:'#2ec4b6'};
+function buildSidebar(){
+  const c=el('sb-acts');
+  for(const [act,secs] of Object.entries(ACTS)){
+    const h=document.createElement('div');
+    h.className='act-hdr';h.style.color=ACT_CLR[act];h.textContent=act;
+    c.appendChild(h);
+    for(const s of secs){
+      const b=document.createElement('button');
+      b.className='sec-btn';
+      b.innerHTML=`<span class="dot" style="background:${ACT_CLR[act]}"></span><span class="sec-num">S.${s.n}</span><span style="flex:1;text-align:left;font-size:11px;line-height:1.3">${esc(s.t)}</span>`;
+      b.onclick=()=>lookupSection(act,s.n);
+      c.appendChild(b);
+    }
+  }
+}
+function lookupSection(act,n){
+  go('chat');
+  // Pre-filter to bare_acts for section lookups — guaranteed to be in that collection
+  if(el('cat-sel')) el('cat-sel').value='bare_acts';
+  el('chat-input').value=`${act} Section ${n}`;
+  send();
+}
+
+// ── CHAT ───────────────────────────────────────────────
+function onKey(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send()}}
+function resize(t){t.style.height='auto';t.style.height=Math.min(t.scrollHeight,110)+'px'}
+function suggest(b){el('chat-input').value=b.textContent;send()}
+
+async function send(){
+  if(loading) return;
+  const q=el('chat-input').value.trim(); if(!q) return;
+  const mode=el('mode-sel').value, cat=el('cat-sel').value||null;
+  el('welcome')&&(el('welcome').style.display='none');
+  addMsg('user',q); el('chat-input').value=''; el('chat-input').style.height='auto';
+  const tid=addTyping(); loading=true; el('send-btn').disabled=true;
+  try{
+    const r=await api('/api/query',{method:'POST',body:JSON.stringify({question:q,top_k:8,search_mode:mode,category_filter:cat})});
+    removeTyping(tid); addAIMsg(r);
+  }catch(e){
+    removeTyping(tid); addMsg('ai','⚠ Error: '+e.message+'\n\nMake sure api_server.py is running.');
+    toast('API Error: '+e.message,'err');
+  }finally{loading=false;el('send-btn').disabled=false}
+}
+
+function addMsg(role,text){
+  const msgs=el('msgs');
+  const r=document.createElement('div'); r.className='mrow '+role;
+  const isAI=role==='ai';
+  r.innerHTML=`
+    <div class="ava ${isAI?'ai':'u'}">${isAI?'⚖':'👤'}</div>
+    <div class="mbody">
+      <div class="bubble ${isAI?'ai-b':'user-b'}">${esc(text)}</div>
+    </div>`;
+  msgs.appendChild(r); msgs.scrollTop=msgs.scrollHeight; return r;
+}
+
+function addAIMsg(res){
+  const msgs=el('msgs');
+  const chunks=res.retrieved_chunks||[];
+  let srcHTML='';
+  if(chunks.length){
+    const items=chunks.map((c,i)=>{
+      const sc=c.score||0, cls=sc>.75?'sc-h':sc>.5?'sc-m':'sc-l';
+      const cat=c.category||''; const catCls={'bare_acts':'c-ba','case_docs':'c-cd','crime_stats':'c-cs','iltur':'c-il'}[cat]||'c-ba';
+      const catLbl=cat.replace('_',' ');
+      return `<div class="src-item" onclick='openModal(${JSON.stringify(esc(c.title||c.chunk_id))},${JSON.stringify(esc(c.text_full||c.text||''))})'>
+        <div class="src-head">
+          <span class="score-badge ${cls}">${(sc*100).toFixed(0)}%</span>
+          <span class="cat-badge ${catCls}">${catLbl}</span>
+          <span class="src-title">${esc(c.title||'').substring(0,60)}</span>
+        </div>
+        <div class="src-prev">${esc((c.text||'').substring(0,160))}</div>
+      </div>`;
+    }).join('');
+    srcHTML=`<div class="sources"><div class="src-hdr">📚 Sources (${chunks.length})</div>${items}</div>`;
+  }
+  const r=document.createElement('div'); r.className='mrow ai';
+  r.innerHTML=`
+    <div class="ava ai">⚖</div>
+    <div class="mbody">
+      <div class="bubble ai-b">${esc(res.answer||'')}</div>
+      <div class="mmeta">
+        <span class="mbadge">${res.search_mode||'hybrid'}</span>
+        <span class="mbadge">${res.retrieved_count||0} sources</span>
+        <span class="mbadge">${res.elapsed_ms||0}ms</span>
+      </div>
+      ${srcHTML}
+    </div>`;
+  msgs.appendChild(r); msgs.scrollTop=msgs.scrollHeight;
+}
+
+let _tc=0;
+function addTyping(){
+  const id='ty-'+(++_tc), msgs=el('msgs');
+  const r=document.createElement('div'); r.className='mrow ai'; r.id=id;
+  r.innerHTML=`<div class="ava ai">⚖</div><div class="mbody"><div class="bubble ai-b"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div></div>`;
+  msgs.appendChild(r); msgs.scrollTop=msgs.scrollHeight; return id;
+}
+function removeTyping(id){el(id)?.remove()}
+
+// ── SEARCH ─────────────────────────────────────────────
+function setF(btn,cat){
+  activeCat=cat;
+  document.querySelectorAll('.fchip').forEach(c=>c.classList.remove('active'));
+  btn.classList.add('active');
+}
+async function doSearch(){
+  const q=el('sq').value.trim(); if(!q) return;
+  const res=el('search-results');
+  res.innerHTML='<div style="padding:20px">'+skelRow(5)+'</div>';
+  try{
+    const ps=new URLSearchParams({q,top_k:10});
+    if(activeCat) ps.set('category',activeCat);
+    const d=await api('/api/search?'+ps);
+    const items=d.results||[];
+    if(!items.length){res.innerHTML='<div style="color:var(--t3);text-align:center;padding:40px">No results.</div>';return}
+    res.innerHTML=items.map((r,i)=>{
+      const cat=r.category||'';const catCls={'bare_acts':'c-ba','case_docs':'c-cd','crime_stats':'c-cs','iltur':'c-il'}[cat]||'c-ba';
+      return `<div class="rcard" onclick='openModal(${JSON.stringify(esc(r.title||r.chunk_id))},${JSON.stringify(esc(r.text_full||r.text||''))})'>
+        <div class="rhead">
+          <div class="rtitle">${esc(r.title||r.chunk_id||'Result '+(i+1))}</div>
+          <span class="rscore">${((r.score||0)*100).toFixed(0)}%</span>
+        </div>
+        <div class="rtext">${esc(r.text||'')}</div>
+        <div class="rfoot">
+          <span class="cat-badge ${catCls}">${cat.replace('_',' ')}</span>
+          <span>${esc(r.chunk_id||'')}</span>
+        </div>
+      </div>`;
+    }).join('');
+  }catch(e){res.innerHTML='<div style="color:var(--red);padding:20px">'+esc(e.message)+'</div>';toast(e.message,'err')}
+}
+
+// ── ANALYTICS ─────────────────────────────────────────
+async function loadAnalytics(){
+  try{
+    const s=await api('/api/stats');
+    const ch=s?.chunks?.categories;
+    if(ch){
+      const tv=v=>el(v[0])&&(el(v[0]).textContent=fmt(v[1]));
+      [[('v-ba'),ch.bare_acts?.chunk_count],[('v-cd'),ch.case_docs?.chunk_count],
+       [('v-cs'),ch.crime_stats?.chunk_count]].forEach(tv);
+    }
+    const emb=s?.embeddings?.collections?.legalcompass_iltur;
+    if(emb) el('v-il').textContent=fmt(emb.chunks_indexed);
+  }catch{}
+  try{
+    const ev=await api('/api/evaluation');
+    if(!ev.error) renderEval(ev.results||{});
+  }catch{}
+  renderCharts();
+}
+function renderEval(r){
+  const card=(id,data)=>{
+    if(!data||data.error){el(id).innerHTML='<div style="color:var(--t3);font-size:11px">'+esc(data?.error||'No data')+'</div>';return}
+    const rows=Object.entries(data).filter(([k])=>!['task','n_samples','label_distribution'].includes(k))
+      .map(([k,v])=>{
+        if(typeof v!=='number') return '';
+        const c=v>=.7?'gd':v>=.5?'md':'lo';
+        return `<div class="emrow"><span class="emn">${k.replace(/_/g,' ')}</span><span class="emv ${c}">${v.toFixed(4)}</span></div>`;
+      }).join('');
+    el(id).innerHTML=`<div style="font-size:10.5px;color:var(--t3);margin-bottom:8px">n=${data.n_samples||0}</div>${rows}`;
+  };
+  card('ev-lsi',r.lsi); card('ev-cjpe',r.cjpe); card('ev-bail',r.bail);
+}
+function renderCharts(){
+  const cc=el('ch-corpus'); if(cc&&!charts.corpus){
+    charts.corpus=new Chart(cc,{type:'doughnut',data:{
+      labels:['Bare Acts','Case Docs','Crime Stats','IL-TUR'],
+      datasets:[{data:[1057,19834,14799,50000],backgroundColor:['#d4a843','#4a8fe8','#e84a6a','#2ec4b6'],borderColor:'#0a0d14',borderWidth:3}]
+    },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{color:'#8890aa',font:{size:11},padding:10}}}}});
+  }
+  const ci=el('ch-iltur'); if(ci&&!charts.iltur){
+    charts.iltur=new Chart(ci,{type:'bar',data:{
+      labels:['bail','cjpe','lmt','lner','pcr','rr','summ'],
+      datasets:[{label:'Chunks',data:[297800,959245,7757,3874,50000,1100,88300],backgroundColor:'rgba(74,143,232,.6)',borderColor:'#4a8fe8',borderWidth:1,borderRadius:4}]
+    },options:{responsive:true,maintainAspectRatio:false,
+      scales:{x:{ticks:{color:'#8890aa',font:{size:10}},grid:{color:'rgba(255,255,255,.04)'}},
+              y:{ticks:{color:'#8890aa',font:{size:10}},grid:{color:'rgba(255,255,255,.04)'}}},
+      plugins:{legend:{display:false}}}});
+  }
+}
+
+// ── CORPUS EXPLORER ───────────────────────────────────
+const CORPUS_QUERIES={bare_acts:'section punishment offence murder bail',case_docs:'murder conviction culpable homicide accused',crime_stats:'district crime 2013 rape murder robbery',iltur:'bail judgment accused court order'};
+async function loadCorpus(){
+  const cat=el('exp-cat').value;
+  const g=el('corpus-grid');
+  g.innerHTML=skelCards(6);
+  try{
+    const q=CORPUS_QUERIES[cat]||'law legal section';
+    const ps=new URLSearchParams({q,top_k:20,category:cat,mode:'semantic'});
+    const d=await api('/api/search?'+ps);
+    const items=d.results||[];
+    if(!items.length){g.innerHTML='<div style="color:var(--t3);padding:40px;grid-column:1/-1;text-align:center">No data in this category yet.<br><small>Run embed_and_index.py to index corpus.</small></div>';return}
+    g.innerHTML=items.map(it=>`
+      <div class="ecard" onclick='openModal(${JSON.stringify(esc(it.title||it.chunk_id))},${JSON.stringify(esc(it.text_full||it.text||''))})'>
+        <div class="ec-title">${esc(it.title||it.chunk_id||'Item')}</div>
+        <div class="ec-meta">${esc(it.chunk_id||'')} · ${((it.score||0)*100).toFixed(1)}%</div>
+        <div class="ec-text">${esc(it.text||'')}</div>
+      </div>`).join('');
+  }catch(e){g.innerHTML='<div style="color:var(--red);padding:20px;grid-column:1/-1">'+esc(e.message)+'</div>'}
+}
+
+// ── MODAL ─────────────────────────────────────────────
+function openModal(title,text){
+  el('m-title').textContent=title;
+  el('m-body').textContent=text;
+  el('modal').classList.add('open');
+}
+function closeModal(e){
+  if(!e||e.target===el('modal')) el('modal').classList.remove('open');
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')el('modal').classList.remove('open')});
+
+// ── SKELETONS ─────────────────────────────────────────
+function skelRow(n){return Array(n).fill('<div style="display:flex;flex-direction:column;gap:6px;padding:10px 0"><div class="skel" style="width:55%;height:13px"></div><div class="skel" style="width:30%;height:10px"></div><div class="skel" style="width:100%;height:10px"></div></div>').join('')}
+function skelCards(n){return Array(n).fill('<div class="ecard"><div class="skel" style="width:60%;height:13px;margin-bottom:8px"></div><div class="skel" style="width:30%;height:10px;margin-bottom:8px"></div><div class="skel" style="width:100%;height:10px;margin-bottom:6px"></div><div class="skel" style="width:85%;height:10px"></div></div>').join('')}
+
+// ── INIT ──────────────────────────────────────────────
+buildSidebar();
+checkHealth();
+loadAnalytics();
+</script>
+</body>
+</html>
