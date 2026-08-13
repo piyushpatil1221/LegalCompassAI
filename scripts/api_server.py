@@ -44,6 +44,7 @@ SUMMARY_TMP_DIR = PROJECT_DIR.parent / "tmp_summaries"
 
 retriever = None
 pipeline  = None
+agent_orchestrator = None
 
 # Simple LRU cache for repeated queries (avoids redundant embedding + ChromaDB round-trips)
 class _LRUCache:
@@ -63,6 +64,17 @@ class _LRUCache:
 
 _query_cache  = _LRUCache(128)
 _search_cache = _LRUCache(128)
+_session_store = {}
+
+_live_metrics = {
+    "total_queries": 0,
+    "total_drafts": 0,
+    "total_latency_ms": 0,
+    "avg_confidence": 0,
+    "crime_counts": {},
+    "bail_counts": {"GRANTED": 0, "REJECTED": 0},
+    "latency_history": []
+}
 
 def _cache_key(*args) -> str:
     return hashlib.md5("|".join(str(a) for a in args).encode()).hexdigest()
@@ -170,9 +182,17 @@ def _load_pipeline():
         r.connect()
         pipeline = LegalRAGPipeline(r)
         retriever = r
-        print("[Server] RAG pipeline ready.")
+        
+        import sys
+        if str(PROJECT_DIR) not in sys.path:
+            sys.path.insert(0, str(PROJECT_DIR))
+        from orchestrator import LegalCompassOrchestrator
+        global agent_orchestrator
+        agent_orchestrator = LegalCompassOrchestrator(retriever=r)
+        
+        print("[Server] RAG pipeline and Agent Orchestrator ready.")
     except Exception as e:
-        print(f"[Server] WARNING: RAG pipeline failed: {e}")
+        print(f"[Server] WARNING: RAG pipeline/Orchestrator failed: {e}")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -189,6 +209,7 @@ class QueryRequest(BaseModel):
     top_k: int = 8
     search_mode: str = "hybrid"
     category_filter: Optional[str] = None
+    session_id: Optional[str] = None
 
 @app.post("/api/query")
 async def api_query(req: QueryRequest):
@@ -203,6 +224,105 @@ async def api_query(req: QueryRequest):
         _query_cache.set(key, result)
         return result
     except Exception as e:
+        raise HTTPException(500, str(e))
+
+@app.post("/api/agent-query")
+async def api_agent_query(req: QueryRequest):
+    if not agent_orchestrator:
+        raise HTTPException(503, "Agent Orchestrator not ready.")
+    
+    import uuid
+    session_id = req.session_id or str(uuid.uuid4())
+    session_history = _session_store.get(session_id, [])
+    
+    # Detect document drafting request
+    is_draft_requested = any(w in req.question.lower() for w in ["draft", "download", "downloadable", "template", "application"])
+
+    key = _cache_key("agent", req.question, session_id)
+    cached = _query_cache.get(key)
+    if cached is not None:
+        return cached
+        
+    try:
+        t0 = time.time()
+        # Run 5-agent pipeline (now 6-agent)
+        case_rep = agent_orchestrator.run_pipeline(req.question, session_history=session_history, is_draft_requested=is_draft_requested)
+        
+        # Update history
+        session_history.append({"role": "user", "content": req.question})
+        session_history.append({"role": "assistant", "content": case_rep.get("guidance", {}).get("explanation", "")})
+        _session_store[session_id] = session_history
+        
+        # Format chunks to match UI
+        retrieved_chunks = []
+        for s in case_rep.get("retrieved_statutes", []):
+            retrieved_chunks.append({
+                "text": s,
+                "title": "BNS / Statutory Law",
+                "category": "bare_acts",
+                "score": 0.95
+            })
+        for p in case_rep.get("retrieved_precedents", []):
+            retrieved_chunks.append({
+                "text": p["facts_summary"],
+                "title": p["case_name"],
+                "category": "case_docs",
+                "score": 0.90,
+                "outcome": p.get("outcome", "Unknown")
+            })
+            
+        # Update Live Metrics
+        elapsed_ms = int((time.time() - t0) * 1000)
+        _live_metrics["total_queries"] += 1
+        _live_metrics["total_latency_ms"] += elapsed_ms
+        _live_metrics["latency_history"].append(elapsed_ms)
+        if len(_live_metrics["latency_history"]) > 50:
+            _live_metrics["latency_history"].pop(0)
+            
+        if is_draft_requested and case_rep.get("drafted_document"):
+            _live_metrics["total_drafts"] += 1
+            
+        # Update crime counts
+        for c in case_rep.get("crime_types", []):
+            cr = c.get("crime", "Unknown")
+            _live_metrics["crime_counts"][cr] = _live_metrics["crime_counts"].get(cr, 0) + 1
+            
+        # Update bail counts
+        bp = case_rep.get("guidance", {}).get("bail_prediction")
+        if bp:
+            bp = bp.upper()
+            if bp in _live_metrics["bail_counts"]:
+                _live_metrics["bail_counts"][bp] += 1
+            else:
+                _live_metrics["bail_counts"][bp] = 1
+                
+        # Confidence logic (Avg of role confidence if available)
+        conf = case_rep.get("role_confidence", 0)
+        if conf > 0:
+            total_q = _live_metrics["total_queries"]
+            _live_metrics["avg_confidence"] = (_live_metrics["avg_confidence"] * (total_q - 1) + conf) / total_q
+            
+        result = {
+            "answer": case_rep.get("guidance", {}).get("explanation", ""),
+            "retrieved_chunks": retrieved_chunks,
+            "retrieved_count": len(retrieved_chunks),
+            "elapsed_ms": elapsed_ms,
+            "search_mode": "multi-agent",
+            "agent_data": {
+                "crime_types": case_rep.get("crime_types", []),
+                "role": case_rep.get("role", ""),
+                "clarification": case_rep.get("agent2_clarification"),
+                "bail_prediction": case_rep.get("guidance", {}).get("bail_prediction"),
+                "anonymized_summary": case_rep.get("anonymized_summary")
+            },
+            "drafted_document": case_rep.get("drafted_document"),
+            "session_id": session_id
+        }
+        _query_cache.set(key, result)
+        return result
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
         raise HTTPException(500, str(e))
 
 @app.get("/api/search")
@@ -260,6 +380,15 @@ async def api_evaluation():
         with open(EVAL_REPORT, encoding="utf-8") as f:
             return json.load(f)
     return {"error": "Run evaluate_iltur.py first."}
+
+@app.get("/api/live-analytics")
+async def api_live_analytics():
+    # Return a copy of the live metrics to prevent modification
+    return {
+        "metrics": _live_metrics,
+        "avg_latency": int(_live_metrics["total_latency_ms"] / max(1, _live_metrics["total_queries"])),
+        "avg_confidence_pct": int(_live_metrics["avg_confidence"] * 100)
+    }
 
 def _build_summary_pdf(summary_text: str, original_filename: str) -> Path:
     if canvas is None or letter is None:

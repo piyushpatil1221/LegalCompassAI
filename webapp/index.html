@@ -348,22 +348,28 @@ input,textarea,select{font-family:inherit;outline:none;border:none}
 
     <!-- ANALYTICS -->
     <div class="page" id="page-analytics">
-      <div class="ph"><h1>📊 Analytics Dashboard</h1><p>Corpus statistics and IL-TUR evaluation results.</p></div>
+      <div class="ph">
+        <h1 style="display:flex; align-items:center; gap:10px;">
+          📊 Live Agent Telemetry
+          <span class="mbadge" style="background:rgba(46,204,113,0.1); color:var(--green); border:1px solid rgba(46,204,113,0.3); font-size:10px; padding:2px 8px; border-radius:12px;">● LIVE</span>
+        </h1>
+        <p>Real-time performance metrics and AI prediction distributions.</p>
+      </div>
       <div class="grid4">
-        <div class="scard g"><div class="sico">📜</div><div class="sval g" id="v-ba">1,057</div><div class="slbl">Bare Act Sections</div></div>
-        <div class="scard b"><div class="sico">📋</div><div class="sval b" id="v-cd">19,834</div><div class="slbl">Case Doc Chunks</div></div>
-        <div class="scard t"><div class="sico">📊</div><div class="sval t" id="v-cs">14,799</div><div class="slbl">Crime Stat Chunks</div></div>
-        <div class="scard r"><div class="sico">🔬</div><div class="sval r" id="v-il">50,000</div><div class="slbl">IL-TUR Sampled</div></div>
+        <div class="scard g"><div class="sico">⚡</div><div class="sval g" id="v-queries">0</div><div class="slbl">Queries Served</div></div>
+        <div class="scard b"><div class="sico">⏱️</div><div class="sval b" id="v-latency">0ms</div><div class="slbl">Avg Latency</div></div>
+        <div class="scard t"><div class="sico">📄</div><div class="sval t" id="v-drafts">0</div><div class="slbl">Documents Drafted</div></div>
+        <div class="scard r"><div class="sico">🎯</div><div class="sval r" id="v-conf">0%</div><div class="slbl">Avg AI Confidence</div></div>
       </div>
       <div class="charts-row">
-        <div class="ccrd"><div class="ctitle">📊 Corpus Distribution</div><div class="cbox"><canvas id="ch-corpus"></canvas></div></div>
-        <div class="ccrd"><div class="ctitle">🔍 IL-TUR Task Distribution</div><div class="cbox"><canvas id="ch-iltur"></canvas></div></div>
+        <div class="ccrd" style="background:rgba(22, 28, 44, 0.6); backdrop-filter:blur(10px);"><div class="ctitle">🔥 Detected Crime Heatmap</div><div class="cbox"><canvas id="ch-crimes"></canvas></div></div>
+        <div class="ccrd" style="background:rgba(22, 28, 44, 0.6); backdrop-filter:blur(10px);"><div class="ctitle">⚖️ Bail Prediction Ratio</div><div class="cbox"><canvas id="ch-bail"></canvas></div></div>
       </div>
-      <div style="padding:0 28px 8px;font-size:12.5px;font-weight:700;color:var(--gold-lt)">🏆 IL-TUR Evaluation Results</div>
-      <div class="eval-row">
-        <div class="ecrd"><div class="etitle">📑 LSI — Statute ID</div><div id="ev-lsi"><div style="color:var(--t3);font-size:11px">Run evaluate_iltur.py</div></div></div>
-        <div class="ecrd"><div class="etitle">⚖ CJPE — Judgment</div><div id="ev-cjpe"><div style="color:var(--t3);font-size:11px">Loading…</div></div></div>
-        <div class="ecrd"><div class="etitle">🔒 Bail Prediction</div><div id="ev-bail"><div style="color:var(--t3);font-size:11px">Run evaluate_iltur.py</div></div></div>
+      <div style="padding:0 28px 12px;">
+        <div class="ccrd" style="background:rgba(22, 28, 44, 0.6); backdrop-filter:blur(10px);">
+          <div class="ctitle">📈 Pipeline Latency (ms)</div>
+          <div class="cbox" style="height:140px"><canvas id="ch-latency"></canvas></div>
+        </div>
       </div>
     </div>
 
@@ -710,50 +716,103 @@ async function doSearch(){
 // ── ANALYTICS ─────────────────────────────────────────
 async function loadAnalytics(){
   try{
-    const s=await api('/api/stats');
-    const ch=s?.chunks?.categories;
-    if(ch){
-      const tv=v=>el(v[0])&&(el(v[0]).textContent=fmt(v[1]));
-      [[('v-ba'),ch.bare_acts?.chunk_count],[('v-cd'),ch.case_docs?.chunk_count],
-       [('v-cs'),ch.crime_stats?.chunk_count]].forEach(tv);
-    }
-    const emb=s?.embeddings?.collections?.legalcompass_iltur;
-    if(emb) el('v-il').textContent=fmt(emb.chunks_indexed);
-  }catch{}
-  try{
-    const ev=await api('/api/evaluation');
-    if(!ev.error) renderEval(ev.results||{});
-  }catch{}
-  renderCharts();
-}
-function renderEval(r){
-  const card=(id,data)=>{
-    if(!data||data.error){el(id).innerHTML='<div style="color:var(--t3);font-size:11px">'+esc(data?.error||'No data')+'</div>';return}
-    const rows=Object.entries(data).filter(([k])=>!['task','n_samples','label_distribution'].includes(k))
-      .map(([k,v])=>{
-        if(typeof v!=='number') return '';
-        const c=v>=.7?'gd':v>=.5?'md':'lo';
-        return `<div class="emrow"><span class="emn">${k.replace(/_/g,' ')}</span><span class="emv ${c}">${v.toFixed(4)}</span></div>`;
-      }).join('');
-    el(id).innerHTML=`<div style="font-size:10.5px;color:var(--t3);margin-bottom:8px">n=${data.n_samples||0}</div>${rows}`;
-  };
-  card('ev-lsi',r.lsi); card('ev-cjpe',r.cjpe); card('ev-bail',r.bail);
-}
-function renderCharts(){
-  const cc=el('ch-corpus'); if(cc&&!charts.corpus){
-    charts.corpus=new Chart(cc,{type:'doughnut',data:{
-      labels:['Bare Acts','Case Docs','Crime Stats','IL-TUR'],
-      datasets:[{data:[1057,19834,14799,50000],backgroundColor:['#d4a843','#4a8fe8','#e84a6a','#2ec4b6'],borderColor:'#0a0d14',borderWidth:3}]
-    },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{color:'#8890aa',font:{size:11},padding:10}}}}});
+    const d=await api('/api/live-analytics');
+    if(!d || !d.metrics) return;
+    
+    // Update KPI Cards
+    el('v-queries').textContent = fmt(d.metrics.total_queries);
+    el('v-latency').textContent = fmt(d.avg_latency) + 'ms';
+    el('v-drafts').textContent = fmt(d.metrics.total_drafts);
+    el('v-conf').textContent = d.avg_confidence_pct + '%';
+    
+    renderCharts(d.metrics);
+  }catch(e){
+    console.error("Live Analytics error:", e);
   }
-  const ci=el('ch-iltur'); if(ci&&!charts.iltur){
-    charts.iltur=new Chart(ci,{type:'bar',data:{
-      labels:['bail','cjpe','lmt','lner','pcr','rr','summ'],
-      datasets:[{label:'Chunks',data:[297800,959245,7757,3874,50000,1100,88300],backgroundColor:'rgba(74,143,232,.6)',borderColor:'#4a8fe8',borderWidth:1,borderRadius:4}]
-    },options:{responsive:true,maintainAspectRatio:false,
-      scales:{x:{ticks:{color:'#8890aa',font:{size:10}},grid:{color:'rgba(255,255,255,.04)'}},
-              y:{ticks:{color:'#8890aa',font:{size:10}},grid:{color:'rgba(255,255,255,.04)'}}},
-      plugins:{legend:{display:false}}}});
+}
+
+function renderCharts(metrics){
+  Chart.defaults.color = '#8890aa';
+  Chart.defaults.font.family = 'Inter';
+  
+  // Crime Heatmap (Bar)
+  const crimeLabels = Object.keys(metrics.crime_counts);
+  const crimeData = Object.values(metrics.crime_counts);
+  const cc = el('ch-crimes'); 
+  if(cc){
+    if(charts.crimes) charts.crimes.destroy();
+    charts.crimes = new Chart(cc, {
+      type: 'bar',
+      data: {
+        labels: crimeLabels.length ? crimeLabels : ['No Data'],
+        datasets: [{
+          label: 'Frequency',
+          data: crimeData.length ? crimeData : [0],
+          backgroundColor: 'rgba(232, 74, 106, 0.7)',
+          borderRadius: 6
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true, ticks: { stepSize: 1 } }
+        }
+      }
+    });
+  }
+
+  // Bail Prediction (Doughnut)
+  const bailGranted = metrics.bail_counts["GRANTED"] || 0;
+  const bailRejected = metrics.bail_counts["REJECTED"] || 0;
+  const cb = el('ch-bail');
+  if(cb){
+    if(charts.bail) charts.bail.destroy();
+    charts.bail = new Chart(cb, {
+      type: 'doughnut',
+      data: {
+        labels: ['Granted', 'Rejected'],
+        datasets: [{
+          data: (bailGranted===0 && bailRejected===0) ? [0.01, 0.01] : [bailGranted, bailRejected],
+          backgroundColor: ['#2ecc71', '#e84a6a'],
+          borderColor: '#0a0d14',
+          borderWidth: 2
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { position: 'right' } }
+      }
+    });
+  }
+
+  // Latency (Line)
+  const cl = el('ch-latency');
+  if(cl){
+    if(charts.latency) charts.latency.destroy();
+    charts.latency = new Chart(cl, {
+      type: 'line',
+      data: {
+        labels: metrics.latency_history.map((_,i) => i+1),
+        datasets: [{
+          label: 'Latency (ms)',
+          data: metrics.latency_history,
+          borderColor: '#4a8fe8',
+          backgroundColor: 'rgba(74, 143, 232, 0.2)',
+          fill: true,
+          tension: 0.4
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { display: false },
+          y: { grid: { color: 'rgba(255,255,255,0.05)' } }
+        }
+      }
+    });
   }
 }
 
