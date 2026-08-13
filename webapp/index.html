@@ -6,6 +6,26 @@
 <title>LegalCompass AI — Indian Criminal Law</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+// Mock multi-agent state
+const agents = {
+  researcher: { status: 'idle', color: '#4a8fe8' },
+  analyst: { status: 'idle', color: '#d4a843' },
+  drafter: { status: 'idle', color: '#2ec4b6' }
+};
+
+function updateAgentUI(agent, status) {
+  agents[agent].status = status;
+  const container = document.getElementById('agent-grid');
+  if(!container) return;
+  
+  const el = container.querySelector(`[data-agent="${agent}"]`);
+  if(el) {
+    el.className = `agent-node ${status}`;
+    el.querySelector('.agent-stat').innerText = status;
+  }
+}
+</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -522,7 +542,7 @@ async function send(){
   addMsg('user',q); el('chat-input').value=''; el('chat-input').style.height='auto';
   const tid=addTyping(); loading=true; el('send-btn').disabled=true;
   try{
-    const r=await api('/api/query',{method:'POST',body:JSON.stringify({question:q,top_k:8,search_mode:mode,category_filter:cat})});
+    const r=await api('/api/agent-query',{method:'POST',body:JSON.stringify({question:q,top_k:8,search_mode:mode,category_filter:cat})});
     removeTyping(tid); addAIMsg(r);
   }catch(e){
     removeTyping(tid); addMsg('ai','⚠ Error: '+e.message+'\n\nMake sure api_server.py is running.');
@@ -562,11 +582,51 @@ function addAIMsg(res){
     }).join('');
     srcHTML=`<div class="sources"><div class="src-hdr">📚 Sources (${chunks.length})</div>${items}</div>`;
   }
+  let agentHTML = '';
+  if (res.agent_data) {
+    const crimes = res.agent_data.crime_types || [];
+    let crimeBadges = crimes.map(c => `<span class="mbadge" style="background:var(--red);color:white;border:none">${c.crime}</span>`).join('');
+    
+    let roleBadge = '';
+    if (res.agent_data.role) {
+      roleBadge = `<span class="mbadge" style="background:var(--blue);color:white;border:none">Role: ${res.agent_data.role.toUpperCase()}</span>`;
+    }
+    
+    let bailHTML = '';
+    if (res.agent_data.bail_prediction) {
+      const bailColor = res.agent_data.bail_prediction.toLowerCase() === 'granted' ? 'var(--green)' : 'var(--red)';
+      bailHTML = `
+        <div style="margin-top:10px; padding:10px; border:2px solid ${bailColor}; border-radius:8px; font-weight:bold; color:${bailColor}; font-size:12px;">
+          ⚖️ Bail Prediction: ${res.agent_data.bail_prediction.toUpperCase()}
+        </div>
+      `;
+    }
+    
+    let clarifyHTML = '';
+    if (res.agent_data.clarification) {
+      clarifyHTML = `
+        <div style="margin-top:10px; padding:10px; background:rgba(212,168,67,0.1); border:1px solid var(--gold); color:var(--gold); border-radius:8px; font-weight:bold; font-size:12px;">
+          🤔 Clarification Needed: ${res.agent_data.clarification}
+        </div>
+      `;
+    }
+    
+    agentHTML = `
+      <div style="margin-bottom:10px; display:flex; gap:6px; flex-wrap:wrap;">
+        ${crimeBadges}
+        ${roleBadge}
+      </div>
+      ${clarifyHTML}
+      ${bailHTML}
+    `;
+  }
+
   const r=document.createElement('div'); r.className='mrow ai';
   r.innerHTML=`
     <div class="ava ai">⚖</div>
     <div class="mbody">
-      <div class="bubble ai-b">${esc(res.answer||'')}</div>
+      ${agentHTML}
+      <div class="bubble ai-b" style="white-space:normal">${typeof marked !== 'undefined' ? marked.parse(res.answer||'') : esc(res.answer||'')}</div>
       <div class="mmeta">
         <span class="mbadge">${res.search_mode||'hybrid'}</span>
         <span class="mbadge">${res.retrieved_count||0} sources</span>
