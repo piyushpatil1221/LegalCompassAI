@@ -403,6 +403,17 @@ input,textarea,select{font-family:inherit;outline:none;border:none}
 'use strict';
 const API = window.location.origin;
 let activeCat = '', loading = false, charts = {};
+let sessionId = '';
+
+function downloadText(filename, text) {
+  const blob = new Blob([text], {type: 'text/plain'});
+  const url = window.URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  a.click();
+  window.URL.revokeObjectURL(url);
+}
 
 // ── UTILS ──────────────────────────────────────────────
 function esc(s){
@@ -542,7 +553,8 @@ async function send(){
   addMsg('user',q); el('chat-input').value=''; el('chat-input').style.height='auto';
   const tid=addTyping(); loading=true; el('send-btn').disabled=true;
   try{
-    const r=await api('/api/agent-query',{method:'POST',body:JSON.stringify({question:q,top_k:8,search_mode:mode,category_filter:cat})});
+    const r=await api('/api/agent-query',{method:'POST',body:JSON.stringify({question:q,top_k:8,search_mode:mode,category_filter:cat,session_id:sessionId})});
+    if (r.session_id) sessionId = r.session_id;
     removeTyping(tid); addAIMsg(r);
   }catch(e){
     removeTyping(tid); addMsg('ai','⚠ Error: '+e.message+'\n\nMake sure api_server.py is running.');
@@ -611,6 +623,21 @@ function addAIMsg(res){
       `;
     }
     
+    let draftHTML = '';
+    if (res.drafted_document) {
+      draftHTML = `
+        <div style="margin-top:15px; padding:15px; background:rgba(46, 196, 182, 0.1); border:1px solid var(--teal); border-radius:8px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+            <span style="font-weight:bold; color:var(--teal);">📄 Drafted Legal Document</span>
+            <button onclick="downloadText('drafted_document.md', decodeURIComponent('${encodeURIComponent(res.drafted_document)}'))" style="background:var(--teal); color:#0a0d14; border:none; padding:6px 12px; border-radius:6px; cursor:pointer; font-size:12px; font-weight:bold; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.8" onmouseout="this.style.opacity=1">⬇ Download</button>
+          </div>
+          <div style="font-size:13px; line-height:1.5; color:var(--t1); overflow-y:auto; max-height:250px; padding-right:10px; border-top: 1px solid rgba(46, 196, 182, 0.2); margin-top: 10px; padding-top: 10px;" class="markdown-body">
+            ${typeof marked !== 'undefined' ? marked.parse(res.drafted_document) : esc(res.drafted_document)}
+          </div>
+        </div>
+      `;
+    }
+    
     agentHTML = `
       <div style="margin-bottom:10px; display:flex; gap:6px; flex-wrap:wrap;">
         ${crimeBadges}
@@ -618,6 +645,7 @@ function addAIMsg(res){
       </div>
       ${clarifyHTML}
       ${bailHTML}
+      ${draftHTML}
     `;
   }
 
