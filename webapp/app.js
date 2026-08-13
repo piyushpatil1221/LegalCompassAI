@@ -504,13 +504,21 @@ function renderCharts() {
   // IL-TUR Task Distribution — Bar
   const ctxIltur = document.getElementById('chart-iltur');
   if (ctxIltur && !chartInstances['iltur']) {
+    let ilturLabels = ['bail', 'cjpe', 'lmt', 'lner', 'lsi', 'pcr', 'rr', 'summ'];
+    let ilturData = [297800, 124100, 3200, 900, 70400, 50000, 1100, 88300];
+    
+    if (stats?.chunks?.categories?.iltur?.tasks) {
+      const t = stats.chunks.categories.iltur.tasks;
+      ilturData = ilturLabels.map(l => t[l] || 0);
+    }
+
     chartInstances['iltur'] = new Chart(ctxIltur, {
       type: 'bar',
       data: {
-        labels: ['bail', 'cjpe', 'lmt', 'lner', 'lsi', 'pcr', 'rr', 'summ'],
+        labels: ilturLabels,
         datasets: [{
           label: 'Chunks',
-          data: [297800, 124100, 3200, 900, 70400, 50000, 1100, 88300],
+          data: ilturData,
           backgroundColor: 'rgba(74,143,232,0.6)',
           borderColor: '#4a8fe8',
           borderWidth: 1,

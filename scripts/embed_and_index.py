@@ -202,7 +202,8 @@ def main():
             "elapsed_seconds": round(elapsed, 1),
             "chunks_per_second": round(n / elapsed, 1) if elapsed > 0 else 0,
         }
-        print(f"      OK  {n:,} chunks indexed in {elapsed:.1f}s ({n/elapsed:.0f} chunks/s)")
+        elapsed_safe = max(elapsed, 0.001)
+        print(f"      OK  {n:,} chunks indexed in {elapsed:.1f}s ({n/elapsed_safe:.0f} chunks/s)")
 
     run("legalcompass_bare_acts",   col_bare,  bare_chunks)
     run("legalcompass_case_docs",   col_case,  case_chunks)
