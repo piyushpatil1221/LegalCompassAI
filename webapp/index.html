@@ -120,6 +120,15 @@ input,textarea,select{font-family:inherit;outline:none;border:none}
 .send:hover{transform:scale(1.05);box-shadow:0 4px 16px rgba(212,168,67,.35)}
 .send:disabled{opacity:.4;transform:none}
 .hint{font-size:10.5px;color:var(--t3);text-align:center;margin-top:6px}
+.summary-panel{margin:18px 24px 0;border:1px solid var(--border);border-radius:14px;background:rgba(22,28,44,.85);padding:16px}
+.summary-panel h3{font-size:13px;margin-bottom:10px;color:var(--gold-lt)}
+.summary-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.summary-upload{flex:1;min-width:180px;padding:8px 10px;border:1px solid var(--border);background:rgba(255,255,255,.02);border-radius:10px;color:var(--t2)}
+.summary-btn{padding:8px 14px;border-radius:10px;background:linear-gradient(135deg,var(--gold),#c89a20);color:#1a1200;font-size:12px;font-weight:700;cursor:pointer}
+.summary-btn:disabled{opacity:.5;cursor:not-allowed}
+.summary-btn-secondary{background:linear-gradient(135deg,#4a8fe8,#2ec4b6);color:white}
+.summary-status{font-size:11.5px;color:var(--t2);margin-bottom:10px;min-height:16px}
+.summary-output{background:rgba(10,13,20,.52);border:1px solid var(--border);border-radius:10px;padding:12px;color:var(--t1);font-size:12px;line-height:1.7;white-space:pre-wrap;max-height:220px;overflow:auto}
 
 /* ── SEARCH ── */
 #page-search{overflow:hidden}
@@ -258,6 +267,17 @@ input,textarea,select{font-family:inherit;outline:none;border:none}
             <button class="chip" onclick="suggest(this)">Bail granted in murder cases</button>
             <button class="chip" onclick="suggest(this)">BSA Section 57 judicial notice</button>
           </div>
+        </div>
+
+        <div class="summary-panel">
+          <h3>Document Summarizer</h3>
+          <div class="summary-row">
+            <input class="summary-upload" id="summary-file" type="file" accept=".pdf,.docx" />
+            <button class="summary-btn" id="summary-btn" type="button">Summarize</button>
+            <button class="summary-btn summary-btn-secondary" id="summary-download" type="button" disabled>Download PDF</button>
+          </div>
+          <div class="summary-status" id="summary-status">Upload a PDF or DOCX to get a plain-language summary.</div>
+          <div class="summary-output" id="summary-output">No document uploaded yet.</div>
         </div>
       </div>
       <div id="input-area">
@@ -445,6 +465,53 @@ function lookupSection(act,n){
 function onKey(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send()}}
 function resize(t){t.style.height='auto';t.style.height=Math.min(t.scrollHeight,110)+'px'}
 function suggest(b){el('chat-input').value=b.textContent;send()}
+
+let currentPdfUrl = '';
+
+async function summarizeDocument(){
+  const fileInput = document.getElementById('summary-file');
+  const file = fileInput && fileInput.files ? fileInput.files[0] : null;
+  const status = document.getElementById('summary-status');
+  const output = document.getElementById('summary-output');
+  const downloadBtn = document.getElementById('summary-download');
+
+  if (!file) {
+    status.textContent = 'Please choose a PDF or DOCX file first.';
+    return;
+  }
+
+  currentPdfUrl = '';
+  if (downloadBtn) downloadBtn.disabled = true;
+
+  const form = new FormData();
+  form.append('file', file);
+  status.textContent = 'Summarizing your document…';
+  output.textContent = 'Working on it…';
+
+  try {
+    const response = await fetch('/api/summarize', {
+      method: 'POST',
+      body: form,
+    });
+    const data = await response.json();
+    if (!response.ok) {
+      throw new Error(data.detail || 'Summary failed');
+    }
+    output.textContent = data.summary || 'No summary returned.';
+    status.textContent = `Summary ready for ${data.filename}`;
+    currentPdfUrl = data.pdf_url || '';
+    if (downloadBtn) downloadBtn.disabled = !currentPdfUrl;
+  } catch (error) {
+    output.textContent = `Error: ${error.message}`;
+    status.textContent = 'Summarization failed.';
+    if (downloadBtn) downloadBtn.disabled = true;
+  }
+}
+
+function downloadSummaryPdf(){
+  if (!currentPdfUrl) return;
+  window.open(currentPdfUrl, '_blank');
+}
 
 async function send(){
   if(loading) return;
@@ -641,6 +708,10 @@ function skelCards(n){return Array(n).fill('<div class="ecard"><div class="skel"
 buildSidebar();
 checkHealth();
 loadAnalytics();
+const summaryBtn = document.getElementById('summary-btn');
+if (summaryBtn) summaryBtn.addEventListener('click', summarizeDocument);
+const summaryDownloadBtn = document.getElementById('summary-download');
+if (summaryDownloadBtn) summaryDownloadBtn.addEventListener('click', downloadSummaryPdf);
 </script>
 </body>
 </html>

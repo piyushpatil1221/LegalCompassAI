@@ -1,0 +1,3171 @@
+{
+  "source": "NCRB Crime Statistics",
+  "dataset": "Offenders known to the victim",
+  "filename": "21_Offenders_known_to_the_victim.csv",
+  "year_range": {
+    "start": null,
+    "end": null
+  },
+  "columns": [
+    "Area_Name",
+    "Year",
+    "No_of_Cases_in_which_offenders_were_known_to_the_Victims",
+    "No_of_Cases_in_which_offenders_were_Neighbours",
+    "No_of_Cases_in_which_offenders_were_Other_Known_persons",
+    "No_of_Cases_in_which_offenders_were_Parentsclose_family_members",
+    "No_of_Cases_in_which_offenders_were_Relatives"
+  ],
+  "total_records": 350,
+  "records": [
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 3010,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1397,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1384,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 49,
+      "No_of_Cases_in_which_offenders_were_Relatives": 180
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2937,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1279,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1433,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 52,
+      "No_of_Cases_in_which_offenders_were_Relatives": 173
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2998,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1254,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1528,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 14,
+      "No_of_Cases_in_which_offenders_were_Relatives": 202
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 3135,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1223,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1659,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 21,
+      "No_of_Cases_in_which_offenders_were_Relatives": 232
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2134,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1037,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 987,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 106
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2738,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1007,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1369,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 123,
+      "No_of_Cases_in_which_offenders_were_Relatives": 239
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2820,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 999,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1450,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 141,
+      "No_of_Cases_in_which_offenders_were_Relatives": 230
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2891,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 968,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1677,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 72,
+      "No_of_Cases_in_which_offenders_were_Relatives": 174
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2800,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 938,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1546,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 63,
+      "No_of_Cases_in_which_offenders_were_Relatives": 253
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1881,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 762,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 630,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 301,
+      "No_of_Cases_in_which_offenders_were_Relatives": 188
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1620,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 689,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 702,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 9,
+      "No_of_Cases_in_which_offenders_were_Relatives": 220
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1383,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 678,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 694,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 6,
+      "No_of_Cases_in_which_offenders_were_Relatives": 5
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1828,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 651,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 937,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 237
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1232,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 634,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 591,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 7,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1555,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 615,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 923,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 15
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1747,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 593,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1028,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 123
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1302,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 593,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 692,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 14
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1573,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 583,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 862,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 44,
+      "No_of_Cases_in_which_offenders_were_Relatives": 84
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1476,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 574,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 768,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 36,
+      "No_of_Cases_in_which_offenders_were_Relatives": 98
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1214,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 555,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 539,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 12,
+      "No_of_Cases_in_which_offenders_were_Relatives": 108
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1485,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 545,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 832,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 35,
+      "No_of_Cases_in_which_offenders_were_Relatives": 73
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1638,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 535,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 988,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 114
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1908,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 535,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1022,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 114,
+      "No_of_Cases_in_which_offenders_were_Relatives": 237
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1454,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 533,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 752,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 76,
+      "No_of_Cases_in_which_offenders_were_Relatives": 93
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1487,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 524,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 836,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 38,
+      "No_of_Cases_in_which_offenders_were_Relatives": 89
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1426,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 521,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 754,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 40,
+      "No_of_Cases_in_which_offenders_were_Relatives": 111
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 929,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 519,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 409,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1257,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 513,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 615,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 13,
+      "No_of_Cases_in_which_offenders_were_Relatives": 116
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1171,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 510,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 581,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 15,
+      "No_of_Cases_in_which_offenders_were_Relatives": 65
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1147,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 508,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 629,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 10,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1871,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 507,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1215,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 148
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1362,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 507,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 835,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 20
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1437,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 503,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 809,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 24,
+      "No_of_Cases_in_which_offenders_were_Relatives": 101
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1759,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 485,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1189,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 83
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 795,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 479,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 314,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1070,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 469,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 492,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 7,
+      "No_of_Cases_in_which_offenders_were_Relatives": 102
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1095,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 458,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 543,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 19,
+      "No_of_Cases_in_which_offenders_were_Relatives": 75
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1142,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 445,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 609,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 12,
+      "No_of_Cases_in_which_offenders_were_Relatives": 76
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1266,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 445,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 719,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 35,
+      "No_of_Cases_in_which_offenders_were_Relatives": 67
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1182,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 444,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 691,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 7,
+      "No_of_Cases_in_which_offenders_were_Relatives": 40
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1721,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 438,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1204,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 13,
+      "No_of_Cases_in_which_offenders_were_Relatives": 66
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1398,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 425,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 842,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 36,
+      "No_of_Cases_in_which_offenders_were_Relatives": 95
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1287,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 418,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 771,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 98
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1562,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 411,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1062,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 85
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1249,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 410,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 761,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 18,
+      "No_of_Cases_in_which_offenders_were_Relatives": 60
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1049,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 404,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 452,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 192
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1147,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 400,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 600,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 70,
+      "No_of_Cases_in_which_offenders_were_Relatives": 77
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1159,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 400,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 599,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 42,
+      "No_of_Cases_in_which_offenders_were_Relatives": 118
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 935,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 399,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 420,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 18,
+      "No_of_Cases_in_which_offenders_were_Relatives": 98
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1279,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 394,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 795,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 20,
+      "No_of_Cases_in_which_offenders_were_Relatives": 70
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 888,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 382,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 496,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 8,
+      "No_of_Cases_in_which_offenders_were_Relatives": 2
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1012,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 379,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 531,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 21,
+      "No_of_Cases_in_which_offenders_were_Relatives": 81
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1316,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 378,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 861,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 21,
+      "No_of_Cases_in_which_offenders_were_Relatives": 56
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1352,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 372,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 895,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 31,
+      "No_of_Cases_in_which_offenders_were_Relatives": 54
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 982,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 370,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 467,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 63,
+      "No_of_Cases_in_which_offenders_were_Relatives": 82
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 590,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 362,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 132,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 18,
+      "No_of_Cases_in_which_offenders_were_Relatives": 78
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 592,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 360,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 178,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 26,
+      "No_of_Cases_in_which_offenders_were_Relatives": 28
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1282,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 356,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 809,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 40,
+      "No_of_Cases_in_which_offenders_were_Relatives": 77
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 963,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 352,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 593,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 17
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 641,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 350,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 236,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 32,
+      "No_of_Cases_in_which_offenders_were_Relatives": 23
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 995,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 342,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 448,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 97,
+      "No_of_Cases_in_which_offenders_were_Relatives": 108
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1040,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 340,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 693,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 4
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1404,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 336,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 955,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 112
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1188,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 335,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 815,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 36
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 971,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 333,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 535,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 31,
+      "No_of_Cases_in_which_offenders_were_Relatives": 72
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 976,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 323,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 502,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 24,
+      "No_of_Cases_in_which_offenders_were_Relatives": 127
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 766,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 320,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 371,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 10,
+      "No_of_Cases_in_which_offenders_were_Relatives": 65
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 924,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 313,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 537,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 5,
+      "No_of_Cases_in_which_offenders_were_Relatives": 69
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 720,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 312,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 363,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 15,
+      "No_of_Cases_in_which_offenders_were_Relatives": 30
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 999,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 302,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 598,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 5,
+      "No_of_Cases_in_which_offenders_were_Relatives": 94
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 946,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 299,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 550,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 15,
+      "No_of_Cases_in_which_offenders_were_Relatives": 82
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 444,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 291,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 61,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 14,
+      "No_of_Cases_in_which_offenders_were_Relatives": 78
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1025,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 287,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 632,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 37,
+      "No_of_Cases_in_which_offenders_were_Relatives": 69
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 970,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 286,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 649,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 10,
+      "No_of_Cases_in_which_offenders_were_Relatives": 25
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 608,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 285,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 288,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 10,
+      "No_of_Cases_in_which_offenders_were_Relatives": 25
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 992,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 283,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 523,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 63,
+      "No_of_Cases_in_which_offenders_were_Relatives": 123
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 990,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 271,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 577,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 42,
+      "No_of_Cases_in_which_offenders_were_Relatives": 100
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1034,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 268,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 718,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 9,
+      "No_of_Cases_in_which_offenders_were_Relatives": 39
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 595,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 267,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 262,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 28,
+      "No_of_Cases_in_which_offenders_were_Relatives": 38
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 603,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 267,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 301,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 12,
+      "No_of_Cases_in_which_offenders_were_Relatives": 23
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 719,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 266,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 385,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 22,
+      "No_of_Cases_in_which_offenders_were_Relatives": 46
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 771,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 266,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 410,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 11,
+      "No_of_Cases_in_which_offenders_were_Relatives": 84
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 457,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 261,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 146,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 37,
+      "No_of_Cases_in_which_offenders_were_Relatives": 13
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 959,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 258,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 621,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 6,
+      "No_of_Cases_in_which_offenders_were_Relatives": 74
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 981,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 254,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 480,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 110,
+      "No_of_Cases_in_which_offenders_were_Relatives": 137
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 518,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 249,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 230,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 16,
+      "No_of_Cases_in_which_offenders_were_Relatives": 23
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 871,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 247,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 539,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 81
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 603,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 234,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 331,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 8,
+      "No_of_Cases_in_which_offenders_were_Relatives": 30
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 969,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 232,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 593,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 78,
+      "No_of_Cases_in_which_offenders_were_Relatives": 66
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 489,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 231,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 220,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 34
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 487,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 231,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 182,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 21,
+      "No_of_Cases_in_which_offenders_were_Relatives": 53
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 547,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 227,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 282,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 34
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 747,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 225,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 472,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 50
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 447,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 224,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 206,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 14
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 456,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 222,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 173,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 12,
+      "No_of_Cases_in_which_offenders_were_Relatives": 49
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 926,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 218,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 646,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 32,
+      "No_of_Cases_in_which_offenders_were_Relatives": 30
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 542,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 218,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 275,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 17,
+      "No_of_Cases_in_which_offenders_were_Relatives": 32
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 959,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 217,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 723,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 6,
+      "No_of_Cases_in_which_offenders_were_Relatives": 13
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 475,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 217,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 202,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 12,
+      "No_of_Cases_in_which_offenders_were_Relatives": 44
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 457,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 216,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 197,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 21,
+      "No_of_Cases_in_which_offenders_were_Relatives": 23
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 456,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 215,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 190,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 19,
+      "No_of_Cases_in_which_offenders_were_Relatives": 32
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 566,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 210,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 274,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 11,
+      "No_of_Cases_in_which_offenders_were_Relatives": 71
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 592,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 209,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 252,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 36,
+      "No_of_Cases_in_which_offenders_were_Relatives": 95
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 846,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 205,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 571,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 17,
+      "No_of_Cases_in_which_offenders_were_Relatives": 53
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 457,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 204,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 231,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 15,
+      "No_of_Cases_in_which_offenders_were_Relatives": 7
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1438,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 204,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1193,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 7,
+      "No_of_Cases_in_which_offenders_were_Relatives": 34
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 632,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 204,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 349,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 14,
+      "No_of_Cases_in_which_offenders_were_Relatives": 65
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 919,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 195,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 653,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 31,
+      "No_of_Cases_in_which_offenders_were_Relatives": 40
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 298,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 190,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 102,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 6
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 666,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 190,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 400,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 76
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 480,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 186,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 244,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 47
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 945,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 186,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 672,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 39,
+      "No_of_Cases_in_which_offenders_were_Relatives": 48
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 742,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 186,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 527,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 12,
+      "No_of_Cases_in_which_offenders_were_Relatives": 17
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 868,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 185,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 622,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 18,
+      "No_of_Cases_in_which_offenders_were_Relatives": 43
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 272,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 179,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 71,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 9,
+      "No_of_Cases_in_which_offenders_were_Relatives": 13
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 505,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 178,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 253,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 74
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 355,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 177,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 131,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 32,
+      "No_of_Cases_in_which_offenders_were_Relatives": 15
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 961,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 177,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 699,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 33,
+      "No_of_Cases_in_which_offenders_were_Relatives": 52
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 541,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 175,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 353,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 12
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 678,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 173,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 361,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 94,
+      "No_of_Cases_in_which_offenders_were_Relatives": 50
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 567,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 171,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 352,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 17,
+      "No_of_Cases_in_which_offenders_were_Relatives": 27
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 569,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 171,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 328,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 66
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 571,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 169,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 331,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 70
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 466,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 169,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 264,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 31
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 850,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 164,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 640,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 46
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 720,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 163,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 520,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 33
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 488,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 163,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 233,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 18,
+      "No_of_Cases_in_which_offenders_were_Relatives": 74
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 541,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 163,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 271,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 40,
+      "No_of_Cases_in_which_offenders_were_Relatives": 67
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 488,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 163,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 233,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 18,
+      "No_of_Cases_in_which_offenders_were_Relatives": 74
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 669,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 160,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 468,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 40
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 411,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 158,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 228,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 6,
+      "No_of_Cases_in_which_offenders_were_Relatives": 19
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 517,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 154,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 348,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 13
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 386,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 153,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 193,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 7,
+      "No_of_Cases_in_which_offenders_were_Relatives": 33
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 525,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 153,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 229,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 120,
+      "No_of_Cases_in_which_offenders_were_Relatives": 23
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 506,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 153,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 332,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 7,
+      "No_of_Cases_in_which_offenders_were_Relatives": 14
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 898,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 151,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 661,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 39,
+      "No_of_Cases_in_which_offenders_were_Relatives": 47
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 299,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 150,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 130,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 15
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 455,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 150,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 255,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 49
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 509,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 149,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 293,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 21,
+      "No_of_Cases_in_which_offenders_were_Relatives": 46
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 568,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 147,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 365,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 18,
+      "No_of_Cases_in_which_offenders_were_Relatives": 38
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 817,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 146,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 637,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 8,
+      "No_of_Cases_in_which_offenders_were_Relatives": 26
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 380,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 137,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 219,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 9,
+      "No_of_Cases_in_which_offenders_were_Relatives": 15
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 386,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 133,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 198,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 20,
+      "No_of_Cases_in_which_offenders_were_Relatives": 35
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 378,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 131,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 184,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 50,
+      "No_of_Cases_in_which_offenders_were_Relatives": 13
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 304,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 127,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 148,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 14,
+      "No_of_Cases_in_which_offenders_were_Relatives": 15
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 238,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 127,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 35,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 76
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 204,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 125,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 71,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 8
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 511,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 124,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 327,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 58
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 384,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 123,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 183,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 65,
+      "No_of_Cases_in_which_offenders_were_Relatives": 13
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 442,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 118,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 299,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 24
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 347,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 117,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 210,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 20
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 404,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 115,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 259,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 28
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 433,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 114,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 289,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 8,
+      "No_of_Cases_in_which_offenders_were_Relatives": 22
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 190,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 113,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 64,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 13
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 419,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 111,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 276,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 18,
+      "No_of_Cases_in_which_offenders_were_Relatives": 14
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 189,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 110,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 59,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 16
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 162,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 108,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 47,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 7
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 398,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 107,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 236,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 55
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 659,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 106,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 506,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 7,
+      "No_of_Cases_in_which_offenders_were_Relatives": 40
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 442,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 102,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 310,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 30
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 398,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 100,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 220,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 21,
+      "No_of_Cases_in_which_offenders_were_Relatives": 57
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 298,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 100,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 164,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 5,
+      "No_of_Cases_in_which_offenders_were_Relatives": 29
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 160,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 97,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 48,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 14
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 256,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 95,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 135,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 25
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 315,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 95,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 183,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 35
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 325,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 93,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 188,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 18,
+      "No_of_Cases_in_which_offenders_were_Relatives": 26
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 217,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 92,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 96,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 7,
+      "No_of_Cases_in_which_offenders_were_Relatives": 22
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 292,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 90,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 142,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 52,
+      "No_of_Cases_in_which_offenders_were_Relatives": 8
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 157,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 90,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 55,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 12
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 370,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 81,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 249,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 36
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 307,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 74,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 212,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 18
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 321,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 70,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 222,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 14,
+      "No_of_Cases_in_which_offenders_were_Relatives": 15
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 275,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 70,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 173,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 32
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 219,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 65,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 140,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 14
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 196,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 61,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 121,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 10
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 211,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 61,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 129,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 19
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 404,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 61,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 317,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 22
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 206,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 60,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 117,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 28
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 201,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 60,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 115,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 26
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 314,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 59,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 227,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 19,
+      "No_of_Cases_in_which_offenders_were_Relatives": 9
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 250,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 58,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 166,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 26
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 354,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 57,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 262,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 16,
+      "No_of_Cases_in_which_offenders_were_Relatives": 19
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 183,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 54,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 100,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 5,
+      "No_of_Cases_in_which_offenders_were_Relatives": 24
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 147,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 51,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 81,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 6,
+      "No_of_Cases_in_which_offenders_were_Relatives": 9
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 202,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 43,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 148,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 7,
+      "No_of_Cases_in_which_offenders_were_Relatives": 4
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 139,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 43,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 83,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 5,
+      "No_of_Cases_in_which_offenders_were_Relatives": 8
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 136,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 42,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 83,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 10
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 245,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 42,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 193,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 10
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 142,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 41,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 84,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 8,
+      "No_of_Cases_in_which_offenders_were_Relatives": 9
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 74,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 41,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 27,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 6
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 237,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 41,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 182,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 10
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 186,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 40,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 121,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 22
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 285,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 39,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 228,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 16
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 253,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 39,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 193,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 10,
+      "No_of_Cases_in_which_offenders_were_Relatives": 11
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 180,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 36,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 122,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 10,
+      "No_of_Cases_in_which_offenders_were_Relatives": 12
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 146,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 36,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 96,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 8,
+      "No_of_Cases_in_which_offenders_were_Relatives": 6
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 111,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 33,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 66,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 7,
+      "No_of_Cases_in_which_offenders_were_Relatives": 5
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 124,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 32,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 85,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 7
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 81,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 32,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 38,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 9,
+      "No_of_Cases_in_which_offenders_were_Relatives": 2
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 75,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 32,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 34,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 6
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 133,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 32,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 88,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 7,
+      "No_of_Cases_in_which_offenders_were_Relatives": 6
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 159,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 31,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 122,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 4
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 103,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 29,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 59,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 11,
+      "No_of_Cases_in_which_offenders_were_Relatives": 4
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 107,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 26,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 75,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 4
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 133,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 26,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 100,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 4
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 86,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 24,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 43,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 5,
+      "No_of_Cases_in_which_offenders_were_Relatives": 14
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 169,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 23,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 143,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 118,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 23,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 85,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 8
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 117,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 23,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 75,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 8,
+      "No_of_Cases_in_which_offenders_were_Relatives": 11
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 74,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 20,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 48,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 6
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 157,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 20,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 134,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 2
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 108,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 20,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 76,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 5,
+      "No_of_Cases_in_which_offenders_were_Relatives": 7
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 115,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 19,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 80,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 13,
+      "No_of_Cases_in_which_offenders_were_Relatives": 3
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 107,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 19,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 77,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 6,
+      "No_of_Cases_in_which_offenders_were_Relatives": 5
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 51,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 18,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 28,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 38,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 18,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 20,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 68,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 17,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 45,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 4
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 37,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 16,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 20,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 43,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 16,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 23,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 3
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 54,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 15,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 23,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 12
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 36,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 14,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 21,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 31,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 13,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 18,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 34,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 13,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 18,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 34,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 13,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 21,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 23,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 12,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 10,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 114,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 12,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 102,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 12,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 12,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 89,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 11,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 48,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 16,
+      "No_of_Cases_in_which_offenders_were_Relatives": 14
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 32,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 11,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 20,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 45,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 11,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 30,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 2
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 41,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 11,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 12,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 15,
+      "No_of_Cases_in_which_offenders_were_Relatives": 3
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 33,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 11,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 21,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 18,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 11,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 7,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 18,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 10,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 7
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 19,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 10,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 7,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 31,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 9,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 21,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 29,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 9,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 20,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 34,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 9,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 20,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 5,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 48,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 9,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 39,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 14,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 9,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 2,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 108,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 8,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 100,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 27,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 8,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 18,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 31,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 8,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 22,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 18,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 7,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 9,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 42,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 7,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 32,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 3
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 20,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 7,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 12,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 17,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 6,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 9,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 17,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 6,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 9,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 37,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 6,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 31,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 19,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 6,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 12,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 40,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 6,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 30,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 4
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 20,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 6,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 10,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 3
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 18,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 6,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 11,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 59,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 6,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 52,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 12,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 5,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 6,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 15,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 5,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 5,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 5,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 9,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 5,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 4,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 6,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 5,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 49,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 5,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 7,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 36,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 82,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 5,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 71,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 6,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 38,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 4,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 34,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 11,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 4,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 6,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 31,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 4,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 26,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 9,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 4,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 5,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 9,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 4,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 5,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 29,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 4,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 25,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 24,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 4,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 20,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 13,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 4,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 8,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 17,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 4,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 10,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 6,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 3,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 14,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 3,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 7,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 18,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 3,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 15,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 6,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 3,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 20,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 3,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 17,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 22,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 3,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 17,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 7,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 3,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 4,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 24,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 3,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 14,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 4,
+      "No_of_Cases_in_which_offenders_were_Relatives": 3
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 20,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 3,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 13,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 8,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 3,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 5,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 3,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 3,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 20,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 15,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 2,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 6,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 6,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 5,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 10,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 8,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 7,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 5,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 30,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 28,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 4,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 2,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 5,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 3,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 14,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 12,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 42,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 40,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 5,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 47,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 2,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 45,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 33,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 31,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 1
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 9,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 7,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 18,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 17,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 4,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 3,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 2,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 4,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 25,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 23,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 19,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 10,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 5,
+      "No_of_Cases_in_which_offenders_were_Relatives": 3
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 9,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 7,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 20,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 18,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 4,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 1,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 3,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 2,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 0,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 0,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2001,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 102,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 102,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 2,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 0,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2002,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 4,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 4,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 2,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 0,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2003,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 10,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 10,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 15,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 15,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 3,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2004,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 24,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 24,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 35,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 35,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 2,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 0,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 0,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 16,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 16,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2005,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 18,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 17,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 6,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 6,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 0,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 29,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 29,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2006,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 20,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 20,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 3,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 3,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 2,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 1,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2007,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 0,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 12,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 12,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 0,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2008,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 2,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 2,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 8,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 8,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2009,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 1,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 1,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 3,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 3,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 0,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 0,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 0,
+      "No_of_Cases_in_which_offenders_were_Relatives": 0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2010,
+      "No_of_Cases_in_which_offenders_were_known_to_the_Victims": 50,
+      "No_of_Cases_in_which_offenders_were_Neighbours": 0,
+      "No_of_Cases_in_which_offenders_were_Other_Known_persons": 45,
+      "No_of_Cases_in_which_offenders_were_Parentsclose_family_members": 3,
+      "No_of_Cases_in_which_offenders_were_Relatives": 2
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "collections": {
+    "legalcompass_bare_acts": {
+      "chunks_indexed": 0,
+      "elapsed_seconds": 0.0,
+      "chunks_per_second": 0.0
+    },
+    "legalcompass_case_docs": {
+      "chunks_indexed": 0,
+      "elapsed_seconds": 0.0,
+      "chunks_per_second": 0.0
+    },
+    "legalcompass_crime_stats": {
+      "chunks_indexed": 14799,
+      "elapsed_seconds": 436.6,
+      "chunks_per_second": 33.9
+    },
+    "legalcompass_iltur": {
+      "chunks_indexed": 0,
+      "elapsed_seconds": 0.0,
+      "chunks_per_second": 0.0
+    }
+  },
+  "total_chunks_indexed": 14799,
+  "chroma_db_path": "C:\\Users\\HP\\Downloads\\Summarizer\\LegalCompassAI\\BNS DATASET\\output\\chroma_db",
+  "iltur_sample_size": 50000,
+  "status": "complete"
+}

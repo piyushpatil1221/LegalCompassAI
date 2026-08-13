@@ -1,0 +1,3171 @@
+{
+  "source": "NCRB Crime Statistics",
+  "dataset": "Persons arrested under recidivism",
+  "filename": "22_Persons_arrested_under_recidivism.csv",
+  "year_range": {
+    "start": null,
+    "end": null
+  },
+  "columns": [
+    "Area_Name",
+    "Year",
+    "Offenders_Arrested",
+    "Offenders_Arrested_for_the_First_time",
+    "Offenders_Conviction_in_the_past_Once",
+    "Offenders_Conviction_in_the_past_Three_times_or_More",
+    "Offenders_Conviction_in_the_past_Twice"
+  ],
+  "total_records": 350,
+  "records": [
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2001,
+      "Offenders_Arrested": 314055,
+      "Offenders_Arrested_for_the_First_time": 305811,
+      "Offenders_Conviction_in_the_past_Once": 6528,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 305,
+      "Offenders_Conviction_in_the_past_Twice": 1411
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2008,
+      "Offenders_Arrested": 311598,
+      "Offenders_Arrested_for_the_First_time": 304892,
+      "Offenders_Conviction_in_the_past_Once": 5622,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 246,
+      "Offenders_Conviction_in_the_past_Twice": 838
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2010,
+      "Offenders_Arrested": 305629,
+      "Offenders_Arrested_for_the_First_time": 301091,
+      "Offenders_Conviction_in_the_past_Once": 3139,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 375,
+      "Offenders_Conviction_in_the_past_Twice": 1024
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2010,
+      "Offenders_Arrested": 343192,
+      "Offenders_Arrested_for_the_First_time": 294222,
+      "Offenders_Conviction_in_the_past_Once": 37544,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 3119,
+      "Offenders_Conviction_in_the_past_Twice": 8307
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2010,
+      "Offenders_Arrested": 292050,
+      "Offenders_Arrested_for_the_First_time": 289905,
+      "Offenders_Conviction_in_the_past_Once": 1562,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 76,
+      "Offenders_Conviction_in_the_past_Twice": 507
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2008,
+      "Offenders_Arrested": 343047,
+      "Offenders_Arrested_for_the_First_time": 286774,
+      "Offenders_Conviction_in_the_past_Once": 39703,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 4287,
+      "Offenders_Conviction_in_the_past_Twice": 12283
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2009,
+      "Offenders_Arrested": 294753,
+      "Offenders_Arrested_for_the_First_time": 285875,
+      "Offenders_Conviction_in_the_past_Once": 7576,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 381,
+      "Offenders_Conviction_in_the_past_Twice": 921
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2007,
+      "Offenders_Arrested": 291313,
+      "Offenders_Arrested_for_the_First_time": 284047,
+      "Offenders_Conviction_in_the_past_Once": 6142,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 350,
+      "Offenders_Conviction_in_the_past_Twice": 774
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2009,
+      "Offenders_Arrested": 285286,
+      "Offenders_Arrested_for_the_First_time": 282722,
+      "Offenders_Conviction_in_the_past_Once": 1837,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 136,
+      "Offenders_Conviction_in_the_past_Twice": 591
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2005,
+      "Offenders_Arrested": 287114,
+      "Offenders_Arrested_for_the_First_time": 280294,
+      "Offenders_Conviction_in_the_past_Once": 6018,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 291,
+      "Offenders_Conviction_in_the_past_Twice": 511
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2002,
+      "Offenders_Arrested": 317436,
+      "Offenders_Arrested_for_the_First_time": 279775,
+      "Offenders_Conviction_in_the_past_Once": 27851,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2701,
+      "Offenders_Conviction_in_the_past_Twice": 7109
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2006,
+      "Offenders_Arrested": 290546,
+      "Offenders_Arrested_for_the_First_time": 279662,
+      "Offenders_Conviction_in_the_past_Once": 9592,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 378,
+      "Offenders_Conviction_in_the_past_Twice": 914
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2004,
+      "Offenders_Arrested": 322078,
+      "Offenders_Arrested_for_the_First_time": 279621,
+      "Offenders_Conviction_in_the_past_Once": 30344,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2450,
+      "Offenders_Conviction_in_the_past_Twice": 9663
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2003,
+      "Offenders_Arrested": 303605,
+      "Offenders_Arrested_for_the_First_time": 277369,
+      "Offenders_Conviction_in_the_past_Once": 18310,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1859,
+      "Offenders_Conviction_in_the_past_Twice": 6067
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2005,
+      "Offenders_Arrested": 314961,
+      "Offenders_Arrested_for_the_First_time": 275271,
+      "Offenders_Conviction_in_the_past_Once": 25637,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 3972,
+      "Offenders_Conviction_in_the_past_Twice": 10081
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2001,
+      "Offenders_Arrested": 280202,
+      "Offenders_Arrested_for_the_First_time": 272756,
+      "Offenders_Conviction_in_the_past_Once": 6117,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 564,
+      "Offenders_Conviction_in_the_past_Twice": 765
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2008,
+      "Offenders_Arrested": 275250,
+      "Offenders_Arrested_for_the_First_time": 272179,
+      "Offenders_Conviction_in_the_past_Once": 2267,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 175,
+      "Offenders_Conviction_in_the_past_Twice": 629
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2009,
+      "Offenders_Arrested": 331978,
+      "Offenders_Arrested_for_the_First_time": 271357,
+      "Offenders_Conviction_in_the_past_Once": 40276,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 6812,
+      "Offenders_Conviction_in_the_past_Twice": 13533
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2007,
+      "Offenders_Arrested": 329280,
+      "Offenders_Arrested_for_the_First_time": 269787,
+      "Offenders_Conviction_in_the_past_Once": 43767,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 3487,
+      "Offenders_Conviction_in_the_past_Twice": 12239
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2004,
+      "Offenders_Arrested": 269712,
+      "Offenders_Arrested_for_the_First_time": 263646,
+      "Offenders_Conviction_in_the_past_Once": 4598,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 346,
+      "Offenders_Conviction_in_the_past_Twice": 1122
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2002,
+      "Offenders_Arrested": 267551,
+      "Offenders_Arrested_for_the_First_time": 262081,
+      "Offenders_Conviction_in_the_past_Once": 4322,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 507,
+      "Offenders_Conviction_in_the_past_Twice": 641
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2006,
+      "Offenders_Arrested": 310782,
+      "Offenders_Arrested_for_the_First_time": 261735,
+      "Offenders_Conviction_in_the_past_Once": 40126,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1980,
+      "Offenders_Conviction_in_the_past_Twice": 6941
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2003,
+      "Offenders_Arrested": 260231,
+      "Offenders_Arrested_for_the_First_time": 256911,
+      "Offenders_Conviction_in_the_past_Once": 2474,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 334,
+      "Offenders_Conviction_in_the_past_Twice": 512
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2001,
+      "Offenders_Arrested": 285193,
+      "Offenders_Arrested_for_the_First_time": 253856,
+      "Offenders_Conviction_in_the_past_Once": 23071,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1424,
+      "Offenders_Conviction_in_the_past_Twice": 6842
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2002,
+      "Offenders_Arrested": 261054,
+      "Offenders_Arrested_for_the_First_time": 252226,
+      "Offenders_Conviction_in_the_past_Once": 6988,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 373,
+      "Offenders_Conviction_in_the_past_Twice": 1467
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2007,
+      "Offenders_Arrested": 246821,
+      "Offenders_Arrested_for_the_First_time": 243948,
+      "Offenders_Conviction_in_the_past_Once": 2149,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 120,
+      "Offenders_Conviction_in_the_past_Twice": 604
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2008,
+      "Offenders_Arrested": 232962,
+      "Offenders_Arrested_for_the_First_time": 232014,
+      "Offenders_Conviction_in_the_past_Once": 897,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 9,
+      "Offenders_Conviction_in_the_past_Twice": 42
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2007,
+      "Offenders_Arrested": 219895,
+      "Offenders_Arrested_for_the_First_time": 215904,
+      "Offenders_Conviction_in_the_past_Once": 3585,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 36,
+      "Offenders_Conviction_in_the_past_Twice": 370
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2004,
+      "Offenders_Arrested": 220666,
+      "Offenders_Arrested_for_the_First_time": 214077,
+      "Offenders_Conviction_in_the_past_Once": 5665,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 67,
+      "Offenders_Conviction_in_the_past_Twice": 857
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2006,
+      "Offenders_Arrested": 217758,
+      "Offenders_Arrested_for_the_First_time": 211808,
+      "Offenders_Conviction_in_the_past_Once": 4509,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 215,
+      "Offenders_Conviction_in_the_past_Twice": 1226
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2004,
+      "Offenders_Arrested": 219313,
+      "Offenders_Arrested_for_the_First_time": 211329,
+      "Offenders_Conviction_in_the_past_Once": 5655,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 400,
+      "Offenders_Conviction_in_the_past_Twice": 1929
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2008,
+      "Offenders_Arrested": 231386,
+      "Offenders_Arrested_for_the_First_time": 210823,
+      "Offenders_Conviction_in_the_past_Once": 15754,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 788,
+      "Offenders_Conviction_in_the_past_Twice": 4021
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2010,
+      "Offenders_Arrested": 228605,
+      "Offenders_Arrested_for_the_First_time": 209973,
+      "Offenders_Conviction_in_the_past_Once": 14579,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 784,
+      "Offenders_Conviction_in_the_past_Twice": 3269
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2009,
+      "Offenders_Arrested": 234920,
+      "Offenders_Arrested_for_the_First_time": 209278,
+      "Offenders_Conviction_in_the_past_Once": 21516,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 663,
+      "Offenders_Conviction_in_the_past_Twice": 3463
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2002,
+      "Offenders_Arrested": 214448,
+      "Offenders_Arrested_for_the_First_time": 205335,
+      "Offenders_Conviction_in_the_past_Once": 7735,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 182,
+      "Offenders_Conviction_in_the_past_Twice": 1196
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2005,
+      "Offenders_Arrested": 211275,
+      "Offenders_Arrested_for_the_First_time": 204017,
+      "Offenders_Conviction_in_the_past_Once": 5213,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 269,
+      "Offenders_Conviction_in_the_past_Twice": 1776
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2006,
+      "Offenders_Arrested": 227935,
+      "Offenders_Arrested_for_the_First_time": 203350,
+      "Offenders_Conviction_in_the_past_Once": 17512,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1463,
+      "Offenders_Conviction_in_the_past_Twice": 5610
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2007,
+      "Offenders_Arrested": 236176,
+      "Offenders_Arrested_for_the_First_time": 200281,
+      "Offenders_Conviction_in_the_past_Once": 28595,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 996,
+      "Offenders_Conviction_in_the_past_Twice": 6304
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2009,
+      "Offenders_Arrested": 205005,
+      "Offenders_Arrested_for_the_First_time": 199879,
+      "Offenders_Conviction_in_the_past_Once": 3052,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 917,
+      "Offenders_Conviction_in_the_past_Twice": 1157
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2010,
+      "Offenders_Arrested": 197512,
+      "Offenders_Arrested_for_the_First_time": 196397,
+      "Offenders_Conviction_in_the_past_Once": 878,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 46,
+      "Offenders_Conviction_in_the_past_Twice": 191
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2001,
+      "Offenders_Arrested": 202285,
+      "Offenders_Arrested_for_the_First_time": 195055,
+      "Offenders_Conviction_in_the_past_Once": 6322,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 150,
+      "Offenders_Conviction_in_the_past_Twice": 758
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2003,
+      "Offenders_Arrested": 199132,
+      "Offenders_Arrested_for_the_First_time": 192469,
+      "Offenders_Conviction_in_the_past_Once": 5713,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 100,
+      "Offenders_Conviction_in_the_past_Twice": 850
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2010,
+      "Offenders_Arrested": 211631,
+      "Offenders_Arrested_for_the_First_time": 187448,
+      "Offenders_Conviction_in_the_past_Once": 17802,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1016,
+      "Offenders_Conviction_in_the_past_Twice": 5365
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2008,
+      "Offenders_Arrested": 212832,
+      "Offenders_Arrested_for_the_First_time": 187310,
+      "Offenders_Conviction_in_the_past_Once": 17445,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2387,
+      "Offenders_Conviction_in_the_past_Twice": 5690
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2005,
+      "Offenders_Arrested": 216277,
+      "Offenders_Arrested_for_the_First_time": 184994,
+      "Offenders_Conviction_in_the_past_Once": 23641,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1487,
+      "Offenders_Conviction_in_the_past_Twice": 6155
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2003,
+      "Offenders_Arrested": 204553,
+      "Offenders_Arrested_for_the_First_time": 184704,
+      "Offenders_Conviction_in_the_past_Once": 15003,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 988,
+      "Offenders_Conviction_in_the_past_Twice": 3858
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2009,
+      "Offenders_Arrested": 208677,
+      "Offenders_Arrested_for_the_First_time": 184485,
+      "Offenders_Conviction_in_the_past_Once": 16317,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2443,
+      "Offenders_Conviction_in_the_past_Twice": 5432
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2004,
+      "Offenders_Arrested": 194547,
+      "Offenders_Arrested_for_the_First_time": 184345,
+      "Offenders_Conviction_in_the_past_Once": 7976,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 591,
+      "Offenders_Conviction_in_the_past_Twice": 1635
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2010,
+      "Offenders_Arrested": 196289,
+      "Offenders_Arrested_for_the_First_time": 183653,
+      "Offenders_Conviction_in_the_past_Once": 10433,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1075,
+      "Offenders_Conviction_in_the_past_Twice": 1128
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2004,
+      "Offenders_Arrested": 214763,
+      "Offenders_Arrested_for_the_First_time": 183483,
+      "Offenders_Conviction_in_the_past_Once": 23759,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1870,
+      "Offenders_Conviction_in_the_past_Twice": 5651
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2001,
+      "Offenders_Arrested": 199980,
+      "Offenders_Arrested_for_the_First_time": 182922,
+      "Offenders_Conviction_in_the_past_Once": 13646,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 826,
+      "Offenders_Conviction_in_the_past_Twice": 2586
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2009,
+      "Offenders_Arrested": 189997,
+      "Offenders_Arrested_for_the_First_time": 180586,
+      "Offenders_Conviction_in_the_past_Once": 6961,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 540,
+      "Offenders_Conviction_in_the_past_Twice": 1910
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2002,
+      "Offenders_Arrested": 196661,
+      "Offenders_Arrested_for_the_First_time": 180552,
+      "Offenders_Conviction_in_the_past_Once": 12951,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1012,
+      "Offenders_Conviction_in_the_past_Twice": 2146
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2002,
+      "Offenders_Arrested": 217590,
+      "Offenders_Arrested_for_the_First_time": 179116,
+      "Offenders_Conviction_in_the_past_Once": 27879,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1980,
+      "Offenders_Conviction_in_the_past_Twice": 8615
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2005,
+      "Offenders_Arrested": 186140,
+      "Offenders_Arrested_for_the_First_time": 177362,
+      "Offenders_Conviction_in_the_past_Once": 7914,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 38,
+      "Offenders_Conviction_in_the_past_Twice": 826
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2006,
+      "Offenders_Arrested": 185350,
+      "Offenders_Arrested_for_the_First_time": 177356,
+      "Offenders_Conviction_in_the_past_Once": 6453,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 334,
+      "Offenders_Conviction_in_the_past_Twice": 1207
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2007,
+      "Offenders_Arrested": 183814,
+      "Offenders_Arrested_for_the_First_time": 176760,
+      "Offenders_Conviction_in_the_past_Once": 5274,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 391,
+      "Offenders_Conviction_in_the_past_Twice": 1389
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2006,
+      "Offenders_Arrested": 180446,
+      "Offenders_Arrested_for_the_First_time": 175325,
+      "Offenders_Conviction_in_the_past_Once": 4573,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 56,
+      "Offenders_Conviction_in_the_past_Twice": 492
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2002,
+      "Offenders_Arrested": 188929,
+      "Offenders_Arrested_for_the_First_time": 175191,
+      "Offenders_Conviction_in_the_past_Once": 10758,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 763,
+      "Offenders_Conviction_in_the_past_Twice": 2217
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2007,
+      "Offenders_Arrested": 201372,
+      "Offenders_Arrested_for_the_First_time": 173913,
+      "Offenders_Conviction_in_the_past_Once": 19471,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2668,
+      "Offenders_Conviction_in_the_past_Twice": 5320
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2008,
+      "Offenders_Arrested": 181167,
+      "Offenders_Arrested_for_the_First_time": 172544,
+      "Offenders_Conviction_in_the_past_Once": 6449,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 365,
+      "Offenders_Conviction_in_the_past_Twice": 1809
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2004,
+      "Offenders_Arrested": 206002,
+      "Offenders_Arrested_for_the_First_time": 172389,
+      "Offenders_Conviction_in_the_past_Once": 23182,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2714,
+      "Offenders_Conviction_in_the_past_Twice": 7717
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2003,
+      "Offenders_Arrested": 179807,
+      "Offenders_Arrested_for_the_First_time": 171453,
+      "Offenders_Conviction_in_the_past_Once": 5862,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 626,
+      "Offenders_Conviction_in_the_past_Twice": 1866
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2005,
+      "Offenders_Arrested": 178811,
+      "Offenders_Arrested_for_the_First_time": 169108,
+      "Offenders_Conviction_in_the_past_Once": 7864,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 436,
+      "Offenders_Conviction_in_the_past_Twice": 1403
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2002,
+      "Offenders_Arrested": 173200,
+      "Offenders_Arrested_for_the_First_time": 166815,
+      "Offenders_Conviction_in_the_past_Once": 5761,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 99,
+      "Offenders_Conviction_in_the_past_Twice": 525
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2001,
+      "Offenders_Arrested": 188419,
+      "Offenders_Arrested_for_the_First_time": 161688,
+      "Offenders_Conviction_in_the_past_Once": 19481,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2454,
+      "Offenders_Conviction_in_the_past_Twice": 4796
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2005,
+      "Offenders_Arrested": 194845,
+      "Offenders_Arrested_for_the_First_time": 161529,
+      "Offenders_Conviction_in_the_past_Once": 24177,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1955,
+      "Offenders_Conviction_in_the_past_Twice": 7184
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2009,
+      "Offenders_Arrested": 162016,
+      "Offenders_Arrested_for_the_First_time": 161144,
+      "Offenders_Conviction_in_the_past_Once": 647,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 62,
+      "Offenders_Conviction_in_the_past_Twice": 163
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2010,
+      "Offenders_Arrested": 177537,
+      "Offenders_Arrested_for_the_First_time": 160415,
+      "Offenders_Conviction_in_the_past_Once": 14219,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 571,
+      "Offenders_Conviction_in_the_past_Twice": 2332
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2008,
+      "Offenders_Arrested": 169084,
+      "Offenders_Arrested_for_the_First_time": 158466,
+      "Offenders_Conviction_in_the_past_Once": 9331,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 378,
+      "Offenders_Conviction_in_the_past_Twice": 909
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2007,
+      "Offenders_Arrested": 169444,
+      "Offenders_Arrested_for_the_First_time": 155792,
+      "Offenders_Conviction_in_the_past_Once": 12610,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 165,
+      "Offenders_Conviction_in_the_past_Twice": 877
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2003,
+      "Offenders_Arrested": 198431,
+      "Offenders_Arrested_for_the_First_time": 155287,
+      "Offenders_Conviction_in_the_past_Once": 29866,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2786,
+      "Offenders_Conviction_in_the_past_Twice": 10492
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2008,
+      "Offenders_Arrested": 156403,
+      "Offenders_Arrested_for_the_First_time": 155234,
+      "Offenders_Conviction_in_the_past_Once": 950,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 34,
+      "Offenders_Conviction_in_the_past_Twice": 185
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2006,
+      "Offenders_Arrested": 159810,
+      "Offenders_Arrested_for_the_First_time": 152528,
+      "Offenders_Conviction_in_the_past_Once": 6597,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 114,
+      "Offenders_Conviction_in_the_past_Twice": 571
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2010,
+      "Offenders_Arrested": 161618,
+      "Offenders_Arrested_for_the_First_time": 152203,
+      "Offenders_Conviction_in_the_past_Once": 7121,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 359,
+      "Offenders_Conviction_in_the_past_Twice": 1935
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2002,
+      "Offenders_Arrested": 156502,
+      "Offenders_Arrested_for_the_First_time": 151698,
+      "Offenders_Conviction_in_the_past_Once": 4252,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 13,
+      "Offenders_Conviction_in_the_past_Twice": 539
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2006,
+      "Offenders_Arrested": 177582,
+      "Offenders_Arrested_for_the_First_time": 150459,
+      "Offenders_Conviction_in_the_past_Once": 19099,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1891,
+      "Offenders_Conviction_in_the_past_Twice": 6133
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2005,
+      "Offenders_Arrested": 156597,
+      "Offenders_Arrested_for_the_First_time": 150284,
+      "Offenders_Conviction_in_the_past_Once": 5637,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 141,
+      "Offenders_Conviction_in_the_past_Twice": 535
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2003,
+      "Offenders_Arrested": 160015,
+      "Offenders_Arrested_for_the_First_time": 150196,
+      "Offenders_Conviction_in_the_past_Once": 7077,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 437,
+      "Offenders_Conviction_in_the_past_Twice": 2305
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2001,
+      "Offenders_Arrested": 160150,
+      "Offenders_Arrested_for_the_First_time": 149903,
+      "Offenders_Conviction_in_the_past_Once": 10072,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 64,
+      "Offenders_Conviction_in_the_past_Twice": 111
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2010,
+      "Offenders_Arrested": 162043,
+      "Offenders_Arrested_for_the_First_time": 149780,
+      "Offenders_Conviction_in_the_past_Once": 10932,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 233,
+      "Offenders_Conviction_in_the_past_Twice": 1098
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2003,
+      "Offenders_Arrested": 152429,
+      "Offenders_Arrested_for_the_First_time": 148416,
+      "Offenders_Conviction_in_the_past_Once": 2757,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 315,
+      "Offenders_Conviction_in_the_past_Twice": 941
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2007,
+      "Offenders_Arrested": 149117,
+      "Offenders_Arrested_for_the_First_time": 148245,
+      "Offenders_Conviction_in_the_past_Once": 674,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 38,
+      "Offenders_Conviction_in_the_past_Twice": 160
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2010,
+      "Offenders_Arrested": 146595,
+      "Offenders_Arrested_for_the_First_time": 146115,
+      "Offenders_Conviction_in_the_past_Once": 381,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 15,
+      "Offenders_Conviction_in_the_past_Twice": 84
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2002,
+      "Offenders_Arrested": 148925,
+      "Offenders_Arrested_for_the_First_time": 145125,
+      "Offenders_Conviction_in_the_past_Once": 2597,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 252,
+      "Offenders_Conviction_in_the_past_Twice": 951
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2005,
+      "Offenders_Arrested": 145609,
+      "Offenders_Arrested_for_the_First_time": 143034,
+      "Offenders_Conviction_in_the_past_Once": 2299,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 38,
+      "Offenders_Conviction_in_the_past_Twice": 238
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2001,
+      "Offenders_Arrested": 147522,
+      "Offenders_Arrested_for_the_First_time": 142951,
+      "Offenders_Conviction_in_the_past_Once": 3101,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 298,
+      "Offenders_Conviction_in_the_past_Twice": 1172
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2001,
+      "Offenders_Arrested": 153251,
+      "Offenders_Arrested_for_the_First_time": 142722,
+      "Offenders_Conviction_in_the_past_Once": 9192,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 268,
+      "Offenders_Conviction_in_the_past_Twice": 1069
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2008,
+      "Offenders_Arrested": 150998,
+      "Offenders_Arrested_for_the_First_time": 142369,
+      "Offenders_Conviction_in_the_past_Once": 6814,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 394,
+      "Offenders_Conviction_in_the_past_Twice": 1421
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2006,
+      "Offenders_Arrested": 142301,
+      "Offenders_Arrested_for_the_First_time": 141126,
+      "Offenders_Conviction_in_the_past_Once": 961,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 31,
+      "Offenders_Conviction_in_the_past_Twice": 183
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2001,
+      "Offenders_Arrested": 206590,
+      "Offenders_Arrested_for_the_First_time": 140725,
+      "Offenders_Conviction_in_the_past_Once": 38893,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 6783,
+      "Offenders_Conviction_in_the_past_Twice": 20189
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2009,
+      "Offenders_Arrested": 149981,
+      "Offenders_Arrested_for_the_First_time": 140418,
+      "Offenders_Conviction_in_the_past_Once": 8064,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 323,
+      "Offenders_Conviction_in_the_past_Twice": 1176
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2006,
+      "Offenders_Arrested": 142252,
+      "Offenders_Arrested_for_the_First_time": 137254,
+      "Offenders_Conviction_in_the_past_Once": 4484,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 157,
+      "Offenders_Conviction_in_the_past_Twice": 357
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2004,
+      "Offenders_Arrested": 142866,
+      "Offenders_Arrested_for_the_First_time": 136831,
+      "Offenders_Conviction_in_the_past_Once": 5393,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 129,
+      "Offenders_Conviction_in_the_past_Twice": 513
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2003,
+      "Offenders_Arrested": 141444,
+      "Offenders_Arrested_for_the_First_time": 135520,
+      "Offenders_Conviction_in_the_past_Once": 5511,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 154,
+      "Offenders_Conviction_in_the_past_Twice": 259
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2009,
+      "Offenders_Arrested": 154679,
+      "Offenders_Arrested_for_the_First_time": 133548,
+      "Offenders_Conviction_in_the_past_Once": 19864,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 307,
+      "Offenders_Conviction_in_the_past_Twice": 960
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2005,
+      "Offenders_Arrested": 138588,
+      "Offenders_Arrested_for_the_First_time": 133532,
+      "Offenders_Conviction_in_the_past_Once": 4830,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 39,
+      "Offenders_Conviction_in_the_past_Twice": 187
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2003,
+      "Offenders_Arrested": 141361,
+      "Offenders_Arrested_for_the_First_time": 133523,
+      "Offenders_Conviction_in_the_past_Once": 6710,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 256,
+      "Offenders_Conviction_in_the_past_Twice": 872
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2004,
+      "Offenders_Arrested": 139785,
+      "Offenders_Arrested_for_the_First_time": 129358,
+      "Offenders_Conviction_in_the_past_Once": 10125,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 103,
+      "Offenders_Conviction_in_the_past_Twice": 199
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2007,
+      "Offenders_Arrested": 134054,
+      "Offenders_Arrested_for_the_First_time": 125674,
+      "Offenders_Conviction_in_the_past_Once": 6375,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 373,
+      "Offenders_Conviction_in_the_past_Twice": 1632
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2008,
+      "Offenders_Arrested": 121906,
+      "Offenders_Arrested_for_the_First_time": 104187,
+      "Offenders_Conviction_in_the_past_Once": 12711,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1079,
+      "Offenders_Conviction_in_the_past_Twice": 3929
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2003,
+      "Offenders_Arrested": 112850,
+      "Offenders_Arrested_for_the_First_time": 103129,
+      "Offenders_Conviction_in_the_past_Once": 6950,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 775,
+      "Offenders_Conviction_in_the_past_Twice": 1996
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2004,
+      "Offenders_Arrested": 114528,
+      "Offenders_Arrested_for_the_First_time": 102311,
+      "Offenders_Conviction_in_the_past_Once": 8632,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 594,
+      "Offenders_Conviction_in_the_past_Twice": 2991
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2009,
+      "Offenders_Arrested": 113613,
+      "Offenders_Arrested_for_the_First_time": 102279,
+      "Offenders_Conviction_in_the_past_Once": 7872,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 926,
+      "Offenders_Conviction_in_the_past_Twice": 2536
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2007,
+      "Offenders_Arrested": 109678,
+      "Offenders_Arrested_for_the_First_time": 99041,
+      "Offenders_Conviction_in_the_past_Once": 7710,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 554,
+      "Offenders_Conviction_in_the_past_Twice": 2373
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2006,
+      "Offenders_Arrested": 110346,
+      "Offenders_Arrested_for_the_First_time": 97438,
+      "Offenders_Conviction_in_the_past_Once": 9466,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 611,
+      "Offenders_Conviction_in_the_past_Twice": 2831
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2005,
+      "Offenders_Arrested": 102161,
+      "Offenders_Arrested_for_the_First_time": 90265,
+      "Offenders_Conviction_in_the_past_Once": 9102,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 797,
+      "Offenders_Conviction_in_the_past_Twice": 1997
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2004,
+      "Offenders_Arrested": 152093,
+      "Offenders_Arrested_for_the_First_time": 86333,
+      "Offenders_Conviction_in_the_past_Once": 63678,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 246,
+      "Offenders_Conviction_in_the_past_Twice": 1836
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2010,
+      "Offenders_Arrested": 89775,
+      "Offenders_Arrested_for_the_First_time": 85488,
+      "Offenders_Conviction_in_the_past_Once": 3340,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 215,
+      "Offenders_Conviction_in_the_past_Twice": 732
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2001,
+      "Offenders_Arrested": 91422,
+      "Offenders_Arrested_for_the_First_time": 84199,
+      "Offenders_Conviction_in_the_past_Once": 6194,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 224,
+      "Offenders_Conviction_in_the_past_Twice": 805
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2002,
+      "Offenders_Arrested": 97027,
+      "Offenders_Arrested_for_the_First_time": 83305,
+      "Offenders_Conviction_in_the_past_Once": 9422,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1092,
+      "Offenders_Conviction_in_the_past_Twice": 3208
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2009,
+      "Offenders_Arrested": 80595,
+      "Offenders_Arrested_for_the_First_time": 77561,
+      "Offenders_Conviction_in_the_past_Once": 1306,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 546,
+      "Offenders_Conviction_in_the_past_Twice": 1182
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2007,
+      "Offenders_Arrested": 80874,
+      "Offenders_Arrested_for_the_First_time": 76647,
+      "Offenders_Conviction_in_the_past_Once": 1003,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 110,
+      "Offenders_Conviction_in_the_past_Twice": 3114
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2003,
+      "Offenders_Arrested": 79481,
+      "Offenders_Arrested_for_the_First_time": 75888,
+      "Offenders_Conviction_in_the_past_Once": 2708,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 152,
+      "Offenders_Conviction_in_the_past_Twice": 733
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2004,
+      "Offenders_Arrested": 77058,
+      "Offenders_Arrested_for_the_First_time": 74401,
+      "Offenders_Conviction_in_the_past_Once": 2657,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2002,
+      "Offenders_Arrested": 76676,
+      "Offenders_Arrested_for_the_First_time": 73163,
+      "Offenders_Conviction_in_the_past_Once": 2760,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 136,
+      "Offenders_Conviction_in_the_past_Twice": 617
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2008,
+      "Offenders_Arrested": 77827,
+      "Offenders_Arrested_for_the_First_time": 70852,
+      "Offenders_Conviction_in_the_past_Once": 4797,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 311,
+      "Offenders_Conviction_in_the_past_Twice": 1867
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2006,
+      "Offenders_Arrested": 85592,
+      "Offenders_Arrested_for_the_First_time": 70517,
+      "Offenders_Conviction_in_the_past_Once": 13672,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 225,
+      "Offenders_Conviction_in_the_past_Twice": 1178
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2005,
+      "Offenders_Arrested": 78300,
+      "Offenders_Arrested_for_the_First_time": 65955,
+      "Offenders_Conviction_in_the_past_Once": 7570,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 276,
+      "Offenders_Conviction_in_the_past_Twice": 4499
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2001,
+      "Offenders_Arrested": 69741,
+      "Offenders_Arrested_for_the_First_time": 65506,
+      "Offenders_Conviction_in_the_past_Once": 3493,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 174,
+      "Offenders_Conviction_in_the_past_Twice": 568
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2007,
+      "Offenders_Arrested": 70746,
+      "Offenders_Arrested_for_the_First_time": 64412,
+      "Offenders_Conviction_in_the_past_Once": 3976,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 653,
+      "Offenders_Conviction_in_the_past_Twice": 1705
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2008,
+      "Offenders_Arrested": 71553,
+      "Offenders_Arrested_for_the_First_time": 64314,
+      "Offenders_Conviction_in_the_past_Once": 4812,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 488,
+      "Offenders_Conviction_in_the_past_Twice": 1939
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2010,
+      "Offenders_Arrested": 69890,
+      "Offenders_Arrested_for_the_First_time": 62013,
+      "Offenders_Conviction_in_the_past_Once": 4250,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1058,
+      "Offenders_Conviction_in_the_past_Twice": 2569
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2009,
+      "Offenders_Arrested": 67152,
+      "Offenders_Arrested_for_the_First_time": 61726,
+      "Offenders_Conviction_in_the_past_Once": 3524,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 554,
+      "Offenders_Conviction_in_the_past_Twice": 1348
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2004,
+      "Offenders_Arrested": 66762,
+      "Offenders_Arrested_for_the_First_time": 61512,
+      "Offenders_Conviction_in_the_past_Once": 3208,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 551,
+      "Offenders_Conviction_in_the_past_Twice": 1491
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2006,
+      "Offenders_Arrested": 66784,
+      "Offenders_Arrested_for_the_First_time": 61454,
+      "Offenders_Conviction_in_the_past_Once": 3995,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 366,
+      "Offenders_Conviction_in_the_past_Twice": 969
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2010,
+      "Offenders_Arrested": 64237,
+      "Offenders_Arrested_for_the_First_time": 59404,
+      "Offenders_Conviction_in_the_past_Once": 3491,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 352,
+      "Offenders_Conviction_in_the_past_Twice": 990
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2009,
+      "Offenders_Arrested": 67070,
+      "Offenders_Arrested_for_the_First_time": 58772,
+      "Offenders_Conviction_in_the_past_Once": 3062,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 4312,
+      "Offenders_Conviction_in_the_past_Twice": 924
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2003,
+      "Offenders_Arrested": 63979,
+      "Offenders_Arrested_for_the_First_time": 57379,
+      "Offenders_Conviction_in_the_past_Once": 4388,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 672,
+      "Offenders_Conviction_in_the_past_Twice": 1540
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2008,
+      "Offenders_Arrested": 67579,
+      "Offenders_Arrested_for_the_First_time": 56220,
+      "Offenders_Conviction_in_the_past_Once": 5943,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 4332,
+      "Offenders_Conviction_in_the_past_Twice": 1084
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2007,
+      "Offenders_Arrested": 60239,
+      "Offenders_Arrested_for_the_First_time": 56099,
+      "Offenders_Conviction_in_the_past_Once": 2446,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 570,
+      "Offenders_Conviction_in_the_past_Twice": 1124
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2002,
+      "Offenders_Arrested": 60867,
+      "Offenders_Arrested_for_the_First_time": 54359,
+      "Offenders_Conviction_in_the_past_Once": 5387,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 270,
+      "Offenders_Conviction_in_the_past_Twice": 851
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2006,
+      "Offenders_Arrested": 58502,
+      "Offenders_Arrested_for_the_First_time": 53572,
+      "Offenders_Conviction_in_the_past_Once": 2637,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 776,
+      "Offenders_Conviction_in_the_past_Twice": 1517
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2001,
+      "Offenders_Arrested": 59977,
+      "Offenders_Arrested_for_the_First_time": 53344,
+      "Offenders_Conviction_in_the_past_Once": 5361,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 306,
+      "Offenders_Conviction_in_the_past_Twice": 966
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2005,
+      "Offenders_Arrested": 58940,
+      "Offenders_Arrested_for_the_First_time": 52363,
+      "Offenders_Conviction_in_the_past_Once": 4990,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 463,
+      "Offenders_Conviction_in_the_past_Twice": 1124
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2003,
+      "Offenders_Arrested": 57406,
+      "Offenders_Arrested_for_the_First_time": 52105,
+      "Offenders_Conviction_in_the_past_Once": 4364,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 245,
+      "Offenders_Conviction_in_the_past_Twice": 692
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2005,
+      "Offenders_Arrested": 56000,
+      "Offenders_Arrested_for_the_First_time": 51581,
+      "Offenders_Conviction_in_the_past_Once": 4064,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 163,
+      "Offenders_Conviction_in_the_past_Twice": 192
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2004,
+      "Offenders_Arrested": 56559,
+      "Offenders_Arrested_for_the_First_time": 50391,
+      "Offenders_Conviction_in_the_past_Once": 3370,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 797,
+      "Offenders_Conviction_in_the_past_Twice": 2001
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2002,
+      "Offenders_Arrested": 54588,
+      "Offenders_Arrested_for_the_First_time": 50357,
+      "Offenders_Conviction_in_the_past_Once": 2069,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 715,
+      "Offenders_Conviction_in_the_past_Twice": 1447
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2004,
+      "Offenders_Arrested": 54546,
+      "Offenders_Arrested_for_the_First_time": 49265,
+      "Offenders_Conviction_in_the_past_Once": 4360,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 243,
+      "Offenders_Conviction_in_the_past_Twice": 678
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2010,
+      "Offenders_Arrested": 51683,
+      "Offenders_Arrested_for_the_First_time": 47804,
+      "Offenders_Conviction_in_the_past_Once": 3202,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 249,
+      "Offenders_Conviction_in_the_past_Twice": 428
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2001,
+      "Offenders_Arrested": 50839,
+      "Offenders_Arrested_for_the_First_time": 46811,
+      "Offenders_Conviction_in_the_past_Once": 2815,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 470,
+      "Offenders_Conviction_in_the_past_Twice": 743
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2001,
+      "Offenders_Arrested": 53500,
+      "Offenders_Arrested_for_the_First_time": 46466,
+      "Offenders_Conviction_in_the_past_Once": 4515,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 739,
+      "Offenders_Conviction_in_the_past_Twice": 1780
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2002,
+      "Offenders_Arrested": 52004,
+      "Offenders_Arrested_for_the_First_time": 46134,
+      "Offenders_Conviction_in_the_past_Once": 4081,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 526,
+      "Offenders_Conviction_in_the_past_Twice": 1263
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2005,
+      "Offenders_Arrested": 68674,
+      "Offenders_Arrested_for_the_First_time": 45685,
+      "Offenders_Conviction_in_the_past_Once": 12244,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 3540,
+      "Offenders_Conviction_in_the_past_Twice": 7205
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2003,
+      "Offenders_Arrested": 49923,
+      "Offenders_Arrested_for_the_First_time": 43989,
+      "Offenders_Conviction_in_the_past_Once": 2232,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2214,
+      "Offenders_Conviction_in_the_past_Twice": 1488
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2006,
+      "Offenders_Arrested": 54198,
+      "Offenders_Arrested_for_the_First_time": 43674,
+      "Offenders_Conviction_in_the_past_Once": 6443,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1249,
+      "Offenders_Conviction_in_the_past_Twice": 2832
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2005,
+      "Offenders_Arrested": 53318,
+      "Offenders_Arrested_for_the_First_time": 43194,
+      "Offenders_Conviction_in_the_past_Once": 6294,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1173,
+      "Offenders_Conviction_in_the_past_Twice": 2657
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2008,
+      "Offenders_Arrested": 50136,
+      "Offenders_Arrested_for_the_First_time": 42988,
+      "Offenders_Conviction_in_the_past_Once": 3336,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1314,
+      "Offenders_Conviction_in_the_past_Twice": 2498
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2010,
+      "Offenders_Arrested": 49050,
+      "Offenders_Arrested_for_the_First_time": 42912,
+      "Offenders_Conviction_in_the_past_Once": 4679,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 279,
+      "Offenders_Conviction_in_the_past_Twice": 1180
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2001,
+      "Offenders_Arrested": 47020,
+      "Offenders_Arrested_for_the_First_time": 42105,
+      "Offenders_Conviction_in_the_past_Once": 3058,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 688,
+      "Offenders_Conviction_in_the_past_Twice": 1169
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2007,
+      "Offenders_Arrested": 59402,
+      "Offenders_Arrested_for_the_First_time": 42000,
+      "Offenders_Conviction_in_the_past_Once": 12561,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1451,
+      "Offenders_Conviction_in_the_past_Twice": 3390
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2007,
+      "Offenders_Arrested": 50744,
+      "Offenders_Arrested_for_the_First_time": 41797,
+      "Offenders_Conviction_in_the_past_Once": 5134,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1124,
+      "Offenders_Conviction_in_the_past_Twice": 2689
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2007,
+      "Offenders_Arrested": 47042,
+      "Offenders_Arrested_for_the_First_time": 41668,
+      "Offenders_Conviction_in_the_past_Once": 4358,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 181,
+      "Offenders_Conviction_in_the_past_Twice": 835
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2008,
+      "Offenders_Arrested": 56084,
+      "Offenders_Arrested_for_the_First_time": 41307,
+      "Offenders_Conviction_in_the_past_Once": 6471,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2906,
+      "Offenders_Conviction_in_the_past_Twice": 5400
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2004,
+      "Offenders_Arrested": 47902,
+      "Offenders_Arrested_for_the_First_time": 41245,
+      "Offenders_Conviction_in_the_past_Once": 3593,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1196,
+      "Offenders_Conviction_in_the_past_Twice": 1868
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2005,
+      "Offenders_Arrested": 46914,
+      "Offenders_Arrested_for_the_First_time": 41218,
+      "Offenders_Conviction_in_the_past_Once": 3011,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1063,
+      "Offenders_Conviction_in_the_past_Twice": 1622
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2008,
+      "Offenders_Arrested": 46525,
+      "Offenders_Arrested_for_the_First_time": 40872,
+      "Offenders_Conviction_in_the_past_Once": 4491,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 291,
+      "Offenders_Conviction_in_the_past_Twice": 871
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2009,
+      "Offenders_Arrested": 46262,
+      "Offenders_Arrested_for_the_First_time": 40709,
+      "Offenders_Conviction_in_the_past_Once": 4297,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 281,
+      "Offenders_Conviction_in_the_past_Twice": 975
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2009,
+      "Offenders_Arrested": 71627,
+      "Offenders_Arrested_for_the_First_time": 40526,
+      "Offenders_Conviction_in_the_past_Once": 18340,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 3770,
+      "Offenders_Conviction_in_the_past_Twice": 8991
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2006,
+      "Offenders_Arrested": 45674,
+      "Offenders_Arrested_for_the_First_time": 39490,
+      "Offenders_Conviction_in_the_past_Once": 3321,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1076,
+      "Offenders_Conviction_in_the_past_Twice": 1787
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2002,
+      "Offenders_Arrested": 44572,
+      "Offenders_Arrested_for_the_First_time": 38648,
+      "Offenders_Conviction_in_the_past_Once": 4174,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 577,
+      "Offenders_Conviction_in_the_past_Twice": 1173
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2002,
+      "Offenders_Arrested": 45835,
+      "Offenders_Arrested_for_the_First_time": 38531,
+      "Offenders_Conviction_in_the_past_Once": 5417,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 206,
+      "Offenders_Conviction_in_the_past_Twice": 1681
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2006,
+      "Offenders_Arrested": 45391,
+      "Offenders_Arrested_for_the_First_time": 38036,
+      "Offenders_Conviction_in_the_past_Once": 6042,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 328,
+      "Offenders_Conviction_in_the_past_Twice": 985
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2006,
+      "Offenders_Arrested": 58943,
+      "Offenders_Arrested_for_the_First_time": 38011,
+      "Offenders_Conviction_in_the_past_Once": 10721,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2785,
+      "Offenders_Conviction_in_the_past_Twice": 7426
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2009,
+      "Offenders_Arrested": 51558,
+      "Offenders_Arrested_for_the_First_time": 37739,
+      "Offenders_Conviction_in_the_past_Once": 7255,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1780,
+      "Offenders_Conviction_in_the_past_Twice": 4784
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2007,
+      "Offenders_Arrested": 46489,
+      "Offenders_Arrested_for_the_First_time": 36885,
+      "Offenders_Conviction_in_the_past_Once": 4438,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1685,
+      "Offenders_Conviction_in_the_past_Twice": 3481
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2002,
+      "Offenders_Arrested": 38827,
+      "Offenders_Arrested_for_the_First_time": 35023,
+      "Offenders_Conviction_in_the_past_Once": 2836,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 215,
+      "Offenders_Conviction_in_the_past_Twice": 753
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2001,
+      "Offenders_Arrested": 39794,
+      "Offenders_Arrested_for_the_First_time": 34827,
+      "Offenders_Conviction_in_the_past_Once": 3402,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 91,
+      "Offenders_Conviction_in_the_past_Twice": 1474
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2003,
+      "Offenders_Arrested": 40855,
+      "Offenders_Arrested_for_the_First_time": 34342,
+      "Offenders_Conviction_in_the_past_Once": 4195,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 682,
+      "Offenders_Conviction_in_the_past_Twice": 1636
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2008,
+      "Offenders_Arrested": 38286,
+      "Offenders_Arrested_for_the_First_time": 34217,
+      "Offenders_Conviction_in_the_past_Once": 2375,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 629,
+      "Offenders_Conviction_in_the_past_Twice": 1065
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2005,
+      "Offenders_Arrested": 39537,
+      "Offenders_Arrested_for_the_First_time": 34147,
+      "Offenders_Conviction_in_the_past_Once": 3982,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 209,
+      "Offenders_Conviction_in_the_past_Twice": 1199
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2003,
+      "Offenders_Arrested": 39705,
+      "Offenders_Arrested_for_the_First_time": 32982,
+      "Offenders_Conviction_in_the_past_Once": 5322,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 312,
+      "Offenders_Conviction_in_the_past_Twice": 1089
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2009,
+      "Offenders_Arrested": 36263,
+      "Offenders_Arrested_for_the_First_time": 32319,
+      "Offenders_Conviction_in_the_past_Once": 2805,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 351,
+      "Offenders_Conviction_in_the_past_Twice": 788
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2009,
+      "Offenders_Arrested": 33419,
+      "Offenders_Arrested_for_the_First_time": 32240,
+      "Offenders_Conviction_in_the_past_Once": 1152,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 10,
+      "Offenders_Conviction_in_the_past_Twice": 17
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2007,
+      "Offenders_Arrested": 32936,
+      "Offenders_Arrested_for_the_First_time": 31982,
+      "Offenders_Conviction_in_the_past_Once": 513,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 12,
+      "Offenders_Conviction_in_the_past_Twice": 429
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2001,
+      "Offenders_Arrested": 41607,
+      "Offenders_Arrested_for_the_First_time": 31960,
+      "Offenders_Conviction_in_the_past_Once": 5004,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 623,
+      "Offenders_Conviction_in_the_past_Twice": 4020
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2004,
+      "Offenders_Arrested": 36974,
+      "Offenders_Arrested_for_the_First_time": 31575,
+      "Offenders_Conviction_in_the_past_Once": 4851,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 61,
+      "Offenders_Conviction_in_the_past_Twice": 487
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2010,
+      "Offenders_Arrested": 33498,
+      "Offenders_Arrested_for_the_First_time": 29975,
+      "Offenders_Conviction_in_the_past_Once": 2237,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 355,
+      "Offenders_Conviction_in_the_past_Twice": 931
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2006,
+      "Offenders_Arrested": 30778,
+      "Offenders_Arrested_for_the_First_time": 29688,
+      "Offenders_Conviction_in_the_past_Once": 696,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 22,
+      "Offenders_Conviction_in_the_past_Twice": 372
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2010,
+      "Offenders_Arrested": 31641,
+      "Offenders_Arrested_for_the_First_time": 29495,
+      "Offenders_Conviction_in_the_past_Once": 1699,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 81,
+      "Offenders_Conviction_in_the_past_Twice": 366
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2003,
+      "Offenders_Arrested": 29183,
+      "Offenders_Arrested_for_the_First_time": 28868,
+      "Offenders_Conviction_in_the_past_Once": 209,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 14,
+      "Offenders_Conviction_in_the_past_Twice": 92
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2003,
+      "Offenders_Arrested": 37709,
+      "Offenders_Arrested_for_the_First_time": 28445,
+      "Offenders_Conviction_in_the_past_Once": 4964,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1273,
+      "Offenders_Conviction_in_the_past_Twice": 3027
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2004,
+      "Offenders_Arrested": 37709,
+      "Offenders_Arrested_for_the_First_time": 28405,
+      "Offenders_Conviction_in_the_past_Once": 4984,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1273,
+      "Offenders_Conviction_in_the_past_Twice": 3047
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2005,
+      "Offenders_Arrested": 27616,
+      "Offenders_Arrested_for_the_First_time": 26716,
+      "Offenders_Conviction_in_the_past_Once": 495,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 28,
+      "Offenders_Conviction_in_the_past_Twice": 377
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2004,
+      "Offenders_Arrested": 28288,
+      "Offenders_Arrested_for_the_First_time": 26524,
+      "Offenders_Conviction_in_the_past_Once": 1634,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 19,
+      "Offenders_Conviction_in_the_past_Twice": 111
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2008,
+      "Offenders_Arrested": 25642,
+      "Offenders_Arrested_for_the_First_time": 25454,
+      "Offenders_Conviction_in_the_past_Once": 188,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2002,
+      "Offenders_Arrested": 24892,
+      "Offenders_Arrested_for_the_First_time": 24452,
+      "Offenders_Conviction_in_the_past_Once": 388,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 8,
+      "Offenders_Conviction_in_the_past_Twice": 44
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2001,
+      "Offenders_Arrested": 24423,
+      "Offenders_Arrested_for_the_First_time": 24034,
+      "Offenders_Conviction_in_the_past_Once": 365,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 24
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2010,
+      "Offenders_Arrested": 72750,
+      "Offenders_Arrested_for_the_First_time": 20899,
+      "Offenders_Conviction_in_the_past_Once": 18837,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 16939,
+      "Offenders_Conviction_in_the_past_Twice": 16075
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2006,
+      "Offenders_Arrested": 19993,
+      "Offenders_Arrested_for_the_First_time": 19577,
+      "Offenders_Conviction_in_the_past_Once": 260,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 39,
+      "Offenders_Conviction_in_the_past_Twice": 117
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2008,
+      "Offenders_Arrested": 19747,
+      "Offenders_Arrested_for_the_First_time": 19117,
+      "Offenders_Conviction_in_the_past_Once": 322,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 97,
+      "Offenders_Conviction_in_the_past_Twice": 211
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2007,
+      "Offenders_Arrested": 19598,
+      "Offenders_Arrested_for_the_First_time": 19114,
+      "Offenders_Conviction_in_the_past_Once": 276,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 72,
+      "Offenders_Conviction_in_the_past_Twice": 136
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2010,
+      "Offenders_Arrested": 18768,
+      "Offenders_Arrested_for_the_First_time": 18228,
+      "Offenders_Conviction_in_the_past_Once": 256,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 136,
+      "Offenders_Conviction_in_the_past_Twice": 148
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2005,
+      "Offenders_Arrested": 18628,
+      "Offenders_Arrested_for_the_First_time": 18226,
+      "Offenders_Conviction_in_the_past_Once": 218,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 62,
+      "Offenders_Conviction_in_the_past_Twice": 122
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2009,
+      "Offenders_Arrested": 18999,
+      "Offenders_Arrested_for_the_First_time": 18205,
+      "Offenders_Conviction_in_the_past_Once": 445,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 130,
+      "Offenders_Conviction_in_the_past_Twice": 219
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2004,
+      "Offenders_Arrested": 18168,
+      "Offenders_Arrested_for_the_First_time": 17818,
+      "Offenders_Conviction_in_the_past_Once": 195,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 40,
+      "Offenders_Conviction_in_the_past_Twice": 115
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2003,
+      "Offenders_Arrested": 18091,
+      "Offenders_Arrested_for_the_First_time": 17767,
+      "Offenders_Conviction_in_the_past_Once": 214,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 31,
+      "Offenders_Conviction_in_the_past_Twice": 79
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2002,
+      "Offenders_Arrested": 18214,
+      "Offenders_Arrested_for_the_First_time": 16959,
+      "Offenders_Conviction_in_the_past_Once": 1150,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 27,
+      "Offenders_Conviction_in_the_past_Twice": 78
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2001,
+      "Offenders_Arrested": 17217,
+      "Offenders_Arrested_for_the_First_time": 16827,
+      "Offenders_Conviction_in_the_past_Once": 242,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 45,
+      "Offenders_Conviction_in_the_past_Twice": 103
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2004,
+      "Offenders_Arrested": 14618,
+      "Offenders_Arrested_for_the_First_time": 14000,
+      "Offenders_Conviction_in_the_past_Once": 437,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 59,
+      "Offenders_Conviction_in_the_past_Twice": 122
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2007,
+      "Offenders_Arrested": 14473,
+      "Offenders_Arrested_for_the_First_time": 13872,
+      "Offenders_Conviction_in_the_past_Once": 495,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 30,
+      "Offenders_Conviction_in_the_past_Twice": 76
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2005,
+      "Offenders_Arrested": 13424,
+      "Offenders_Arrested_for_the_First_time": 12960,
+      "Offenders_Conviction_in_the_past_Once": 376,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 19,
+      "Offenders_Conviction_in_the_past_Twice": 69
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2006,
+      "Offenders_Arrested": 13471,
+      "Offenders_Arrested_for_the_First_time": 12887,
+      "Offenders_Conviction_in_the_past_Once": 450,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 17,
+      "Offenders_Conviction_in_the_past_Twice": 117
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2002,
+      "Offenders_Arrested": 12799,
+      "Offenders_Arrested_for_the_First_time": 12049,
+      "Offenders_Conviction_in_the_past_Once": 631,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 22,
+      "Offenders_Conviction_in_the_past_Twice": 97
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2001,
+      "Offenders_Arrested": 12120,
+      "Offenders_Arrested_for_the_First_time": 11606,
+      "Offenders_Conviction_in_the_past_Once": 330,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 31,
+      "Offenders_Conviction_in_the_past_Twice": 153
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2010,
+      "Offenders_Arrested": 12792,
+      "Offenders_Arrested_for_the_First_time": 10815,
+      "Offenders_Conviction_in_the_past_Once": 1712,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 41,
+      "Offenders_Conviction_in_the_past_Twice": 224
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2003,
+      "Offenders_Arrested": 12231,
+      "Offenders_Arrested_for_the_First_time": 10339,
+      "Offenders_Conviction_in_the_past_Once": 1230,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 336,
+      "Offenders_Conviction_in_the_past_Twice": 326
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2009,
+      "Offenders_Arrested": 11829,
+      "Offenders_Arrested_for_the_First_time": 10102,
+      "Offenders_Conviction_in_the_past_Once": 1556,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 30,
+      "Offenders_Conviction_in_the_past_Twice": 141
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2008,
+      "Offenders_Arrested": 11392,
+      "Offenders_Arrested_for_the_First_time": 9290,
+      "Offenders_Conviction_in_the_past_Once": 1956,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 18,
+      "Offenders_Conviction_in_the_past_Twice": 128
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2009,
+      "Offenders_Arrested": 8984,
+      "Offenders_Arrested_for_the_First_time": 8949,
+      "Offenders_Conviction_in_the_past_Once": 28,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 7
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2008,
+      "Offenders_Arrested": 6922,
+      "Offenders_Arrested_for_the_First_time": 6880,
+      "Offenders_Conviction_in_the_past_Once": 27,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 4,
+      "Offenders_Conviction_in_the_past_Twice": 11
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2010,
+      "Offenders_Arrested": 6835,
+      "Offenders_Arrested_for_the_First_time": 6805,
+      "Offenders_Conviction_in_the_past_Once": 25,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 5
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2002,
+      "Offenders_Arrested": 6735,
+      "Offenders_Arrested_for_the_First_time": 6633,
+      "Offenders_Conviction_in_the_past_Once": 76,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 9,
+      "Offenders_Conviction_in_the_past_Twice": 17
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2009,
+      "Offenders_Arrested": 6502,
+      "Offenders_Arrested_for_the_First_time": 6485,
+      "Offenders_Conviction_in_the_past_Once": 11,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 6
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2007,
+      "Offenders_Arrested": 6291,
+      "Offenders_Arrested_for_the_First_time": 6274,
+      "Offenders_Conviction_in_the_past_Once": 14,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 3
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2005,
+      "Offenders_Arrested": 6223,
+      "Offenders_Arrested_for_the_First_time": 6198,
+      "Offenders_Conviction_in_the_past_Once": 16,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 9
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2006,
+      "Offenders_Arrested": 6187,
+      "Offenders_Arrested_for_the_First_time": 6174,
+      "Offenders_Conviction_in_the_past_Once": 13,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2008,
+      "Offenders_Arrested": 6001,
+      "Offenders_Arrested_for_the_First_time": 5914,
+      "Offenders_Conviction_in_the_past_Once": 83,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 4
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2004,
+      "Offenders_Arrested": 6115,
+      "Offenders_Arrested_for_the_First_time": 5876,
+      "Offenders_Conviction_in_the_past_Once": 212,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 6,
+      "Offenders_Conviction_in_the_past_Twice": 21
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2003,
+      "Offenders_Arrested": 5977,
+      "Offenders_Arrested_for_the_First_time": 5764,
+      "Offenders_Conviction_in_the_past_Once": 184,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 7,
+      "Offenders_Conviction_in_the_past_Twice": 22
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2010,
+      "Offenders_Arrested": 5579,
+      "Offenders_Arrested_for_the_First_time": 5575,
+      "Offenders_Conviction_in_the_past_Once": 4,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2001,
+      "Offenders_Arrested": 5432,
+      "Offenders_Arrested_for_the_First_time": 5295,
+      "Offenders_Conviction_in_the_past_Once": 108,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 7,
+      "Offenders_Conviction_in_the_past_Twice": 22
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2006,
+      "Offenders_Arrested": 5114,
+      "Offenders_Arrested_for_the_First_time": 5004,
+      "Offenders_Conviction_in_the_past_Once": 87,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2,
+      "Offenders_Conviction_in_the_past_Twice": 21
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2007,
+      "Offenders_Arrested": 4578,
+      "Offenders_Arrested_for_the_First_time": 4489,
+      "Offenders_Conviction_in_the_past_Once": 83,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 6
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2003,
+      "Offenders_Arrested": 4754,
+      "Offenders_Arrested_for_the_First_time": 4279,
+      "Offenders_Conviction_in_the_past_Once": 400,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 25,
+      "Offenders_Conviction_in_the_past_Twice": 50
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2005,
+      "Offenders_Arrested": 4252,
+      "Offenders_Arrested_for_the_First_time": 4131,
+      "Offenders_Conviction_in_the_past_Once": 73,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 10,
+      "Offenders_Conviction_in_the_past_Twice": 38
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2004,
+      "Offenders_Arrested": 4212,
+      "Offenders_Arrested_for_the_First_time": 4078,
+      "Offenders_Conviction_in_the_past_Once": 78,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 12,
+      "Offenders_Conviction_in_the_past_Twice": 44
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2002,
+      "Offenders_Arrested": 4076,
+      "Offenders_Arrested_for_the_First_time": 3710,
+      "Offenders_Conviction_in_the_past_Once": 326,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 15,
+      "Offenders_Conviction_in_the_past_Twice": 25
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2010,
+      "Offenders_Arrested": 3332,
+      "Offenders_Arrested_for_the_First_time": 3257,
+      "Offenders_Conviction_in_the_past_Once": 27,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 31,
+      "Offenders_Conviction_in_the_past_Twice": 17
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2006,
+      "Offenders_Arrested": 3225,
+      "Offenders_Arrested_for_the_First_time": 3205,
+      "Offenders_Conviction_in_the_past_Once": 11,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 6,
+      "Offenders_Conviction_in_the_past_Twice": 3
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2008,
+      "Offenders_Arrested": 3159,
+      "Offenders_Arrested_for_the_First_time": 3117,
+      "Offenders_Conviction_in_the_past_Once": 25,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 7,
+      "Offenders_Conviction_in_the_past_Twice": 10
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2009,
+      "Offenders_Arrested": 3124,
+      "Offenders_Arrested_for_the_First_time": 3075,
+      "Offenders_Conviction_in_the_past_Once": 25,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 8,
+      "Offenders_Conviction_in_the_past_Twice": 16
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2001,
+      "Offenders_Arrested": 3465,
+      "Offenders_Arrested_for_the_First_time": 3044,
+      "Offenders_Conviction_in_the_past_Once": 391,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 10,
+      "Offenders_Conviction_in_the_past_Twice": 20
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2003,
+      "Offenders_Arrested": 3762,
+      "Offenders_Arrested_for_the_First_time": 2965,
+      "Offenders_Conviction_in_the_past_Once": 503,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 63,
+      "Offenders_Conviction_in_the_past_Twice": 231
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2001,
+      "Offenders_Arrested": 2898,
+      "Offenders_Arrested_for_the_First_time": 2876,
+      "Offenders_Conviction_in_the_past_Once": 15,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2,
+      "Offenders_Conviction_in_the_past_Twice": 5
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2002,
+      "Offenders_Arrested": 3292,
+      "Offenders_Arrested_for_the_First_time": 2839,
+      "Offenders_Conviction_in_the_past_Once": 390,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 29,
+      "Offenders_Conviction_in_the_past_Twice": 34
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2001,
+      "Offenders_Arrested": 2965,
+      "Offenders_Arrested_for_the_First_time": 2817,
+      "Offenders_Conviction_in_the_past_Once": 138,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 10
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2009,
+      "Offenders_Arrested": 2817,
+      "Offenders_Arrested_for_the_First_time": 2799,
+      "Offenders_Conviction_in_the_past_Once": 10,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 8
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2006,
+      "Offenders_Arrested": 2849,
+      "Offenders_Arrested_for_the_First_time": 2797,
+      "Offenders_Conviction_in_the_past_Once": 31,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 8,
+      "Offenders_Conviction_in_the_past_Twice": 13
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2004,
+      "Offenders_Arrested": 2788,
+      "Offenders_Arrested_for_the_First_time": 2740,
+      "Offenders_Conviction_in_the_past_Once": 38,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 10
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2002,
+      "Offenders_Arrested": 2734,
+      "Offenders_Arrested_for_the_First_time": 2717,
+      "Offenders_Conviction_in_the_past_Once": 11,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 3,
+      "Offenders_Conviction_in_the_past_Twice": 3
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2003,
+      "Offenders_Arrested": 2740,
+      "Offenders_Arrested_for_the_First_time": 2713,
+      "Offenders_Conviction_in_the_past_Once": 7,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 7,
+      "Offenders_Conviction_in_the_past_Twice": 13
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2010,
+      "Offenders_Arrested": 2825,
+      "Offenders_Arrested_for_the_First_time": 2707,
+      "Offenders_Conviction_in_the_past_Once": 114,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 4
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2007,
+      "Offenders_Arrested": 2619,
+      "Offenders_Arrested_for_the_First_time": 2588,
+      "Offenders_Conviction_in_the_past_Once": 23,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 5,
+      "Offenders_Conviction_in_the_past_Twice": 3
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2005,
+      "Offenders_Arrested": 2588,
+      "Offenders_Arrested_for_the_First_time": 2570,
+      "Offenders_Conviction_in_the_past_Once": 14,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1,
+      "Offenders_Conviction_in_the_past_Twice": 3
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2002,
+      "Offenders_Arrested": 2613,
+      "Offenders_Arrested_for_the_First_time": 2529,
+      "Offenders_Conviction_in_the_past_Once": 52,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 32
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2008,
+      "Offenders_Arrested": 2621,
+      "Offenders_Arrested_for_the_First_time": 2511,
+      "Offenders_Conviction_in_the_past_Once": 11,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 10,
+      "Offenders_Conviction_in_the_past_Twice": 89
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2003,
+      "Offenders_Arrested": 2446,
+      "Offenders_Arrested_for_the_First_time": 2404,
+      "Offenders_Conviction_in_the_past_Once": 42,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2005,
+      "Offenders_Arrested": 2488,
+      "Offenders_Arrested_for_the_First_time": 2394,
+      "Offenders_Conviction_in_the_past_Once": 51,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 12,
+      "Offenders_Conviction_in_the_past_Twice": 31
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2007,
+      "Offenders_Arrested": 2478,
+      "Offenders_Arrested_for_the_First_time": 2381,
+      "Offenders_Conviction_in_the_past_Once": 74,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 5,
+      "Offenders_Conviction_in_the_past_Twice": 18
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2004,
+      "Offenders_Arrested": 2376,
+      "Offenders_Arrested_for_the_First_time": 2359,
+      "Offenders_Conviction_in_the_past_Once": 11,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 3,
+      "Offenders_Conviction_in_the_past_Twice": 3
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2006,
+      "Offenders_Arrested": 3381,
+      "Offenders_Arrested_for_the_First_time": 2188,
+      "Offenders_Conviction_in_the_past_Once": 1142,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 11,
+      "Offenders_Conviction_in_the_past_Twice": 40
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2005,
+      "Offenders_Arrested": 2989,
+      "Offenders_Arrested_for_the_First_time": 2156,
+      "Offenders_Conviction_in_the_past_Once": 797,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 9,
+      "Offenders_Conviction_in_the_past_Twice": 27
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2002,
+      "Offenders_Arrested": 2876,
+      "Offenders_Arrested_for_the_First_time": 2140,
+      "Offenders_Conviction_in_the_past_Once": 679,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 45,
+      "Offenders_Conviction_in_the_past_Twice": 12
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2008,
+      "Offenders_Arrested": 2162,
+      "Offenders_Arrested_for_the_First_time": 1964,
+      "Offenders_Conviction_in_the_past_Once": 116,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 12,
+      "Offenders_Conviction_in_the_past_Twice": 70
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2001,
+      "Offenders_Arrested": 2358,
+      "Offenders_Arrested_for_the_First_time": 1957,
+      "Offenders_Conviction_in_the_past_Once": 341,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 23,
+      "Offenders_Conviction_in_the_past_Twice": 37
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2001,
+      "Offenders_Arrested": 2863,
+      "Offenders_Arrested_for_the_First_time": 1920,
+      "Offenders_Conviction_in_the_past_Once": 914,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 8,
+      "Offenders_Conviction_in_the_past_Twice": 21
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2005,
+      "Offenders_Arrested": 2716,
+      "Offenders_Arrested_for_the_First_time": 1920,
+      "Offenders_Conviction_in_the_past_Once": 615,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 13,
+      "Offenders_Conviction_in_the_past_Twice": 168
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2004,
+      "Offenders_Arrested": 2451,
+      "Offenders_Arrested_for_the_First_time": 1801,
+      "Offenders_Conviction_in_the_past_Once": 550,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 10,
+      "Offenders_Conviction_in_the_past_Twice": 90
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2010,
+      "Offenders_Arrested": 2228,
+      "Offenders_Arrested_for_the_First_time": 1762,
+      "Offenders_Conviction_in_the_past_Once": 284,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 51,
+      "Offenders_Conviction_in_the_past_Twice": 131
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2010,
+      "Offenders_Arrested": 2583,
+      "Offenders_Arrested_for_the_First_time": 1740,
+      "Offenders_Conviction_in_the_past_Once": 786,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 10,
+      "Offenders_Conviction_in_the_past_Twice": 47
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2008,
+      "Offenders_Arrested": 2984,
+      "Offenders_Arrested_for_the_First_time": 1677,
+      "Offenders_Conviction_in_the_past_Once": 1225,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 28,
+      "Offenders_Conviction_in_the_past_Twice": 54
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2009,
+      "Offenders_Arrested": 2039,
+      "Offenders_Arrested_for_the_First_time": 1669,
+      "Offenders_Conviction_in_the_past_Once": 348,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 6,
+      "Offenders_Conviction_in_the_past_Twice": 16
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2009,
+      "Offenders_Arrested": 1677,
+      "Offenders_Arrested_for_the_First_time": 1632,
+      "Offenders_Conviction_in_the_past_Once": 44,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 1
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2008,
+      "Offenders_Arrested": 1666,
+      "Offenders_Arrested_for_the_First_time": 1616,
+      "Offenders_Conviction_in_the_past_Once": 50,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2007,
+      "Offenders_Arrested": 2846,
+      "Offenders_Arrested_for_the_First_time": 1593,
+      "Offenders_Conviction_in_the_past_Once": 1218,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 13,
+      "Offenders_Conviction_in_the_past_Twice": 22
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2006,
+      "Offenders_Arrested": 1699,
+      "Offenders_Arrested_for_the_First_time": 1589,
+      "Offenders_Conviction_in_the_past_Once": 80,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 6,
+      "Offenders_Conviction_in_the_past_Twice": 24
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2010,
+      "Offenders_Arrested": 1743,
+      "Offenders_Arrested_for_the_First_time": 1579,
+      "Offenders_Conviction_in_the_past_Once": 150,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 14
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2003,
+      "Offenders_Arrested": 2762,
+      "Offenders_Arrested_for_the_First_time": 1567,
+      "Offenders_Conviction_in_the_past_Once": 1127,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 18,
+      "Offenders_Conviction_in_the_past_Twice": 50
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2001,
+      "Offenders_Arrested": 1525,
+      "Offenders_Arrested_for_the_First_time": 1525,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2003,
+      "Offenders_Arrested": 1604,
+      "Offenders_Arrested_for_the_First_time": 1519,
+      "Offenders_Conviction_in_the_past_Once": 85,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2003,
+      "Offenders_Arrested": 1502,
+      "Offenders_Arrested_for_the_First_time": 1502,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2005,
+      "Offenders_Arrested": 1594,
+      "Offenders_Arrested_for_the_First_time": 1496,
+      "Offenders_Conviction_in_the_past_Once": 73,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 11,
+      "Offenders_Conviction_in_the_past_Twice": 14
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2004,
+      "Offenders_Arrested": 1566,
+      "Offenders_Arrested_for_the_First_time": 1479,
+      "Offenders_Conviction_in_the_past_Once": 78,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 4,
+      "Offenders_Conviction_in_the_past_Twice": 5
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2002,
+      "Offenders_Arrested": 1431,
+      "Offenders_Arrested_for_the_First_time": 1431,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2009,
+      "Offenders_Arrested": 1442,
+      "Offenders_Arrested_for_the_First_time": 1405,
+      "Offenders_Conviction_in_the_past_Once": 37,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2004,
+      "Offenders_Arrested": 1501,
+      "Offenders_Arrested_for_the_First_time": 1403,
+      "Offenders_Conviction_in_the_past_Once": 40,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 8,
+      "Offenders_Conviction_in_the_past_Twice": 50
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2002,
+      "Offenders_Arrested": 1544,
+      "Offenders_Arrested_for_the_First_time": 1339,
+      "Offenders_Conviction_in_the_past_Once": 107,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 15,
+      "Offenders_Conviction_in_the_past_Twice": 83
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2009,
+      "Offenders_Arrested": 2354,
+      "Offenders_Arrested_for_the_First_time": 1333,
+      "Offenders_Conviction_in_the_past_Once": 985,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 8,
+      "Offenders_Conviction_in_the_past_Twice": 28
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2007,
+      "Offenders_Arrested": 1557,
+      "Offenders_Arrested_for_the_First_time": 1331,
+      "Offenders_Conviction_in_the_past_Once": 152,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2,
+      "Offenders_Conviction_in_the_past_Twice": 72
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2001,
+      "Offenders_Arrested": 1643,
+      "Offenders_Arrested_for_the_First_time": 1311,
+      "Offenders_Conviction_in_the_past_Once": 183,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 51,
+      "Offenders_Conviction_in_the_past_Twice": 98
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2008,
+      "Offenders_Arrested": 1325,
+      "Offenders_Arrested_for_the_First_time": 1310,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 2,
+      "Offenders_Conviction_in_the_past_Twice": 13
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2005,
+      "Offenders_Arrested": 1390,
+      "Offenders_Arrested_for_the_First_time": 1307,
+      "Offenders_Conviction_in_the_past_Once": 41,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 12,
+      "Offenders_Conviction_in_the_past_Twice": 30
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2007,
+      "Offenders_Arrested": 1306,
+      "Offenders_Arrested_for_the_First_time": 1306,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2010,
+      "Offenders_Arrested": 1306,
+      "Offenders_Arrested_for_the_First_time": 1306,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2006,
+      "Offenders_Arrested": 2215,
+      "Offenders_Arrested_for_the_First_time": 1191,
+      "Offenders_Conviction_in_the_past_Once": 320,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 297,
+      "Offenders_Conviction_in_the_past_Twice": 407
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2005,
+      "Offenders_Arrested": 1226,
+      "Offenders_Arrested_for_the_First_time": 1143,
+      "Offenders_Conviction_in_the_past_Once": 70,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 1,
+      "Offenders_Conviction_in_the_past_Twice": 12
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2008,
+      "Offenders_Arrested": 1064,
+      "Offenders_Arrested_for_the_First_time": 1033,
+      "Offenders_Conviction_in_the_past_Once": 17,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 5,
+      "Offenders_Conviction_in_the_past_Twice": 9
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2007,
+      "Offenders_Arrested": 1065,
+      "Offenders_Arrested_for_the_First_time": 1026,
+      "Offenders_Conviction_in_the_past_Once": 23,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 5,
+      "Offenders_Conviction_in_the_past_Twice": 11
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2009,
+      "Offenders_Arrested": 1035,
+      "Offenders_Arrested_for_the_First_time": 1004,
+      "Offenders_Conviction_in_the_past_Once": 21,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 4,
+      "Offenders_Conviction_in_the_past_Twice": 6
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2010,
+      "Offenders_Arrested": 1028,
+      "Offenders_Arrested_for_the_First_time": 998,
+      "Offenders_Conviction_in_the_past_Once": 17,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 7,
+      "Offenders_Conviction_in_the_past_Twice": 6
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2010,
+      "Offenders_Arrested": 1066,
+      "Offenders_Arrested_for_the_First_time": 957,
+      "Offenders_Conviction_in_the_past_Once": 68,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 11,
+      "Offenders_Conviction_in_the_past_Twice": 30
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2004,
+      "Offenders_Arrested": 1424,
+      "Offenders_Arrested_for_the_First_time": 924,
+      "Offenders_Conviction_in_the_past_Once": 240,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 60,
+      "Offenders_Conviction_in_the_past_Twice": 200
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2001,
+      "Offenders_Arrested": 1129,
+      "Offenders_Arrested_for_the_First_time": 905,
+      "Offenders_Conviction_in_the_past_Once": 88,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 55,
+      "Offenders_Conviction_in_the_past_Twice": 81
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2009,
+      "Offenders_Arrested": 1103,
+      "Offenders_Arrested_for_the_First_time": 900,
+      "Offenders_Conviction_in_the_past_Once": 142,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 16,
+      "Offenders_Conviction_in_the_past_Twice": 45
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2008,
+      "Offenders_Arrested": 897,
+      "Offenders_Arrested_for_the_First_time": 883,
+      "Offenders_Conviction_in_the_past_Once": 13,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 1
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2009,
+      "Offenders_Arrested": 893,
+      "Offenders_Arrested_for_the_First_time": 881,
+      "Offenders_Conviction_in_the_past_Once": 7,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 5
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2006,
+      "Offenders_Arrested": 934,
+      "Offenders_Arrested_for_the_First_time": 874,
+      "Offenders_Conviction_in_the_past_Once": 58,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 2
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2010,
+      "Offenders_Arrested": 946,
+      "Offenders_Arrested_for_the_First_time": 854,
+      "Offenders_Conviction_in_the_past_Once": 90,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 2
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2004,
+      "Offenders_Arrested": 914,
+      "Offenders_Arrested_for_the_First_time": 851,
+      "Offenders_Conviction_in_the_past_Once": 63,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2006,
+      "Offenders_Arrested": 906,
+      "Offenders_Arrested_for_the_First_time": 835,
+      "Offenders_Conviction_in_the_past_Once": 52,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 3,
+      "Offenders_Conviction_in_the_past_Twice": 16
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2008,
+      "Offenders_Arrested": 1024,
+      "Offenders_Arrested_for_the_First_time": 816,
+      "Offenders_Conviction_in_the_past_Once": 142,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 17,
+      "Offenders_Conviction_in_the_past_Twice": 49
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2004,
+      "Offenders_Arrested": 828,
+      "Offenders_Arrested_for_the_First_time": 798,
+      "Offenders_Conviction_in_the_past_Once": 25,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 3,
+      "Offenders_Conviction_in_the_past_Twice": 2
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2005,
+      "Offenders_Arrested": 848,
+      "Offenders_Arrested_for_the_First_time": 774,
+      "Offenders_Conviction_in_the_past_Once": 53,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 6,
+      "Offenders_Conviction_in_the_past_Twice": 15
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2002,
+      "Offenders_Arrested": 991,
+      "Offenders_Arrested_for_the_First_time": 766,
+      "Offenders_Conviction_in_the_past_Once": 122,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 36,
+      "Offenders_Conviction_in_the_past_Twice": 67
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2006,
+      "Offenders_Arrested": 797,
+      "Offenders_Arrested_for_the_First_time": 760,
+      "Offenders_Conviction_in_the_past_Once": 18,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 7,
+      "Offenders_Conviction_in_the_past_Twice": 12
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2004,
+      "Offenders_Arrested": 816,
+      "Offenders_Arrested_for_the_First_time": 756,
+      "Offenders_Conviction_in_the_past_Once": 60,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2007,
+      "Offenders_Arrested": 2062,
+      "Offenders_Arrested_for_the_First_time": 753,
+      "Offenders_Conviction_in_the_past_Once": 815,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 30,
+      "Offenders_Conviction_in_the_past_Twice": 464
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2003,
+      "Offenders_Arrested": 853,
+      "Offenders_Arrested_for_the_First_time": 744,
+      "Offenders_Conviction_in_the_past_Once": 97,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 3,
+      "Offenders_Conviction_in_the_past_Twice": 9
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2006,
+      "Offenders_Arrested": 737,
+      "Offenders_Arrested_for_the_First_time": 737,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2005,
+      "Offenders_Arrested": 714,
+      "Offenders_Arrested_for_the_First_time": 714,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2007,
+      "Offenders_Arrested": 795,
+      "Offenders_Arrested_for_the_First_time": 706,
+      "Offenders_Conviction_in_the_past_Once": 54,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 8,
+      "Offenders_Conviction_in_the_past_Twice": 27
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2009,
+      "Offenders_Arrested": 694,
+      "Offenders_Arrested_for_the_First_time": 692,
+      "Offenders_Conviction_in_the_past_Once": 2,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2003,
+      "Offenders_Arrested": 821,
+      "Offenders_Arrested_for_the_First_time": 674,
+      "Offenders_Conviction_in_the_past_Once": 92,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 17,
+      "Offenders_Conviction_in_the_past_Twice": 38
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2004,
+      "Offenders_Arrested": 657,
+      "Offenders_Arrested_for_the_First_time": 657,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2007,
+      "Offenders_Arrested": 623,
+      "Offenders_Arrested_for_the_First_time": 623,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2008,
+      "Offenders_Arrested": 597,
+      "Offenders_Arrested_for_the_First_time": 597,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2006,
+      "Offenders_Arrested": 596,
+      "Offenders_Arrested_for_the_First_time": 596,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2010,
+      "Offenders_Arrested": 585,
+      "Offenders_Arrested_for_the_First_time": 585,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2001,
+      "Offenders_Arrested": 514,
+      "Offenders_Arrested_for_the_First_time": 514,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2003,
+      "Offenders_Arrested": 509,
+      "Offenders_Arrested_for_the_First_time": 509,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2001,
+      "Offenders_Arrested": 671,
+      "Offenders_Arrested_for_the_First_time": 500,
+      "Offenders_Conviction_in_the_past_Once": 156,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 15
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2005,
+      "Offenders_Arrested": 455,
+      "Offenders_Arrested_for_the_First_time": 455,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2009,
+      "Offenders_Arrested": 452,
+      "Offenders_Arrested_for_the_First_time": 452,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Andaman & Nicobar Islands",
+      "Year": 2002,
+      "Offenders_Arrested": 585,
+      "Offenders_Arrested_for_the_First_time": 448,
+      "Offenders_Conviction_in_the_past_Once": 120,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 5,
+      "Offenders_Conviction_in_the_past_Twice": 12
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2007,
+      "Offenders_Arrested": 413,
+      "Offenders_Arrested_for_the_First_time": 413,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2003,
+      "Offenders_Arrested": 401,
+      "Offenders_Arrested_for_the_First_time": 401,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2008,
+      "Offenders_Arrested": 398,
+      "Offenders_Arrested_for_the_First_time": 398,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2007,
+      "Offenders_Arrested": 393,
+      "Offenders_Arrested_for_the_First_time": 393,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2006,
+      "Offenders_Arrested": 372,
+      "Offenders_Arrested_for_the_First_time": 372,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2001,
+      "Offenders_Arrested": 411,
+      "Offenders_Arrested_for_the_First_time": 359,
+      "Offenders_Conviction_in_the_past_Once": 39,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 4,
+      "Offenders_Conviction_in_the_past_Twice": 9
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2002,
+      "Offenders_Arrested": 465,
+      "Offenders_Arrested_for_the_First_time": 357,
+      "Offenders_Conviction_in_the_past_Once": 108,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2001,
+      "Offenders_Arrested": 343,
+      "Offenders_Arrested_for_the_First_time": 343,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2003,
+      "Offenders_Arrested": 332,
+      "Offenders_Arrested_for_the_First_time": 332,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2002,
+      "Offenders_Arrested": 313,
+      "Offenders_Arrested_for_the_First_time": 313,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2004,
+      "Offenders_Arrested": 294,
+      "Offenders_Arrested_for_the_First_time": 294,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2005,
+      "Offenders_Arrested": 290,
+      "Offenders_Arrested_for_the_First_time": 290,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2010,
+      "Offenders_Arrested": 266,
+      "Offenders_Arrested_for_the_First_time": 266,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2002,
+      "Offenders_Arrested": 276,
+      "Offenders_Arrested_for_the_First_time": 246,
+      "Offenders_Conviction_in_the_past_Once": 21,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 7,
+      "Offenders_Conviction_in_the_past_Twice": 2
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2006,
+      "Offenders_Arrested": 237,
+      "Offenders_Arrested_for_the_First_time": 237,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2009,
+      "Offenders_Arrested": 230,
+      "Offenders_Arrested_for_the_First_time": 230,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2008,
+      "Offenders_Arrested": 62,
+      "Offenders_Arrested_for_the_First_time": 62,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2005,
+      "Offenders_Arrested": 45,
+      "Offenders_Arrested_for_the_First_time": 45,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2004,
+      "Offenders_Arrested": 31,
+      "Offenders_Arrested_for_the_First_time": 31,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2007,
+      "Offenders_Arrested": 26,
+      "Offenders_Arrested_for_the_First_time": 26,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2001,
+      "Offenders_Arrested": 16,
+      "Offenders_Arrested_for_the_First_time": 16,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2010,
+      "Offenders_Arrested": 15,
+      "Offenders_Arrested_for_the_First_time": 15,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2002,
+      "Offenders_Arrested": 15,
+      "Offenders_Arrested_for_the_First_time": 14,
+      "Offenders_Conviction_in_the_past_Once": 1,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    },
+    {
+      "Area_Name": "Lakshadweep",
+      "Year": 2003,
+      "Offenders_Arrested": 8,
+      "Offenders_Arrested_for_the_First_time": 8,
+      "Offenders_Conviction_in_the_past_Once": 0,
+      "Offenders_Conviction_in_the_past_Three_times_or_More": 0,
+      "Offenders_Conviction_in_the_past_Twice": 0
+    }
+  ]
+}

@@ -1,0 +1,2007 @@
+{
+  "source": "NCRB Crime Statistics",
+  "dataset": "Use of fire arms in murder cases",
+  "filename": "34_Use_of_fire_arms_in_murder_cases.csv",
+  "year_range": {
+    "start": null,
+    "end": null
+  },
+  "columns": [
+    "Area_Name",
+    "Year",
+    "Victims_of_Murder_by_Fire_arms",
+    "Victims_of_Murder_by_Licensed_arms",
+    "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc"
+  ],
+  "total_records": 284,
+  "records": [
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 4969,
+      "Victims_of_Murder_by_Licensed_arms": 437.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 4532.0
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 4098,
+      "Victims_of_Murder_by_Licensed_arms": 403.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 3695.0
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 2565,
+      "Victims_of_Murder_by_Licensed_arms": 330.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2235.0
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 3855,
+      "Victims_of_Murder_by_Licensed_arms": 317.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 3538.0
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 1470,
+      "Victims_of_Murder_by_Licensed_arms": 261.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1209.0
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 2144,
+      "Victims_of_Murder_by_Licensed_arms": 257.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1887.0
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 1841,
+      "Victims_of_Murder_by_Licensed_arms": 225.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1616.0
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 2368,
+      "Victims_of_Murder_by_Licensed_arms": 206.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2162.0
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 917,
+      "Victims_of_Murder_by_Licensed_arms": 172.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 745.0
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 461,
+      "Victims_of_Murder_by_Licensed_arms": 120.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 341.0
+    },
+    {
+      "Area_Name": "Uttar Pradesh",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 892,
+      "Victims_of_Murder_by_Licensed_arms": 114.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 778.0
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 1058,
+      "Victims_of_Murder_by_Licensed_arms": 107.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 951.0
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 181,
+      "Victims_of_Murder_by_Licensed_arms": 94.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 87.0
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 215,
+      "Victims_of_Murder_by_Licensed_arms": 77.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 138.0
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 213,
+      "Victims_of_Murder_by_Licensed_arms": 75.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 138.0
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 197,
+      "Victims_of_Murder_by_Licensed_arms": 74.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 123.0
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 81,
+      "Victims_of_Murder_by_Licensed_arms": 72.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 9.0
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 71,
+      "Victims_of_Murder_by_Licensed_arms": 71.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": null
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 227,
+      "Victims_of_Murder_by_Licensed_arms": 70.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 157.0
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 243,
+      "Victims_of_Murder_by_Licensed_arms": 67.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 176.0
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 305,
+      "Victims_of_Murder_by_Licensed_arms": 65.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 240.0
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 73,
+      "Victims_of_Murder_by_Licensed_arms": 65.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 8.0
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 268,
+      "Victims_of_Murder_by_Licensed_arms": 61.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 207.0
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 1381,
+      "Victims_of_Murder_by_Licensed_arms": 60.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1321.0
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 177,
+      "Victims_of_Murder_by_Licensed_arms": 60.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 117.0
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 62,
+      "Victims_of_Murder_by_Licensed_arms": 58.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 4.0
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 1413,
+      "Victims_of_Murder_by_Licensed_arms": 55.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1358.0
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 62,
+      "Victims_of_Murder_by_Licensed_arms": 54.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 8.0
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 213,
+      "Victims_of_Murder_by_Licensed_arms": 54.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 159.0
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 210,
+      "Victims_of_Murder_by_Licensed_arms": 50.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 160.0
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 232,
+      "Victims_of_Murder_by_Licensed_arms": 49.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 183.0
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 54,
+      "Victims_of_Murder_by_Licensed_arms": 48.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 6.0
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 159,
+      "Victims_of_Murder_by_Licensed_arms": 48.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 111.0
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 51,
+      "Victims_of_Murder_by_Licensed_arms": 46.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 5.0
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 1095,
+      "Victims_of_Murder_by_Licensed_arms": 45.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1050.0
+    },
+    {
+      "Area_Name": "Punjab",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 53,
+      "Victims_of_Murder_by_Licensed_arms": 44.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 9.0
+    },
+    {
+      "Area_Name": "Madhya Pradesh",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 191,
+      "Victims_of_Murder_by_Licensed_arms": 43.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 148.0
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 98,
+      "Victims_of_Murder_by_Licensed_arms": 42.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 56.0
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 1568,
+      "Victims_of_Murder_by_Licensed_arms": 41.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1527.0
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 94,
+      "Victims_of_Murder_by_Licensed_arms": 41.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 53.0
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 181,
+      "Victims_of_Murder_by_Licensed_arms": 39.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 142.0
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 77,
+      "Victims_of_Murder_by_Licensed_arms": 36.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 41.0
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 224,
+      "Victims_of_Murder_by_Licensed_arms": 34.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 190.0
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 83,
+      "Victims_of_Murder_by_Licensed_arms": 29.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 54.0
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 157,
+      "Victims_of_Murder_by_Licensed_arms": 29.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 128.0
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 955,
+      "Victims_of_Murder_by_Licensed_arms": 28.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 927.0
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 193,
+      "Victims_of_Murder_by_Licensed_arms": 27.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 166.0
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 1388,
+      "Victims_of_Murder_by_Licensed_arms": 25.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1363.0
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 338,
+      "Victims_of_Murder_by_Licensed_arms": 24.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 314.0
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 259,
+      "Victims_of_Murder_by_Licensed_arms": 23.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 236.0
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 122,
+      "Victims_of_Murder_by_Licensed_arms": 23.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 99.0
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 141,
+      "Victims_of_Murder_by_Licensed_arms": 23.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 118.0
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 127,
+      "Victims_of_Murder_by_Licensed_arms": 22.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 105.0
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 586,
+      "Victims_of_Murder_by_Licensed_arms": 22.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 564.0
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 193,
+      "Victims_of_Murder_by_Licensed_arms": 19.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 174.0
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 1082,
+      "Victims_of_Murder_by_Licensed_arms": 19.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1063.0
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 65,
+      "Victims_of_Murder_by_Licensed_arms": 19.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 46.0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 58,
+      "Victims_of_Murder_by_Licensed_arms": 18.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 40.0
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 116,
+      "Victims_of_Murder_by_Licensed_arms": 18.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 98.0
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 76,
+      "Victims_of_Murder_by_Licensed_arms": 17.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 59.0
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 132,
+      "Victims_of_Murder_by_Licensed_arms": 17.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 115.0
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 143,
+      "Victims_of_Murder_by_Licensed_arms": 17.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 126.0
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 149,
+      "Victims_of_Murder_by_Licensed_arms": 15.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 134.0
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 467,
+      "Victims_of_Murder_by_Licensed_arms": 15.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 452.0
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 875,
+      "Victims_of_Murder_by_Licensed_arms": 14.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 861.0
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 57,
+      "Victims_of_Murder_by_Licensed_arms": 14.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 43.0
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 17,
+      "Victims_of_Murder_by_Licensed_arms": 13.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 4.0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 187,
+      "Victims_of_Murder_by_Licensed_arms": 13.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 174.0
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 74,
+      "Victims_of_Murder_by_Licensed_arms": 13.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 61.0
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 40,
+      "Victims_of_Murder_by_Licensed_arms": 13.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 27.0
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 622,
+      "Victims_of_Murder_by_Licensed_arms": 13.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 609.0
+    },
+    {
+      "Area_Name": "Haryana",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 116,
+      "Victims_of_Murder_by_Licensed_arms": 13.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 103.0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 168,
+      "Victims_of_Murder_by_Licensed_arms": 12.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 156.0
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 34,
+      "Victims_of_Murder_by_Licensed_arms": 12.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 22.0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 173,
+      "Victims_of_Murder_by_Licensed_arms": 12.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 161.0
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 73,
+      "Victims_of_Murder_by_Licensed_arms": 12.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 61.0
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 77,
+      "Victims_of_Murder_by_Licensed_arms": 12.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 65.0
+    },
+    {
+      "Area_Name": "Rajasthan",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 71,
+      "Victims_of_Murder_by_Licensed_arms": 12.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 59.0
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 58,
+      "Victims_of_Murder_by_Licensed_arms": 11.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 47.0
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 64,
+      "Victims_of_Murder_by_Licensed_arms": 11.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 53.0
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 108,
+      "Victims_of_Murder_by_Licensed_arms": 10.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 98.0
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 295,
+      "Victims_of_Murder_by_Licensed_arms": 10.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 285.0
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 694,
+      "Victims_of_Murder_by_Licensed_arms": 10.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 684.0
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 87,
+      "Victims_of_Murder_by_Licensed_arms": 10.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 77.0
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 55,
+      "Victims_of_Murder_by_Licensed_arms": 9.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 46.0
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 22,
+      "Victims_of_Murder_by_Licensed_arms": 9.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 13.0
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 11,
+      "Victims_of_Murder_by_Licensed_arms": 9.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2.0
+    },
+    {
+      "Area_Name": "Bihar",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 718,
+      "Victims_of_Murder_by_Licensed_arms": 9.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 709.0
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 98,
+      "Victims_of_Murder_by_Licensed_arms": 8.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 90.0
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 56,
+      "Victims_of_Murder_by_Licensed_arms": 8.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 48.0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 150,
+      "Victims_of_Murder_by_Licensed_arms": 8.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 142.0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 67,
+      "Victims_of_Murder_by_Licensed_arms": 8.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 59.0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 137,
+      "Victims_of_Murder_by_Licensed_arms": 8.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 129.0
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 108,
+      "Victims_of_Murder_by_Licensed_arms": 8.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 100.0
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 31,
+      "Victims_of_Murder_by_Licensed_arms": 8.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 23.0
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 231,
+      "Victims_of_Murder_by_Licensed_arms": 8.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 223.0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 181,
+      "Victims_of_Murder_by_Licensed_arms": 7.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 174.0
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 64,
+      "Victims_of_Murder_by_Licensed_arms": 7.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 57.0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 37,
+      "Victims_of_Murder_by_Licensed_arms": 7.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 30.0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 7,
+      "Victims_of_Murder_by_Licensed_arms": 7.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 36,
+      "Victims_of_Murder_by_Licensed_arms": 7.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 29.0
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 14,
+      "Victims_of_Murder_by_Licensed_arms": 7.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 7.0
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 12,
+      "Victims_of_Murder_by_Licensed_arms": 7.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 5.0
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 11,
+      "Victims_of_Murder_by_Licensed_arms": 7.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 4.0
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 56,
+      "Victims_of_Murder_by_Licensed_arms": 7.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 49.0
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 13,
+      "Victims_of_Murder_by_Licensed_arms": 6.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 7.0
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 9,
+      "Victims_of_Murder_by_Licensed_arms": 6.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 3.0
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 43,
+      "Victims_of_Murder_by_Licensed_arms": 6.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 37.0
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 43,
+      "Victims_of_Murder_by_Licensed_arms": 6.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 37.0
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 64,
+      "Victims_of_Murder_by_Licensed_arms": 6.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 58.0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 137,
+      "Victims_of_Murder_by_Licensed_arms": 6.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 131.0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 23,
+      "Victims_of_Murder_by_Licensed_arms": 6.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 17.0
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 18,
+      "Victims_of_Murder_by_Licensed_arms": 6.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 12.0
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 125,
+      "Victims_of_Murder_by_Licensed_arms": 6.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 119.0
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 21,
+      "Victims_of_Murder_by_Licensed_arms": 6.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 15.0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 9,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 4.0
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 7,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2.0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 7,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2.0
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 34,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 29.0
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 31,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 26.0
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 17,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 12.0
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 6,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 51,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 46.0
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 92,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 87.0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 6,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 5,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 5,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 30,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 25.0
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 25,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 20.0
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 6,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 42,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 37.0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 9,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 4.0
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 13,
+      "Victims_of_Murder_by_Licensed_arms": 5.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 8.0
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 5,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 25,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 21.0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 5,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 4,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 9,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 5.0
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 117,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 113.0
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 42,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 38.0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 5,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 10,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 6.0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 9,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 5.0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 10,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 6.0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 4,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 25,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 21.0
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 40,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 36.0
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 4,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 37,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 33.0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 25,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 21.0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 160,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 156.0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 4,
+      "Victims_of_Murder_by_Licensed_arms": 4.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 156,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 153.0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 42,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 39.0
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 17,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 14.0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 4,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 3,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 32,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 29.0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 234,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 231.0
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 39,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 36.0
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 8,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 5.0
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 25,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 22.0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 54,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 51.0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 11,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 8.0
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 3,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 92,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 89.0
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 10,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 6.0
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 3,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 40,
+      "Victims_of_Murder_by_Licensed_arms": 3.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 37.0
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 503,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 501.0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 21,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 19.0
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 28,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 26.0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 150,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 148.0
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 37,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 35.0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 147,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 145.0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 169,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 167.0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 47,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 45.0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 5,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 3.0
+    },
+    {
+      "Area_Name": "Karnataka",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 11,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 9.0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 3,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 66,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 64.0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 4,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2.0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 24,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 22.0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 8,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 6.0
+    },
+    {
+      "Area_Name": "Delhi",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 74,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 72.0
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 17,
+      "Victims_of_Murder_by_Licensed_arms": 2.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 15.0
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": null
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 23,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 22.0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 15,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 14.0
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 37,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 36.0
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 250,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 249.0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": null
+    },
+    {
+      "Area_Name": "Nagaland",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 15,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 14.0
+    },
+    {
+      "Area_Name": "Sikkim",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Dadra & Nagar Haveli",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Assam",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 17,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 16.0
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 629,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 628.0
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 97,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 96.0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 84,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 83.0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 7,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 6.0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 148,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 147.0
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 49,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 48.0
+    },
+    {
+      "Area_Name": "Maharashtra",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 197,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 196.0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 8,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 7.0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 86,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 85.0
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 64,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 63.0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 188,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 187.0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Mizoram",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 10,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 9.0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Uttarakhand",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 30,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 29.0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 307,
+      "Victims_of_Murder_by_Licensed_arms": 1.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 306.0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 0,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 50,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 50.0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 844,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 844.0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 0,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 956,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 956.0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 10,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 10.0
+    },
+    {
+      "Area_Name": "Daman & Diu",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Jammu & Kashmir",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 852,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 852.0
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 167,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 167.0
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 5,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 5.0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2.0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 6,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 6.0
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 0,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 108,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 108.0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 5,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 5.0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 11,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 11.0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 36,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 36.0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 154,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 154.0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 21,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 21.0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 4,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 4.0
+    },
+    {
+      "Area_Name": "Himachal Pradesh",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 8,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 8.0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2.0
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2.0
+    },
+    {
+      "Area_Name": "Gujarat",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 3,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 3.0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 212,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 212.0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 0,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 5,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 5.0
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2007,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 0,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 104,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 104.0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 154,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 154.0
+    },
+    {
+      "Area_Name": "West Bengal",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 111,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 111.0
+    },
+    {
+      "Area_Name": "Andhra Pradesh",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 8,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 8.0
+    },
+    {
+      "Area_Name": "Chandigarh",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2.0
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 43,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 43.0
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 326,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 326.0
+    },
+    {
+      "Area_Name": "Manipur",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 107,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 107.0
+    },
+    {
+      "Area_Name": "Meghalaya",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 3,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 3.0
+    },
+    {
+      "Area_Name": "Odisha",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2.0
+    },
+    {
+      "Area_Name": "Tamil Nadu",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 4,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 4.0
+    },
+    {
+      "Area_Name": "Arunachal Pradesh",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 0,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 0.0
+    },
+    {
+      "Area_Name": "Chhattisgarh",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 59,
+      "Victims_of_Murder_by_Licensed_arms": 0.0,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 59.0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2001,
+      "Victims_of_Murder_by_Fire_arms": 87,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 87.0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2002,
+      "Victims_of_Murder_by_Fire_arms": 97,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 97.0
+    },
+    {
+      "Area_Name": "Puducherry",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 0,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": null
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2003,
+      "Victims_of_Murder_by_Fire_arms": 92,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 92.0
+    },
+    {
+      "Area_Name": "Jharkhand",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 170,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 170.0
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2004,
+      "Victims_of_Murder_by_Fire_arms": 55,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 55.0
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Kerala",
+      "Year": 2005,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2.0
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 1,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 1.0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2006,
+      "Victims_of_Murder_by_Fire_arms": 27,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 27.0
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 2,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 2.0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2008,
+      "Victims_of_Murder_by_Fire_arms": 9,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 9.0
+    },
+    {
+      "Area_Name": "Tripura",
+      "Year": 2009,
+      "Victims_of_Murder_by_Fire_arms": 10,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 10.0
+    },
+    {
+      "Area_Name": "Goa",
+      "Year": 2010,
+      "Victims_of_Murder_by_Fire_arms": 3,
+      "Victims_of_Murder_by_Licensed_arms": null,
+      "Victims_of_Murder_by_Un_licensedImprovisedCrudeCountry_made_Arms_Etc": 3.0
+    }
+  ]
+}

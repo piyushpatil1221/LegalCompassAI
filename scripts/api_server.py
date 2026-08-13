@@ -1,7 +1,8 @@
 """LegalCompass AI — Fixed API Server"""
-import json, os, sys, time, asyncio, hashlib
+import json, os, sys, time, asyncio, hashlib, subprocess, textwrap
 from collections import OrderedDict
 from pathlib import Path
+from urllib.parse import quote
 from typing import Optional
 from contextlib import asynccontextmanager
 from concurrent.futures import ThreadPoolExecutor
@@ -12,11 +13,24 @@ for pkg in REQUIRED:
     except ImportError:
         print(f"pip install {pkg}"); sys.exit(1)
 
-from fastapi import FastAPI, HTTPException, Query
+try:
+    from reportlab.lib.pagesizes import letter
+    from reportlab.pdfgen import canvas
+except Exception:  # pragma: no cover - optional dependency
+    canvas = None
+    letter = None
+
+from fastapi import FastAPI, HTTPException, Query, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, FileResponse
 from pydantic import BaseModel
 import uvicorn
+
+ROOT_DIR = PROJECT_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT_DIR.parent))
+
+from extract_text import extract_text
+from summarize import summarize_text
 
 sys.path.insert(0, str(Path(__file__).parent))
 from rag_pipeline import LegalRAGRetriever, LegalRAGPipeline
@@ -26,6 +40,7 @@ OUTPUT_DIR  = PROJECT_DIR / "BNS DATASET" / "output"
 WEBAPP_DIR  = PROJECT_DIR / "webapp"
 REPORT_PATH = OUTPUT_DIR / "embeddings_report.json"
 EVAL_REPORT = OUTPUT_DIR / "evaluation_report.json"
+SUMMARY_TMP_DIR = PROJECT_DIR.parent / "tmp_summaries"
 
 retriever = None
 pipeline  = None
@@ -52,10 +67,104 @@ _search_cache = _LRUCache(128)
 def _cache_key(*args) -> str:
     return hashlib.md5("|".join(str(a) for a in args).encode()).hexdigest()
 
+def _run_script(script_name: str):
+    script_path = PROJECT_DIR / "scripts" / script_name
+    if not script_path.exists():
+        return False
+
+    print(f"[Server] Running {script_name}...")
+    result = subprocess.run([sys.executable, str(script_path)], cwd=str(PROJECT_DIR))
+    return result.returncode == 0
+
+
+def _has_indexed_data() -> bool:
+    """Return True when at least one legal collection has been embedded."""
+    if not (OUTPUT_DIR / "chroma_db").exists():
+        return False
+    report_path = OUTPUT_DIR / "embeddings_report.json"
+    if report_path.exists():
+        try:
+            with open(report_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            total = data.get("total_chunks_indexed")
+            if isinstance(total, int) and total > 0:
+                return True
+        except Exception:
+            pass
+
+    chunk_files = [
+        OUTPUT_DIR / "chunks" / "bare_acts_chunks.json",
+        OUTPUT_DIR / "chunks" / "case_docs_chunks.json",
+        OUTPUT_DIR / "chunks" / "crime_stats_chunks.json",
+        OUTPUT_DIR / "chunks" / "iltur_chunks.json",
+    ]
+    return any(p.exists() and p.stat().st_size > 0 for p in chunk_files)
+
+
+def _indexed_count() -> int:
+    try:
+        report_path = OUTPUT_DIR / "embeddings_report.json"
+        if report_path.exists():
+            with open(report_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            total = data.get("total_chunks_indexed")
+            if isinstance(total, int):
+                return total
+    except Exception:
+        pass
+
+    total = 0
+    for chunk_file in [
+        OUTPUT_DIR / "chunks" / "bare_acts_chunks.json",
+        OUTPUT_DIR / "chunks" / "case_docs_chunks.json",
+        OUTPUT_DIR / "chunks" / "crime_stats_chunks.json",
+        OUTPUT_DIR / "chunks" / "iltur_chunks.json",
+    ]:
+        if chunk_file.exists():
+            try:
+                with open(chunk_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                if isinstance(data, list):
+                    total += len(data)
+                elif isinstance(data, dict):
+                    total += int(data.get("count", 0) or 0)
+            except Exception:
+                pass
+    return total
+
+
+def _ensure_corpus_ready():
+    """Auto-build the corpus when the legal app starts if any required indexed artifacts are missing."""
+    if _has_indexed_data():
+        return True
+
+    print("[Server] Legal corpus not ready. Auto-initialising data pipeline...")
+
+    if not (PROJECT_DIR / "BNS DATASET" / "output").exists():
+        (PROJECT_DIR / "BNS DATASET" / "output").mkdir(parents=True, exist_ok=True)
+
+    scripts_to_run = [
+        "extract_bare_acts.py",
+        "convert_case_docs.py",
+        "convert_crime_csvs.py",
+        "chunk_corpus.py",
+        "embed_and_index.py",
+        "build_corpus_index.py",
+    ]
+
+    for script in scripts_to_run:
+        ok = _run_script(script)
+        if not ok:
+            print(f"[Server] WARNING: {script} did not complete successfully; continuing startup anyway.")
+
+    return _has_indexed_data()
+
+
 def _load_pipeline():
     """Blocking pipeline init — runs in thread pool to avoid blocking event loop."""
     global retriever, pipeline
     print("[Server] Loading RAG pipeline...")
+    _ensure_corpus_ready()
     r = LegalRAGRetriever()
     try:
         r.connect()
@@ -152,11 +261,86 @@ async def api_evaluation():
             return json.load(f)
     return {"error": "Run evaluate_iltur.py first."}
 
+def _build_summary_pdf(summary_text: str, original_filename: str) -> Path:
+    if canvas is None or letter is None:
+        raise RuntimeError("reportlab is not installed. Install it to enable PDF exports.")
+
+    SUMMARY_TMP_DIR.mkdir(exist_ok=True)
+    stem = Path(original_filename).stem
+    output_path = SUMMARY_TMP_DIR / f"{stem}_summary.pdf"
+
+    pdf = canvas.Canvas(str(output_path), pagesize=letter)
+    pdf.setTitle(f"{stem} summary")
+    pdf.setFont("Helvetica-Bold", 18)
+    pdf.drawString(50, 760, "LegalCompass AI Summary")
+    pdf.setFont("Helvetica", 10)
+    pdf.drawString(50, 742, f"Source: {original_filename}")
+    pdf.setFont("Helvetica", 11)
+    y = 720
+    for paragraph in summary_text.replace("\r", "").split("\n"):
+        for line in textwrap.wrap(paragraph, width=95):
+            if y < 60:
+                pdf.showPage()
+                pdf.setFont("Helvetica", 11)
+                y = 760
+            pdf.drawString(50, y, line)
+            y -= 18
+    pdf.save()
+    return output_path
+
+
+@app.post("/api/summarize")
+async def api_summarize(file: UploadFile = File(...)):
+    if not file.filename:
+        raise HTTPException(400, "No file uploaded.")
+
+    suffix = Path(file.filename).suffix.lower()
+    if suffix not in {".pdf", ".docx"}:
+        raise HTTPException(400, "Only PDF and DOCX files are supported.")
+
+    temp_dir = PROJECT_DIR.parent / "tmp_summaries"
+    temp_dir.mkdir(exist_ok=True)
+    temp_path = temp_dir / file.filename
+
+    try:
+        contents = await file.read()
+        temp_path.write_bytes(contents)
+        text = extract_text(str(temp_path))
+        summary = summarize_text(text)
+        pdf_path = _build_summary_pdf(summary, file.filename)
+        return {
+            "filename": file.filename,
+            "summary": summary,
+            "status": "ok",
+            "pdf_url": f"/api/download-summary/{quote(file.filename)}",
+            "pdf_name": pdf_path.name,
+        }
+    except Exception as exc:
+        raise HTTPException(500, f"Summarization failed: {exc}")
+    finally:
+        if temp_path.exists():
+            temp_path.unlink()
+
+
+@app.get("/api/download-summary/{filename}")
+async def download_summary(filename: str):
+    raw_name = Path(filename).stem
+    pdf_path = SUMMARY_TMP_DIR / f"{raw_name}_summary.pdf"
+    if not pdf_path.exists():
+        raise HTTPException(404, "Summary PDF not found.")
+    return FileResponse(pdf_path, media_type="application/pdf", filename=f"{raw_name}_summary.pdf")
+
+
 @app.get("/api/health")
 async def health():
-    return {"status":"ok","pipeline_ready": pipeline is not None,
-            "retriever_ready": retriever is not None and retriever._client is not None,
-            "timestamp": time.time()}
+    has_indexed = _has_indexed_data()
+    return {
+        "status": "ok",
+        "pipeline_ready": pipeline is not None and has_indexed,
+        "retriever_ready": retriever is not None and retriever._client is not None and has_indexed,
+        "indexed_chunks": _indexed_count(),
+        "timestamp": time.time(),
+    }
 
 @app.get("/", response_class=HTMLResponse)
 async def serve_ui():
