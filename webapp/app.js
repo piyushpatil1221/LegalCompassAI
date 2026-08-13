@@ -216,7 +216,7 @@ async function sendMessage() {
   document.getElementById('send-btn').disabled = true;
 
   try {
-    const result = await fetchJSON('/api/query', {
+    const result = await fetchJSON('/api/agent-query', {
       method: 'POST',
       body: JSON.stringify({
         question,
@@ -269,6 +269,46 @@ function appendAIMessage(result) {
   const elapsed = result.elapsed_ms || 0;
   const mode = result.search_mode || 'hybrid';
   const count = result.retrieved_count || 0;
+  
+  // Build Agent Badges
+  let agentHTML = '';
+  if (result.agent_data) {
+    const crimes = result.agent_data.crime_types || [];
+    let crimeBadges = crimes.map(c => `<span class="meta-badge" style="background:#dc3545;color:white;">${c.crime}</span>`).join('');
+    
+    let roleBadge = '';
+    if (result.agent_data.role) {
+      roleBadge = `<span class="meta-badge" style="background:#0d6efd;color:white;">Role: ${result.agent_data.role.toUpperCase()}</span>`;
+    }
+    
+    let bailHTML = '';
+    if (result.agent_data.bail_prediction) {
+      const bailColor = result.agent_data.bail_prediction.toLowerCase() === 'granted' ? '#198754' : '#dc3545';
+      bailHTML = `
+        <div style="margin-top:10px; padding:10px; border:2px solid ${bailColor}; border-radius:8px; font-weight:bold; color:${bailColor};">
+          ⚖️ Bail Prediction: ${result.agent_data.bail_prediction.toUpperCase()}
+        </div>
+      `;
+    }
+    
+    let clarifyHTML = '';
+    if (result.agent_data.clarification) {
+      clarifyHTML = `
+        <div style="margin-top:10px; padding:10px; background-color:#fff3cd; color:#856404; border-radius:8px; font-weight:bold;">
+          🤔 Clarification Needed: ${result.agent_data.clarification}
+        </div>
+      `;
+    }
+    
+    agentHTML = `
+      <div class="agent-metadata" style="margin-bottom:10px;">
+        ${crimeBadges}
+        ${roleBadge}
+      </div>
+      ${clarifyHTML}
+      ${bailHTML}
+    `;
+  }
 
   // Build chunk cards HTML
   let chunksHTML = '';
@@ -305,7 +345,8 @@ function appendAIMessage(result) {
   row.innerHTML = `
     <div class="msg-avatar ai-avatar">⚖</div>
     <div class="msg-body">
-      <div class="msg-bubble ai-bubble">${escapeHtml(result.answer || '')}</div>
+      ${agentHTML}
+      <div class="msg-bubble ai-bubble markdown-body" style="background:transparent; padding:0;">${marked.parse(result.answer || '')}</div>
       <div class="msg-meta">
         <span class="meta-badge">Mode: ${mode}</span>
         <span class="meta-badge">${count} sources</span>
