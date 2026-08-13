@@ -29,8 +29,8 @@ import uvicorn
 ROOT_DIR = PROJECT_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT_DIR.parent))
 
-from extract_text import extract_text
-from summarize import summarize_text
+from LegalCompassAI.extract_text import extract_text
+from LegalCompassAI.summarize import summarize_text
 
 sys.path.insert(0, str(Path(__file__).parent))
 from rag_pipeline import LegalRAGRetriever, LegalRAGPipeline

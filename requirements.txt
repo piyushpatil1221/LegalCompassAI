@@ -4,6 +4,26 @@
 #   pip install -r requirements.txt
 
 # Core ML / NLP
+pdfplumber>=0.11.0       # extract text from PDFs
+python-docx>=1.1.0       # read AND write .docx files
+openai>=1.30.0           # Groq uses the OpenAI-compatible SDK
+python-dotenv>=1.0.0     # loads GROQ_API_KEY from a .env file
+pytesseract>=0.3.10      # OCR for scanned PDFs
+pdf2image>=1.17.0        # convert pages to images for OCR
+easyocr>=1.7.0           # better handwriting and cursive OCR fallback
+google-cloud-vision>=3.10.0  # Google Cloud OCR fallback for scanned docs
+reportlab>=4.2.0         # export summaries as downloadable PDFs
+
+# LegalCompassAI / RAG app dependencies
+sentence-transformers>=2.7.0
+torch>=2.0.0
+scikit-learn>=1.4.0
+chromadb>=0.5.0
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.0.0
+numpy>=1.26.0
+
 sentence-transformers>=2.7.0
 torch>=2.0.0
 scikit-learn>=1.4.0
